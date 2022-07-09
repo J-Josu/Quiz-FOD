@@ -12,10 +12,11 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-      pages: 'docs'
+      pages: "docs",
+      assets: "docs"
     }),
     paths: {
-			base: dev ? '' : '/Quiz-FOD/docs',
+			base: dev ? '' : '/Quiz-FOD',
 		},
     appDir: 'internal',
     prerender : {

@@ -1,0 +1,1525 @@
+[
+  [
+    0,
+    {
+      "sentence": "Un archivo con registro de longitud variable",
+      "options": [
+        [
+          "a",
+          "Puede estar ordenado por algun criterio"
+        ],
+        [
+          "b",
+          "Debe estar ordenado por algun criterio"
+        ],
+        [
+          "c",
+          "Nunca puede ordenarse por algun criterio"
+        ],
+        [
+          "d",
+          "Puede tener un car\u00e1cter delimitador, por ejemplo &"
+        ],
+        [
+          "e",
+          "Algunas de las anteriores"
+        ],
+        [
+          "f",
+          "Ninguna de las anteriores"
+        ]
+      ],
+      "answers": [
+        "Algunas de las anteriores"
+      ]
+    }
+  ],
+  [
+    1,
+    {
+      "sentence": "Una clave permite",
+      "options": [
+        [
+          "a",
+          "identificar un elemento particular dentro de un archivo"
+        ],
+        [
+          "b",
+          "reconocer un conjunto de elementos con igual valor"
+        ],
+        [
+          "c",
+          "ordenar logicamente al archivo por los atributos que la componen"
+        ],
+        [
+          "d",
+          "todas las anteriores son validas"
+        ],
+        [
+          "e",
+          "algunas de las anteriores son validas"
+        ],
+        [
+          "f",
+          "ninguna de las anteriores es valida"
+        ]
+      ],
+      "answers": [
+        "algunas de las anteriores son validas"
+      ]
+    }
+  ],
+  [
+    2,
+    {
+      "sentence": "Para que tenga sentido un algoritmo de corte de control",
+      "options": [
+        [
+          "a",
+          "El archivo no necesita estar ordenado"
+        ],
+        [
+          "b",
+          "El archivo puede estar ordenado"
+        ],
+        [
+          "c",
+          "El archivo puede estar organizado por dispersi\u00f3n"
+        ],
+        [
+          "d",
+          "El archivo debe estar organizado por dispersi\u00f3n"
+        ],
+        [
+          "e",
+          "El archivo necesita al menos un \u00edndice asociado"
+        ],
+        [
+          "f",
+          "Algunas de las anteriores"
+        ],
+        [
+          "g",
+          "Ninguna de las anteriores"
+        ]
+      ],
+      "answers": [
+        "Ninguna de las anteriores"
+      ]
+    }
+  ],
+  [
+    3,
+    {
+      "sentence": "Para que tenga sentido un algoritmo de corte de control",
+      "options": [
+        [
+          "a",
+          "El archivo debe estar ordenado"
+        ],
+        [
+          "b",
+          "El archivo puede estar ordenado"
+        ],
+        [
+          "c",
+          "El archivo puede estar organizado por dispersi\u00f3n"
+        ],
+        [
+          "d",
+          "El archivo debe estar organizado por dispersi\u00f3n"
+        ],
+        [
+          "e",
+          "El archivo necesita al menos un \u00edndice asociado"
+        ],
+        [
+          "f",
+          "Algunas de las anteriores"
+        ],
+        [
+          "g",
+          "Ninguna de las anteriores"
+        ]
+      ],
+      "answers": [
+        "El archivo debe estar ordenado"
+      ]
+    }
+  ],
+  [
+    4,
+    {
+      "sentence": "Un archivo en el cual se accede a un registro luego de acceder a su predecesor en alg\u00fan orden",
+      "options": [
+        [
+          "a",
+          "puede ser un archivo serie"
+        ],
+        [
+          "b",
+          "puede ser un archivo secuencial"
+        ],
+        [
+          "c",
+          "debe ser un archivo serie"
+        ],
+        [
+          "d",
+          "debe ser un archivo secuencial"
+        ],
+        [
+          "e",
+          "algunas de las anteriores son correctas"
+        ],
+        [
+          "f",
+          "ninguna de las anteriores es correcta"
+        ]
+      ],
+      "answers": [
+        "algunas de las anteriores son correctas"
+      ]
+    }
+  ],
+  [
+    5,
+    {
+      "sentence": "El concepto de framentaci\u00f3n interna en un archivo",
+      "options": [
+        [
+          "a",
+          "Se puede dar solo en registros de longitud fija"
+        ],
+        [
+          "b",
+          "Se puede dar solo en registros de longitud variable"
+        ],
+        [
+          "c",
+          "Se puede dar solo en archivos ordenados de longitud variable"
+        ],
+        [
+          "d",
+          "Se puede analizar solamente en archivos ordenados de longitud fija e. Algunas de las anteriores"
+        ],
+        [
+          "e",
+          "Ninguna de las anteriores"
+        ]
+      ],
+      "answers": [
+        "Ninguna de las anteriores"
+      ]
+    }
+  ],
+  [
+    6,
+    {
+      "sentence": "La tecnica de primer ajuste",
+      "options": [
+        [
+          "a",
+          "permite borrar elementos de un archivo que contiene registros de longitud fija b. permite borrar elementos de un archivo que contiene registros de longitud variable c. permite hacer baja logica"
+        ],
+        [
+          "b",
+          "permite hacer baja fisica"
+        ],
+        [
+          "c",
+          "Algunas de las respuestas anteriores son correctas"
+        ],
+        [
+          "d",
+          "Ninguna de las respuestas anteriores son validas"
+        ]
+      ],
+      "answers": [
+        "Ninguna de las respuestas anteriores son validas"
+      ]
+    }
+  ],
+  [
+    7,
+    {
+      "sentence": "El proceso de baja l\u00f3gica",
+      "options": [
+        [
+          "a",
+          "Esta dise\u00f1ado para borrar un registro de un archivo"
+        ],
+        [
+          "b",
+          "Necesita que el archivo este ordenado"
+        ],
+        [
+          "c",
+          "Necesita que el archivo este desordenado"
+        ],
+        [
+          "d",
+          "Se aplica solamente a archivos con registros con longitud fija"
+        ],
+        [
+          "e",
+          "Se aplica solamente a archivos con registros con longitud variable f. Todas las anteriores"
+        ],
+        [
+          "f",
+          "Alguna de las anteriores"
+        ]
+      ],
+      "answers": [
+        "Esta dise\u00f1ado para borrar un registro de un archivo"
+      ]
+    }
+  ],
+  [
+    8,
+    {
+      "sentence": "El proceso de alta de registro con recuperaci\u00f3n de espacio",
+      "options": [
+        [
+          "a",
+          "Se debe realizar con registros de longitud variable"
+        ],
+        [
+          "b",
+          "Se debe realizar con registros de longitud fija"
+        ],
+        [
+          "c",
+          "Se realiza s\u00f3lo con registros de longitud fija"
+        ],
+        [
+          "d",
+          "Se realiza solo con registros de longitud variable"
+        ],
+        [
+          "e",
+          "Ninguna de las anteriores"
+        ]
+      ],
+      "answers": [
+        "Ninguna de las anteriores"
+      ]
+    }
+  ],
+  [
+    9,
+    {
+      "sentence": "El proceso de baja l\u00f3gica",
+      "options": [
+        [
+          "a",
+          "Esta dise\u00f1ado para borrar un registro de un archivo"
+        ],
+        [
+          "b",
+          "No Necesita que el archivo este ordenado"
+        ],
+        [
+          "c",
+          "Necesita que el archivo este desordenado"
+        ],
+        [
+          "d",
+          "Se aplica solamente a archivos con registros con longitud fija e. Se aplica solamente a archivos con registros con longitud variable f. Todas las anteriores"
+        ],
+        [
+          "e",
+          "Alguna de las anteriores"
+        ]
+      ],
+      "answers": [
+        "Alguna de las anteriores"
+      ]
+    }
+  ],
+  [
+    10,
+    {
+      "sentence": "Un indice primario",
+      "options": [
+        [
+          "a",
+          "Se puede generar a partir de una clave un\u00edvoca de un registro   b. Se puede generar a partir de una clave no un\u00edvoca de un registro c. Puede implementarse con una estructura de datos lineal"
+        ],
+        [
+          "b",
+          "Debe implementarse con una estructura eficiente no lineal e. Algunas de las anteriores"
+        ],
+        [
+          "c",
+          "Ninguna de las anteriores"
+        ]
+      ],
+      "answers": [
+        "Puede implementarse con una estructura de datos lineal"
+      ]
+    }
+  ],
+  [
+    11,
+    {
+      "sentence": "Cuando un arbol B tiende a llenarse",
+      "options": [
+        [
+          "a",
+          "se debe procurar mas espacio para el archivo que lo contiene, reacomodando todos los nodos b. se debe procurar mas espacio para el archivo que lo contiene, reacomodando el nodo padre y sus hermanos c. se debe procurar mas espacio para el archivo"
+        ],
+        [
+          "b",
+          "todas las anteriores"
+        ],
+        [
+          "c",
+          "algunas de las anteriores"
+        ],
+        [
+          "d",
+          "ninguna de las anteriores"
+        ]
+      ],
+      "answers": [
+        "ninguna de las anteriores"
+      ]
+    }
+  ],
+  [
+    12,
+    {
+      "sentence": "Cuales de las siguientes propiedades no corresponde a un arbol b* de orden M",
+      "options": [
+        [
+          "a",
+          "Cada nodo del arbol puede contener maximo M descendientes y M-1 elementos"
+        ],
+        [
+          "b",
+          "La raiz no posee descendientes o posee [M/2] descendientes"
+        ],
+        [
+          "c",
+          "Todos los nodos terminales se encuentran al mismo nivel"
+        ],
+        [
+          "d",
+          "Los nodos no terminaels ni raiz tienen mas de [M/2] y a lo sumo M descendientes"
+        ],
+        [
+          "e",
+          "Un nodo con x descendientes contienen x-1 elementos"
+        ]
+      ],
+      "answers": [
+        "La raiz no posee descendientes o posee [M/2] descendientes"
+      ]
+    }
+  ],
+  [
+    13,
+    {
+      "sentence": "Un \u00e1rbol que se encuentra balanceado",
+      "options": [
+        [
+          "a",
+          "Puede ser un arbol binario"
+        ],
+        [
+          "b",
+          "Puede ser un \u00e1rbol multicamino"
+        ],
+        [
+          "c",
+          "Puede ser un \u00e1rbol B+"
+        ],
+        [
+          "d",
+          "Puede ser un \u00e1rbol B*"
+        ],
+        [
+          "e",
+          "Todas las anteriores son correctas"
+        ],
+        [
+          "f",
+          "c y de son correctas"
+        ],
+        [
+          "g",
+          "b, c y d son correctas"
+        ],
+        [
+          "h",
+          "b y d son correctas"
+        ],
+        [
+          "i",
+          "Ninguna de las anteriores es correcta"
+        ]
+      ],
+      "answers": [
+        "Todas las anteriores son correctas"
+      ]
+    }
+  ],
+  [
+    14,
+    {
+      "sentence": "La eficiencia de busqueda de un arbol b",
+      "options": [
+        [
+          "a",
+          "es de orden lineal"
+        ],
+        [
+          "b",
+          "puede ser de orden lineal, bajo alguna circunstancia del arbol generado"
+        ],
+        [
+          "c",
+          "es de orden logaritmico"
+        ],
+        [
+          "d",
+          "es de orden constante (orden del arbol)"
+        ],
+        [
+          "e",
+          "b y c son correctas"
+        ],
+        [
+          "f",
+          "b, c y d son correctas"
+        ],
+        [
+          "g",
+          "ninguna opci\u00f3n es correcta"
+        ]
+      ],
+      "answers": [
+        "es de orden logaritmico"
+      ]
+    }
+  ],
+  [
+    15,
+    {
+      "sentence": "Dado un archivo con registros de longitud fija. Suponga que tiene un indice correspondiente a una clave univoca. Suponga que se crea un arbol de orden 200 para almacenar ese indice univoca. Si archivo y el arbol generado tuvieran 300 elementos insertados entonces:",
+      "options": [
+        [
+          "a",
+          "si se creara un arbol b tendria la misma altura que crear un arbol b*"
+        ],
+        [
+          "b",
+          "si se creara un arbol b tendria mayor altura que un arbol b*"
+        ],
+        [
+          "c",
+          "si se creara un arbol b tendria menor altura que un arbol b*"
+        ],
+        [
+          "d",
+          "no tengo datos suficientes para contestar la pregunta"
+        ]
+      ],
+      "answers": [
+        "si se creara un arbol b tendria la misma altura que crear un arbol b*"
+      ]
+    }
+  ],
+  [
+    16,
+    {
+      "sentence": "Un \u00e1rbol B+ de prefijos simples",
+      "options": [
+        [
+          "a",
+          "A veces no tiene prefijos"
+        ],
+        [
+          "b",
+          "Puede no tener prefijos simples"
+        ],
+        [
+          "c",
+          "Si tiene prefijos simples, las hojas est\u00e1n enlazadas"
+        ],
+        [
+          "d",
+          "Sino tiene prefijos simples, las hojas est\u00e1n enlazadas"
+        ],
+        [
+          "e",
+          "Todas las anteriores"
+        ],
+        [
+          "f",
+          "Algunas de las anteriores"
+        ],
+        [
+          "g",
+          "Ninguna de las anteriores"
+        ]
+      ],
+      "answers": [
+        "Todas las anteriores"
+      ]
+    }
+  ],
+  [
+    17,
+    {
+      "sentence": "Un Arbol B+",
+      "options": [
+        [
+          "a",
+          "Al realizar un inserci\u00f3n, puede tener nodos hojas con underflow b. Al realizar una baja, puede tener nodos hojas con overflow c. Al realizar un inserci\u00f3n, puede requerirse concatenaci\u00f3n"
+        ],
+        [
+          "b",
+          "Al realizarse una baja, puede requerirse divisi\u00f3n"
+        ],
+        [
+          "c",
+          "Al realizarse un alta puede requerirse redistribuci\u00f3n"
+        ],
+        [
+          "d",
+          "Todas las anteriores"
+        ],
+        [
+          "e",
+          "Algunas de las anteriores"
+        ],
+        [
+          "f",
+          "Ninguna de las anteriores"
+        ]
+      ],
+      "answers": [
+        "Ninguna de las anteriores"
+      ]
+    }
+  ],
+  [
+    18,
+    {
+      "sentence": "Un arbol b+ de prefijos simples de orden M",
+      "options": [
+        [
+          "a",
+          "se puede aplicar a una clave unica, cuyo atributo es un string b. se puede aplicar a una clave secundaria, cuyo atributo es un storing c. se puede aplicar a una clave primaria, cuyo atributo es un entero d. se puede aplicar solamente a una clave un\u00edvoca, cuyo atributo es string e. todas las anteriores son correctas"
+        ],
+        [
+          "b",
+          "a y b son las opciones correctas"
+        ],
+        [
+          "c",
+          "a, c y d son las opciones correctas"
+        ],
+        [
+          "d",
+          "a, b y d son las opciones correctas"
+        ],
+        [
+          "e",
+          "ninguna de las opciones que tengo es correcta"
+        ]
+      ],
+      "answers": [
+        "a y b son las opciones correctas"
+      ]
+    }
+  ],
+  [
+    19,
+    {
+      "sentence": "Cuales de los siguientes par\u00e1metros no corresponde a hashing",
+      "options": [
+        [
+          "a",
+          "Funci\u00f3n de hash"
+        ],
+        [
+          "b",
+          "Tama\u00f1o del nodo (capacidad para almacenar registros)"
+        ],
+        [
+          "c",
+          "Densidad de busqueda"
+        ],
+        [
+          "d",
+          "Forma de tratar los desbordes"
+        ],
+        [
+          "e",
+          "Todas las anteriores corresponden"
+        ]
+      ],
+      "answers": [
+        "Densidad de busqueda"
+      ]
+    }
+  ],
+  [
+    20,
+    {
+      "sentence": "Cual de los siguientes par\u00e1metros afecta la eficiencia de la dispersi\u00f3n",
+      "options": [
+        [
+          "a",
+          "Cantidad de elementos del archivo"
+        ],
+        [
+          "b",
+          "Cantidad de espacio para almacenar el archivo"
+        ],
+        [
+          "c",
+          "Densidad de Empaquetamiento"
+        ],
+        [
+          "d",
+          "Funci\u00f3n de Dispersi\u00f3n"
+        ],
+        [
+          "e",
+          "Algoritmos para el tratamiento de registros sin\u00f3nimos"
+        ],
+        [
+          "f",
+          "Todas las anteriores"
+        ],
+        [
+          "g",
+          "Algunas de las anteriores"
+        ],
+        [
+          "h",
+          "Ninguna de las anteriores"
+        ]
+      ],
+      "answers": [
+        "Algunas de las anteriores"
+      ]
+    }
+  ],
+  [
+    21,
+    {
+      "sentence": "Un archivo tratado con hash estatico, que tiene una densidad de empaquetamiento del 10%",
+      "options": [
+        [
+          "a",
+          "tiene mucha fragmentaci\u00f3n interna"
+        ],
+        [
+          "b",
+          "tiene mucha fragmentaci\u00f3n externa"
+        ],
+        [
+          "c",
+          "presenta un nivel de colisiones bajo"
+        ],
+        [
+          "d",
+          "presenta un nivel de overflow bajo"
+        ],
+        [
+          "e",
+          "Todas las anteriores son correctas"
+        ],
+        [
+          "f",
+          "las opciones b y c son correctas"
+        ],
+        [
+          "g",
+          "las opciones a y c son correctas"
+        ],
+        [
+          "h",
+          "las opciones a, c y d son correctas"
+        ],
+        [
+          "i",
+          "las opciones b,c y d son correctas"
+        ],
+        [
+          "j",
+          "ninguna opci\u00f3n es correcta"
+        ]
+      ],
+      "answers": [
+        "las opciones a, c y d son correctas"
+      ]
+    }
+  ],
+  [
+    22,
+    {
+      "sentence": "La funci\u00f3n de hashing",
+      "options": [
+        [
+          "a",
+          "Afecta a la densidad de empaquetamiento"
+        ],
+        [
+          "b",
+          "Puede afectar a la densidad de empaquetamiento"
+        ],
+        [
+          "c",
+          "Afecta la densidad de empaquetamiento s\u00f3lo en casos especiales"
+        ],
+        [
+          "d",
+          "Afecta la densidad de empaquetamiento en la mayor\u00eda de los casos"
+        ],
+        [
+          "e",
+          "Todas las anteriores"
+        ],
+        [
+          "f",
+          "Algunas de las anteriores"
+        ],
+        [
+          "g",
+          "Ninguna de las anteriores"
+        ]
+      ],
+      "answers": [
+        "Ninguna de las anteriores"
+      ]
+    }
+  ],
+  [
+    23,
+    {
+      "sentence": "La t\u00e9cnica de Area de desoborde por separado:",
+      "options": [
+        [
+          "a",
+          "Utiliza un \u00e1rea de memoria separada para las claves en overflow."
+        ],
+        [
+          "b",
+          "Reduce la densidad de empaquetamiento."
+        ],
+        [
+          "c",
+          "Utiliza una segunda funci\u00f3n de dispersi\u00f3n siempre que se desee almacenar un registro en un archivo . d. Solo se aplica a la dispersi\u00f3n extensible."
+        ],
+        [
+          "d",
+          "Ayuda a predecir la cantidad de claves en overflow."
+        ],
+        [
+          "e",
+          "Hay m\u00e1s de una opci\u00f3n correcta."
+        ],
+        [
+          "f",
+          "Ninguna de las opciones anteriores es correcta"
+        ]
+      ],
+      "answers": [
+        "Utiliza un \u00e1rea de memoria separada para las claves en overflow."
+      ]
+    }
+  ],
+  [
+    24,
+    {
+      "sentence": "El metodo de area de desborde separada",
+      "options": [
+        [
+          "a",
+          "Reubica los registros en overflow"
+        ],
+        [
+          "b",
+          "Utiliza una segunda funcion de hash en caso de ser necesaria"
+        ],
+        [
+          "c",
+          "Puede generar areas de overflow dentro del archivo"
+        ],
+        [
+          "d",
+          "Todas las anteriores son validas"
+        ],
+        [
+          "e",
+          "Algunas de las anteriores"
+        ],
+        [
+          "f",
+          "Ninguna de las anteriores."
+        ]
+      ],
+      "answers": [
+        "Reubica los registros en overflow"
+      ]
+    }
+  ],
+  [
+    25,
+    {
+      "sentence": "Si se tiene una pol\u00edtica de hash con espacio de direccionamiento din\u00e1mico",
+      "options": [
+        [
+          "a",
+          "la densidad de empaquetamiento puede ser mayor que 1"
+        ],
+        [
+          "b",
+          "cuando la densidad de empaquetemiento supera el 75% se debe reacomodar al archivo"
+        ],
+        [
+          "c",
+          "cuando la densidad de empaquetamiento supera el 75% se debe utilizar mas espacio para nodos"
+        ],
+        [
+          "d",
+          "cuando la densidad de empaquetamiento supera el 75% debe activarse una pol\u00edtica de tratamiento de overflow, como por ejemplo area de desborde separado"
+        ],
+        [
+          "e",
+          "Algunas de las anteriores son validas"
+        ],
+        [
+          "f",
+          "ninguna de las anteriores son validas"
+        ]
+      ],
+      "answers": [
+        "ninguna de las anteriores son validas"
+      ]
+    }
+  ],
+  [
+    26,
+    {
+      "sentence": "A partir de un archivo dispersado con hashing extensible",
+      "options": [
+        [
+          "a",
+          "Siempre es posible agregar elementos al archivo"
+        ],
+        [
+          "b",
+          "Algunas veces no es posible agregar elementos al archivo"
+        ],
+        [
+          "c",
+          "Se puede utilizar Saturaci\u00f3n Progresiva Encadenada para tratar registros en saturaci\u00f3n"
+        ],
+        [
+          "d",
+          "No se puede utilizar Dispersi\u00f3n Doble para tratar registros en saturaci\u00f3n"
+        ],
+        [
+          "e",
+          "Algunas de las anteriores"
+        ],
+        [
+          "f",
+          "Ninguna de las anteriores"
+        ]
+      ],
+      "answers": [
+        "Algunas de las anteriores"
+      ]
+    }
+  ],
+  [
+    27,
+    {
+      "sentence": "La tecnica de hashing extensible",
+      "options": [
+        [
+          "a",
+          "No utiliza una funci\u00f3n de hash porque debe cambiar din\u00e1micamente"
+        ],
+        [
+          "b",
+          "No utiliza una funci\u00f3n de hash porque encuentra los registros siempre en un acceso"
+        ],
+        [
+          "c",
+          "Utiliza una funci\u00f3n de hash pero esta funci\u00f3n no devuelve la direcci\u00f3n donde guardar el registro d. Utiliza area de desborde por separado para los registros en overflow"
+        ],
+        [
+          "d",
+          "Todas las anteriores son validas"
+        ],
+        [
+          "e",
+          "Las respuestas a y c son correctas"
+        ],
+        [
+          "f",
+          "Las respuestas b y c son correctas"
+        ],
+        [
+          "g",
+          "Las respuestas a, c y d son correctas"
+        ],
+        [
+          "h",
+          "Ninguna es correcta"
+        ]
+      ],
+      "answers": [
+        "Utiliza una funci\u00f3n de hash pero esta funci\u00f3n no devuelve la direcci\u00f3n donde guardar el registro"
+      ]
+    }
+  ],
+  [
+    28,
+    {
+      "sentence": "Un archivo con registro de longitud fija",
+      "options": [
+        [
+          "a",
+          "Puede tener un delimitador de fin de registro"
+        ],
+        [
+          "b",
+          "Debe tener un delimitador de fin de registro"
+        ],
+        [
+          "c",
+          "Puede tener registros del mismo tama\u00f1o"
+        ],
+        [
+          "d",
+          "Puede tener registros con distinto tama\u00f1o"
+        ],
+        [
+          "e",
+          "Algunas de las anteriores"
+        ],
+        [
+          "f",
+          "Ninguna de las anteriores"
+        ]
+      ],
+      "answers": [
+        "Ninguna de las anteriores"
+      ]
+    }
+  ],
+  [
+    29,
+    {
+      "sentence": "Para realizar un algoritmo de actualizaci\u00f3n maestro-detalle",
+      "options": [
+        [
+          "a",
+          "Se requiere al menos 2 archivos."
+        ],
+        [
+          "b",
+          "Se requiere que los archivos est\u00e9n ordenados"
+        ],
+        [
+          "c",
+          "Se requiere que los archivos est\u00e9n desordenados"
+        ],
+        [
+          "d",
+          "Se requiere que al menos uno de los archivos est\u00e9 ordenado"
+        ],
+        [
+          "e",
+          "Se requiere que los archivos tengan la misma estructura"
+        ],
+        [
+          "f",
+          "Algunas de las anteriores"
+        ],
+        [
+          "g",
+          "Ninguna de las anteriores"
+        ]
+      ],
+      "answers": [
+        "Se requiere al menos 2 archivos."
+      ]
+    }
+  ],
+  [
+    30,
+    {
+      "sentence": "El acceso promedio para recuperar un dato en un archivo desordenado:",
+      "options": [
+        [
+          "a",
+          "Tiene orden lineal."
+        ],
+        [
+          "b",
+          "Tiene orden logar\u00edtmico."
+        ],
+        [
+          "c",
+          "Tiene orden constante (uno)."
+        ],
+        [
+          "d",
+          "Las opciones a y b son correctas."
+        ],
+        [
+          "e",
+          "Ninguna opci\u00f3n es correcta."
+        ]
+      ],
+      "answers": [
+        "Tiene orden lineal."
+      ]
+    }
+  ],
+  [
+    31,
+    {
+      "sentence": "Un algoritmo de corte de control",
+      "options": [
+        [
+          "a",
+          "Se puede aplicar sobre un archivo con registros de longitud fija b. Se puede aplicar sobre un archivo con registros de longitud variable c. Se aplica sobre un archivo con registros de longitud fija d. Se aplica sobre un archivo con registros de longitud variable e. Todas las anteriores son correctas"
+        ],
+        [
+          "b",
+          "Algunas de las anteriores son correctas"
+        ],
+        [
+          "c",
+          "Ninguna de las anteriores son correctas"
+        ]
+      ],
+      "answers": [
+        "Algunas de las anteriores son correctas"
+      ]
+    }
+  ],
+  [
+    32,
+    {
+      "sentence": "El acceso promedio para recuperar un dato en un archivo desordenado:",
+      "options": [
+        [
+          "a",
+          "Puede tener orden lineal."
+        ],
+        [
+          "b",
+          "Puede tener orden logar\u00edtmico."
+        ],
+        [
+          "c",
+          "Tiene orden constante (uno)."
+        ],
+        [
+          "d",
+          "Las opciones a y b son correctas."
+        ],
+        [
+          "e",
+          "Ninguna opci\u00f3n es correcta."
+        ]
+      ],
+      "answers": [
+        "Ninguna opci\u00f3n es correcta."
+      ]
+    }
+  ],
+  [
+    33,
+    {
+      "sentence": "El proceso de merge de archivos",
+      "options": [
+        [
+          "a",
+          "Requiere que todos los archivos est\u00e9n ordenados"
+        ],
+        [
+          "b",
+          "Requiere que todos los archivos est\u00e9n ordenados por el mismo criterio c. Puede realizarse con los archivos ordenados"
+        ],
+        [
+          "c",
+          "No puede realizarse sin los archivos ordenados"
+        ],
+        [
+          "d",
+          "Algunas de las anteriores"
+        ],
+        [
+          "e",
+          "Ninguna de las anteriores"
+        ]
+      ],
+      "answers": [
+        "Puede realizarse con los archivos ordenados"
+      ]
+    }
+  ],
+  [
+    34,
+    {
+      "sentence": "La tecnica de mejor ajuste",
+      "options": [
+        [
+          "a",
+          "asigna un registro nuevo (alta) en un la posici\u00f3n que quepa de tama\u00f1o menor b. asigna un registro nuevo (alta) en un la posici\u00f3n que quepa de tama\u00f1o mayor c. asigna el registro al final del archivo si no hay lugar en posiciones intermedias d. Todas las anteriores son correctas"
+        ],
+        [
+          "b",
+          "Algunas de las respuestas anteriores son correctas"
+        ],
+        [
+          "c",
+          "Ninguna de las respuestas anteriores son validas"
+        ]
+      ],
+      "answers": [
+        "Algunas de las respuestas anteriores son correctas"
+      ]
+    }
+  ],
+  [
+    35,
+    {
+      "sentence": "La tecnica de primer ajuste",
+      "options": [
+        [
+          "a",
+          "se aplica a archivos con registro de longitud fija"
+        ],
+        [
+          "b",
+          "se aplica a archivos con registro de longitud variable"
+        ],
+        [
+          "c",
+          "se combina con la tecnica de baja fisica de datos"
+        ],
+        [
+          "d",
+          "Todas las anteriores son correctas"
+        ],
+        [
+          "e",
+          "Algunas de las respuestas anteriores son correctas"
+        ],
+        [
+          "f",
+          "Ninguna de las respuestas anteriores son validas"
+        ]
+      ],
+      "answers": [
+        "se aplica a archivos con registro de longitud variable"
+      ]
+    }
+  ],
+  [
+    36,
+    {
+      "sentence": "La tecnica de mejor ajuste",
+      "options": [
+        [
+          "a",
+          "permite borrar elementos de un archivo que contiene registros de longitud fija"
+        ],
+        [
+          "b",
+          "permite borrar elementos de un archivo que contiene registros de longitud variable c. permite hacer baja logica"
+        ],
+        [
+          "c",
+          "permite hacer baja fisica"
+        ],
+        [
+          "d",
+          "Algunas de las respuestas anteriores son correctas"
+        ],
+        [
+          "e",
+          "Ninguna de las respuestas anteriores son validas"
+        ]
+      ],
+      "answers": [
+        "Ninguna de las respuestas anteriores son validas"
+      ]
+    }
+  ],
+  [
+    37,
+    {
+      "sentence": "El proceso de alta de registro por Peor Ajuste",
+      "options": [
+        [
+          "a",
+          "Se puede realizar con registros de longitud fija"
+        ],
+        [
+          "b",
+          "Se debe realizar con registros de longitud fija"
+        ],
+        [
+          "c",
+          "Se puede realizar con registros de longitud variable"
+        ],
+        [
+          "d",
+          "Se debe realizar con registros de longitud variable"
+        ],
+        [
+          "e",
+          "Ninguna de las anteriores"
+        ]
+      ],
+      "answers": [
+        "Se debe realizar con registros de longitud variable"
+      ]
+    }
+  ],
+  [
+    38,
+    {
+      "sentence": "En un \u00edndice secundario",
+      "options": [
+        [
+          "a",
+          "Encontrar un registro es a veces mas lento que sobre un indice primario"
+        ],
+        [
+          "b",
+          "Encontrar un registro es igual de r\u00e1pido que sobre un indice primario"
+        ],
+        [
+          "c",
+          "Encontrar un registro puede ser mas r\u00e1pido que sobre un indice primario"
+        ],
+        [
+          "d",
+          "si la clave a buscar no se repitiera puede ser igual de rapida su b\u00fasqueda que en un indice un\u00edvoco e. Algunas de las anteriores son validas"
+        ],
+        [
+          "e",
+          "ninguna de las anteriores son validas"
+        ]
+      ],
+      "answers": [
+        "ninguna de las anteriores son validas"
+      ]
+    }
+  ],
+  [
+    39,
+    {
+      "sentence": "Un \u00e1rbol binario",
+      "options": [
+        [
+          "a",
+          "puede tener eficiencia de b\u00fasqueda logaritmica"
+        ],
+        [
+          "b",
+          "puede estar balanceado si tiene 127 elementos"
+        ],
+        [
+          "c",
+          "puede tener eficiencia de b\u00fasqueda lineal"
+        ],
+        [
+          "d",
+          "todas las anteriores son correctas"
+        ],
+        [
+          "e",
+          "algunas de las anteriores son validas"
+        ],
+        [
+          "f",
+          "ninguna de las anteriores son validas"
+        ]
+      ],
+      "answers": [
+        "todas las anteriores son correctas"
+      ]
+    }
+  ],
+  [
+    40,
+    {
+      "sentence": "Cuales de las siguientes propiedades no corresponde a un arbol b* de orden M",
+      "options": [
+        [
+          "a",
+          "Cada nodo del arbol puede contener maximo M descendientes y M-1 elementos b. La raiz no posee descendientes o posee [M/2] descendientes"
+        ],
+        [
+          "b",
+          "Todos los nodos terminales se encuentran al mismo nivel"
+        ],
+        [
+          "c",
+          "Los nodos no terminaels ni raiz tienen mas de [M/2] y a lo sumo M descendientes e. Un nodo con x descendientes contienen x-1 elementos"
+        ]
+      ],
+      "answers": [
+        "La raiz no posee descendientes o posee [M/2] descendientes"
+      ]
+    }
+  ],
+  [
+    41,
+    {
+      "sentence": "Dado un arbol b* de orden 100",
+      "options": [
+        [
+          "a",
+          "el nodo ra\u00edz pude tener solamente 3 hijos en algun momento de su construcci\u00f3n b. un nodo terminal puede producir un underflow, si al borrar un elemento quedan 48 en el nodo c. puede ser que un nodo terminal con 50 elementos, tenga 51 hijos"
+        ],
+        [
+          "b",
+          "todas las respuestas anteriores son correctas"
+        ],
+        [
+          "c",
+          "las opciones a y b son correctas"
+        ],
+        [
+          "d",
+          "las opciones b y c son correctas"
+        ],
+        [
+          "e",
+          "las opciones a y c son correctas"
+        ],
+        [
+          "f",
+          "ninguna opci\u00f3n anteirior es correcta"
+        ]
+      ],
+      "answers": [
+        "el nodo ra\u00edz pude tener solamente 3 hijos en algun momento de su construcci\u00f3n"
+      ]
+    }
+  ],
+  [
+    42,
+    {
+      "sentence": "Una inserci\u00f3n en un nodo cualquiera (terminal) de arbol b",
+      "options": [
+        [
+          "a",
+          "puede generar overflow"
+        ],
+        [
+          "b",
+          "puede generar divisi\u00f3n de un solo nodo"
+        ],
+        [
+          "c",
+          "pueden dividirse tres nodos"
+        ],
+        [
+          "d",
+          "todas las anteriores son correctas"
+        ],
+        [
+          "e",
+          "las dos primeras son correctas"
+        ],
+        [
+          "f",
+          "la segunda y tercera son correctas"
+        ],
+        [
+          "g",
+          "la primera y la tercera son correctas"
+        ]
+      ],
+      "answers": [
+        "todas las anteriores son correctas"
+      ]
+    }
+  ],
+  [
+    43,
+    {
+      "sentence": "dado un arbol b de prefijos simples de orden 100",
+      "options": [
+        [
+          "a",
+          "un nodo entra en underflow si se borra un elemento y solo quedan 48 b. un nodo no terminal ni raiz tendr\u00e1 al menos [M/2] hijos"
+        ],
+        [
+          "b",
+          "puede ser que la raiz tenga solamente dos hijos en algun momento d. todas las anteriores son correctas"
+        ],
+        [
+          "c",
+          "algunas de las anteriores son correcta"
+        ],
+        [
+          "d",
+          "ninguna de las anteriores son correctas"
+        ]
+      ],
+      "answers": [
+        "todas las anteriores son correctas"
+      ]
+    }
+  ],
+  [
+    44,
+    {
+      "sentence": "Un arbol b",
+      "options": [
+        [
+          "a",
+          "puede ser un arbol AVL"
+        ],
+        [
+          "b",
+          "puede guardarse en memoria RAM"
+        ],
+        [
+          "c",
+          "puede implementar una clave no univoca"
+        ],
+        [
+          "d",
+          "puede tener acceso secuencial eficiente y r\u00e1pido"
+        ],
+        [
+          "e",
+          "Todas las anteriores son correctas"
+        ],
+        [
+          "f",
+          "Algunas de las anteriores son correctas"
+        ],
+        [
+          "g",
+          "ninguna de las anteriores son correctas"
+        ]
+      ],
+      "answers": [
+        "Algunas de las anteriores son correctas"
+      ]
+    }
+  ]
+]

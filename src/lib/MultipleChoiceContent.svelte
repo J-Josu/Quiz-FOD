@@ -20,7 +20,7 @@
   }
 </script>
 
-<div>
+<div class='container'>
   <h2>{sentence}</h2>
   <ul>
     {#each options as option}
@@ -33,17 +33,23 @@
     {/each}
   </ul>
   {#if state==='answered'}
-    <div>
+    <div class='container'>
       <h3>{answers.length > 1? 'Posibles respuestas': 'Posible respuesta'}</h3>
-      {#each answers as answer}
-        <span>{answer}</span>
-      {/each}
+      <div style='display:flex; gap:2rem; '>
+        {#if answers.length > 0}
+          {#each answers as answer}
+            <span>{answer}</span>
+          {/each}
+        {:else}
+          <span>No disponible</span>
+        {/if}
+      </div>
     </div>
   {/if}
 </div>
 
 <style>
-  div {
+  .container {
     padding: 1rem;
     background-color: hsla(0, 1%, 10%, 10%);
     border-radius: 1rem;

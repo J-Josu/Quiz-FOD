@@ -1,4 +1,14 @@
-<slot></slot>
+<script lang="ts">
+  import { welcomePopUpOpen } from "$lib/stores";
+  import WelcomePopUp from "$lib/WelcomePopUp.svelte";
+</script>
+
+{#if $welcomePopUpOpen}
+  <WelcomePopUp />
+{/if}
+<main>
+  <slot />
+</main>
 
 <style>
   /* #cdb4db,
@@ -56,7 +66,8 @@
     align-items: center;
     height: 100vh;
     justify-content: center;
-    color:hsl(0, 0%, 90%)
+    color:hsl(0, 0%, 90%);
+    margin: 0;
   }
   :global(*,*::after,*::before) {
     box-sizing: border-box;

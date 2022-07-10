@@ -1,9 +1,12 @@
 <script lang="ts">
   import { welcomePopUpOpen } from "$lib/stores";
   import WelcomePopUp from "$lib/WelcomePopUp.svelte";
+
+  let waited = false;
+  setTimeout(() => waited = true, 500)
 </script>
 
-{#if $welcomePopUpOpen}
+{#if waited && $welcomePopUpOpen}
   <WelcomePopUp />
 {/if}
 <main>

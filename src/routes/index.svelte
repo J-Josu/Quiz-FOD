@@ -20,16 +20,16 @@
     <button on:click={() => isPlaying=true}>Comenzar</button>
   {/if}
 
-  <button
-    on:click={() => welcomePopUpOpen.set(!$welcomePopUpOpen)}
-    class='info'
-  >&#9432;</button>
 </div>
 
 {#if isPlaying}
   <button on:click={() => isPlaying=false} class='reset'>Home</button>
 {/if}
 
+<button
+  on:click={() => welcomePopUpOpen.set(!$welcomePopUpOpen)}
+  class='info'
+>&#9432;</button>
 
 <style>
   h1 {

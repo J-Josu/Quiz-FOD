@@ -3,16 +3,28 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta http-equiv="content-security-policy" content=""><title>Quiz FOD</title><link rel="shortcut icon" href="favicon.ico" type="image/x-icon" data-svelte="svelte-18is8ce"><meta name="description" content="Una forma mas entretenida de estudiar y repasar que
+		<meta http-equiv="content-security-policy" content=""><title>Quiz FOD</title><link rel="shortcut icon" href="favicon.ico" type="image/x-icon" data-svelte="svelte-1g2gwry"><script data-svelte="svelte-1g2gwry">if (document) {
+      let mode = localStorage.getItem("preferredTheme");
+      if (mode === '"dark-mode"')
+        document.documentElement.classList.add("dark-mode");
+      else if (mode === null)
+        localStorage.setItem(
+          "preferredTheme",
+          window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? '"dark-mode"'
+            : '"light-mode"'
+        );
+    }
+  </script><meta name="description" content="Una forma mas entretenida de estudiar y repasar que
     solo leer teoria y/o resumenes." data-svelte="svelte-t084p3">
-	<link rel="stylesheet" href="/Quiz-FOD/internal/immutable/assets/pages/__layout.svelte-1f793032.css">
-	<link rel="stylesheet" href="/Quiz-FOD/internal/immutable/assets/pages/index.svelte-6467fc3f.css">
-	<link rel="modulepreload" href="/Quiz-FOD/internal/immutable/start-0c7607d0.js">
-	<link rel="modulepreload" href="/Quiz-FOD/internal/immutable/chunks/index-644eb34b.js">
-	<link rel="modulepreload" href="/Quiz-FOD/internal/immutable/chunks/index-fdd6aeb1.js">
-	<link rel="modulepreload" href="/Quiz-FOD/internal/immutable/pages/__layout.svelte-41d722db.js">
-	<link rel="modulepreload" href="/Quiz-FOD/internal/immutable/chunks/stores-50a18eb2.js">
-	<link rel="modulepreload" href="/Quiz-FOD/internal/immutable/pages/index.svelte-7996eca3.js">
+	<link rel="stylesheet" href="/Quiz-FOD/internal/immutable/assets/pages/__layout.svelte-66ec4dd8.css">
+	<link rel="stylesheet" href="/Quiz-FOD/internal/immutable/assets/pages/index.svelte-228bc6f5.css">
+	<link rel="modulepreload" href="/Quiz-FOD/internal/immutable/start-69329cb8.js">
+	<link rel="modulepreload" href="/Quiz-FOD/internal/immutable/chunks/index-2df69e23.js">
+	<link rel="modulepreload" href="/Quiz-FOD/internal/immutable/chunks/index-a938e09c.js">
+	<link rel="modulepreload" href="/Quiz-FOD/internal/immutable/pages/__layout.svelte-f1dba7c6.js">
+	<link rel="modulepreload" href="/Quiz-FOD/internal/immutable/chunks/stores-a146de28.js">
+	<link rel="modulepreload" href="/Quiz-FOD/internal/immutable/pages/index.svelte-482a9cfc.js">
 	</head>
 	<body>
 		<div>
@@ -20,23 +32,24 @@
 
 
 
-
-<main>
-
-<div class="svelte-1odlc8h"><h1 class="svelte-1odlc8h">Si sabes, empeza</h1>
-
-  <button class="svelte-1odlc8h">Comenzar</button></div>
+<main class="svelte-1k31mmh">
 
 
 
-<button class="info svelte-1odlc8h">ⓘ</button>
-</main>
+<section class="svelte-1klj5nt"><h1 class="svelte-1klj5nt">Si sabes, empeza</h1>
+
+  <button class="svelte-1klj5nt">Comenzar</button></section>
 
 
-		<script type="module" data-sveltekit-hydrate="b8ia8z">
-		import { start } from "/Quiz-FOD/internal/immutable/start-0c7607d0.js";
+<button class="info svelte-1klj5nt">ⓘ</button></main>
+
+<footer class="svelte-1k31mmh"><button class="svelte-1k31mmh">Cambiar Tema</button></footer>
+
+
+		<script type="module" data-sveltekit-hydrate="rg1zjk">
+		import { start } from "/Quiz-FOD/internal/immutable/start-69329cb8.js";
 		start({
-			target: document.querySelector('[data-sveltekit-hydrate="b8ia8z"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="rg1zjk"]').parentNode,
 			paths: {"base":"/Quiz-FOD","assets":"/Quiz-FOD"},
 			session: {},
 			route: true,

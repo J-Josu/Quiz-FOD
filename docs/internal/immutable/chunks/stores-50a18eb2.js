@@ -1,1 +1,0 @@
-import"./index-644eb34b.js";import{w as p}from"./index-fdd6aeb1.js";const m=(e,o)=>{const s=t=>JSON.stringify(t,null,2),l=JSON.parse;let r=o;{let t=localStorage.getItem(e);t===null?(localStorage.setItem(e,s(o)),r=o):r=l(t)}const{subscribe:a,set:c,update:n}=p(r);return{subscribe:a,set:t=>(localStorage.setItem(e,s(t)),c(t)),update:n}},g=m("welcomePopUp",!0);export{g as w};

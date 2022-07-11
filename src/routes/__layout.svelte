@@ -1,119 +1,91 @@
 <script lang="ts">
-  import { welcomePopUpOpen } from "$stores/stores";
-  import WelcomePopUp from "$components/WelcomePopUp.svelte";
+  import "../app.css";
+  import { onMount } from "svelte";
+  import { preferredTheme } from "$stores/stores";
 
-  let waited = false;
-  setTimeout(() => (waited = true), 500);
+  const toggleTheme = () => {
+    window.document.body.classList.toggle("dark-mode");
+    preferredTheme.set(
+      $preferredTheme === "dark-mode" ? "light-mode" : "dark-mode"
+    );
+  };
+
+  onMount(() => {
+    if ($preferredTheme === "dark-mode") {
+      document.body.classList.add("dark-mode");
+      document.documentElement.classList.remove("dark-mode");
+    }
+  });
 </script>
 
 <svelte:head>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <script>
+    if (document) {
+      let mode = localStorage.getItem("preferredTheme");
+      if (mode === '"dark-mode"')
+        document.documentElement.classList.add("dark-mode");
+      else if (mode === null)
+        localStorage.setItem(
+          "preferredTheme",
+          window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? '"dark-mode"'
+            : '"light-mode"'
+        );
+    }
+  </script>
 </svelte:head>
 
-{#if waited && $welcomePopUpOpen}
-  <WelcomePopUp />
-{/if}
 <main>
   <slot />
 </main>
 
+<footer><button on:click={toggleTheme}>Cambiar Tema</button></footer>
+
 <style>
-  /* #cdb4db,
-  #ffc8dd,
-  #ffafcc,
-  #bde0fe,
-  #a2d2ff,
-  #cdb4db,
-  #ffc8dd */
-
-  /* hsl(278, 35%, 75%),
-  hsl(337, 100%, 75%),
-  hsl(338, 100%, 75%),
-  hsl(208, 97%, 75%),
-  hsl(209, 100%, 75%),
-  hsl(278, 35%, 75%),
-  hsl(337, 100%, 75%) */
-
-  /* hsl(278, 35%, 08%),
-        hsl(337, 100%, 19%),
-        hsl(338, 100%, 14%),
-        hsl(208, 97%, 17%),
-        hsl(209, 100%, 12%),
-        hsl(278, 35%, 08%),
-        hsl(337, 100%, 19%) */
-  @keyframes gradient {
-    0% {
-      background-position: 0% 0%;
-    }
-    100% {
-      background-position: 100% 100%;
-    }
-    200% {
-      background-position: 200% 200%;
-    }
-  }
-  :global(body) {
-    --color-top: 0;
-    --color-bottom: 25;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    background-image: repeating-linear-gradient(
-      to bottom,
-      hsl(278, 35%, 08%),
-      hsl(337, 100%, 19%),
-      hsl(338, 100%, 14%),
-      hsl(208, 97%, 17%),
-      hsl(209, 100%, 12%),
-      hsl(278, 35%, 08%),
-      hsl(337, 100%, 19%)
-    );
-    background-size: 700% 700%;
-    animation: gradient 25s linear infinite reverse;
-    display: grid;
-    align-content: center;
-    align-items: center;
-    height: 100vh;
+  main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     justify-content: center;
-    color: hsl(0, 0%, 90%);
-    margin: 0;
-  }
-  :global(*, *::after, *::before) {
-    box-sizing: border-box;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
   }
 
-  /* button{
+  footer {
+    display: flex;
+    flex: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: clamp(0.5rem, 2vw, 2rem);
+  }
+  footer button {
+    opacity: 0.75;
+    color: var(--fc-primary);
     border: none;
-    color: hsl(0, 0%, 70%);
-    text-decoration: none;
-    background-color: transparent;
-    padding: 20px 50px;
-    font-size: 1.25rem;
+    border-radius: 6px;
+    transition: all 0.5s ease;
     position: relative;
-    margin: 32px;
-    border-color: 3px solid hsl(0, 0%, 70%);
-    transition: transform 0.3s ease;
+    font-weight: bolder;
+    padding: 0;
   }
-  button::after, button::before{
-    border: 3px solid;
-    content: '';
+  footer button::before {
+    opacity: 1;
+    content: "";
     position: absolute;
-    width: calc(100% - 6px);
-    height: calc(100% - 6px);
-    left: 0;
     bottom: 0;
-    z-index: -1;
-    transition: transform 0.3s ease;
+    width: 0%;
+    left: 50%;
+    border-bottom: 2px solid var(--fc-primary);
+    transition: width 0.5s ease, left 0.5s ease;
   }
-  button:hover {
-    color:hsl(0, 0%, 90%);
+  footer button:hover {
+    opacity: 1;
   }
-  button::before{
-    border: 3px solid hsla(0, 0%, 90%, 50%);
+  footer button:hover::before {
+    width: 100%;
+    left: 0.5px;
   }
-  button:hover::after {
-    transform: translate(5px, -5px);
-  }
-  button:hover::before{
-    transform: translate(-5px, 5px);
-  } */
 </style>

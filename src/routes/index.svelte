@@ -1,7 +1,11 @@
 <script lang="ts">
+  import { welcomePopUpOpen } from "$stores/stores";
+  import WelcomePopUp from "$components/WelcomePopUp.svelte";
   import MultipleChoice from "$components/MultipleChoice.svelte";
   import quizData from "$lib/data/extracted_multiple_choices.json";
-  import { welcomePopUpOpen } from "$stores/stores";
+
+  let waited = false;
+  setTimeout(() => (waited = true), 500);
 
   let isPlaying = false;
 </script>
@@ -15,7 +19,11 @@
   />
 </svelte:head>
 
-<div>
+{#if waited && $welcomePopUpOpen}
+  <WelcomePopUp />
+{/if}
+
+<section>
   <h1>{isPlaying ? "Quiz Time" : "Si sabes, empeza"}</h1>
 
   {#if isPlaying}
@@ -23,69 +31,71 @@
   {:else}
     <button on:click={() => (isPlaying = true)}>Comenzar</button>
   {/if}
-</div>
+</section>
 
 {#if isPlaying}
   <button on:click={() => (isPlaying = false)} class="reset">Home</button>
 {/if}
-
-<button on:click={() => welcomePopUpOpen.set(!$welcomePopUpOpen)} class="info"
+<button class="info" on:click={() => welcomePopUpOpen.set(!$welcomePopUpOpen)}
   >&#9432;</button
 >
 
 <style>
-  h1 {
-    width: fit-content;
-    background-color: none;
-    margin-inline: auto;
-    color: white;
-  }
-  div {
+  section {
     display: flex;
+    flex: 1;
     flex-direction: column;
-    align-content: center;
+    justify-content: center;
     align-items: center;
   }
+
+  h1 {
+    margin-inline: auto;
+    color: var(--fc-accent);
+  }
+
   button {
-    --light: 70%;
-    border: none;
-    color: hsl(0, 0%, var(--light));
-    text-decoration: none;
+    --color: var(--fc-tertiary);
+    color: var(--color);
     background-color: transparent;
-    padding: 1rem 2rem;
     font-size: 1.5rem;
     position: relative;
-    margin: 32px;
-    border: 3px solid;
-    border-color: hsl(0, 0%, var(--light));
-    transition: transform 0.3s ease;
+    margin: 2rem;
+    padding: 1rem 2rem;
+    border: 3px solid var(--color);
+    transition: all 0.3s ease;
     border-radius: 6px;
   }
+  button::before {
+    --delta: 3px;
+    border-radius: 6px;
+    content: "";
+    position: absolute;
+    width: calc(100% + calc(var(--delta)*2));
+    height: calc(100% + calc(var(--delta)*2));
+    left: calc(var(--delta)*-1);
+    bottom: calc(var(--delta)*-1);
+    z-index: -1;
+    border: var(--delta) solid var(--color);
+    opacity: 0.5;
+    transition: all 0.3s ease;
+  }
+  button:hover {
+    --color: var(--fc-primary);
+    transform: translate(5px, -5px);
+  }
+  button:hover::before {
+    opacity: 0.25;
+    transform: translate(-10px, 10px);
+  }
+
   .reset {
     position: absolute;
     bottom: 0;
     left: 0;
+    margin: 1.5rem;
   }
-  button::before {
-    border-radius: 6px;
-    content: "";
-    position: absolute;
-    width: calc(100% + 6px);
-    height: calc(100% + 6px);
-    left: -3px;
-    bottom: -3px;
-    z-index: -1;
-    border: 3px solid hsla(0, 0%, 90%, 50%);
-    transition: transform 0.3s ease;
-  }
-  button:hover {
-    --light: 90%;
-    transform: translate(5px, -5px);
-  }
-  button:hover::before {
-    --light: 50%;
-    transform: translate(-10px, 10px);
-  }
+
   .info {
     width: fit-content;
     height: fit-content;
@@ -98,18 +108,68 @@
     border-radius: 100%;
     font-size: 1.5rem;
     border: none;
-    color: hsla(0, 0%, 90%, 50%);
+    opacity: 0.5;
     transition: all 0.3s ease;
-    /* box-shadow:1px 1px 2rem 1rem hsla(0, 0%, 90%, 50%); */
   }
   .info::before {
     content: none;
   }
   .info:hover {
-    color: hsla(0, 0%, 90%, 100%);
+    opacity: 1;
     transform: none;
-    border: none;
-    background-color: hsla(0, 0%, 90%, 5%);
-    box-shadow: 0px 0px 1rem 1rem hsla(0, 0%, 90%, 5%);
+    background-color: hsla(var(--fc-primary-content), 0.05);
+    box-shadow: 0px 0px 1rem 1rem hsl(var(--fc-primary-content), 0.05);
   }
+  
+  @media screen and (max-width: 1312px) {
+    button {
+      margin: 1.5rem;
+      padding: 0.75rem 1.5rem;
+      font-size: 1.25rem;
+      border-width: 2px;
+    }
+    button::before {
+      --delta: 2px;
+    }
+    .reset {
+      margin: 1rem;
+    }
+    .info {
+      content: none;
+      margin: calc(0.5rem*0.75);
+      padding: calc(0.5rem*0.75);
+    }
+  }
+  @media screen and (max-width: 992px) {
+    button {
+      margin: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      border-width: 1px;
+    }
+    button::before {
+      --delta: 1px;
+    }
+    .reset {
+      margin: 0.5rem;
+    }
+    .info {
+      margin: calc(0.5rem*0.5);
+      padding: calc(0.5rem*0.5);
+    }
+  }
+  /* @media screen and (max-width: 688px) {
+    button {
+      margin: 0.5rem;
+      padding: 0.25rem 0.5rem;
+      font-size: 0.75rem;
+    }
+    .reset {
+      margin: 0.25rem;
+    }
+    .info {
+      margin: calc(0.5rem*0.25);
+      padding: calc(0.5rem*0.25);
+    }
+  } */
 </style>

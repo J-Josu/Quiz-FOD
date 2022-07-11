@@ -51,7 +51,7 @@
 <style>
   .container {
     padding: 1rem;
-    background-color: hsla(0, 1%, 10%, 10%);
+    background-color: hsla(var(--fc-primary-content), 2.5%);
     border-radius: 1rem;
     max-width: 960px;
   }

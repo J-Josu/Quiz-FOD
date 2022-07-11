@@ -1,6 +1,6 @@
 [
   {
-    "sentence": "Un archivo con registro de logitud variable",
+    "sentence": "Un archivo con registro de logitud variable:",
     "options": [
       [
         "a",
@@ -30,7 +30,7 @@
     "answers": []
   },
   {
-    "sentence": "Cuando se utiliza un algoritmo de merge",
+    "sentence": "Cuando se utiliza un algoritmo de merge:",
     "options": [
       [
         "a",
@@ -64,7 +64,7 @@
     "answers": []
   },
   {
-    "sentence": "El proceso de baja logica",
+    "sentence": "El proceso de baja logica:",
     "options": [
       [
         "a",
@@ -98,7 +98,7 @@
     "answers": []
   },
   {
-    "sentence": "El algoritmo de actualizacion maestro-detalle",
+    "sentence": "El algoritmo de actualizacion maestro-detalle:",
     "options": [
       [
         "a",
@@ -132,7 +132,7 @@
     "answers": []
   },
   {
-    "sentence": "Un arbol B*",
+    "sentence": "Un arbol B*:",
     "options": [
       [
         "a",
@@ -170,7 +170,7 @@
     "answers": []
   },
   {
-    "sentence": "En un indice secundario",
+    "sentence": "En un indice secundario:",
     "options": [
       [
         "a",
@@ -200,7 +200,7 @@
     "answers": []
   },
   {
-    "sentence": "Un arbol que se encuentra balanceado",
+    "sentence": "Un arbol que se encuentra balanceado:",
     "options": [
       [
         "a",
@@ -238,7 +238,7 @@
     "answers": []
   },
   {
-    "sentence": "Un overflow",
+    "sentence": "Un overflow:",
     "options": [
       [
         "a",
@@ -268,7 +268,7 @@
     "answers": []
   },
   {
-    "sentence": "Si la densidad de empaquetamiento tiende a 1(o al 100%)",
+    "sentence": "Si la densidad de empaquetamiento tiende a 1(o al 100%):",
     "options": [
       [
         "a",
@@ -294,7 +294,7 @@
     "answers": []
   },
   {
-    "sentence": "La dispersion dinamica",
+    "sentence": "La dispersion dinamica:",
     "options": [
       [
         "a",
@@ -340,7 +340,7 @@
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
@@ -352,7 +352,7 @@
       ],
       [
         "b",
-        "Puede ser m\u00e1s eficiente si se considera como precondici\u00f3n que el archivo est\u00e1 ordenado. c. Es igual de eficiente si el archivo est\u00e1 ordenado o desordenado."
+        "Puede ser m\u00e1s eficiente si se considera como precondici\u00f3n que el archivo est\u00e1 ordenado. c. Es igual de eficiente si el archivo est\u00e1 ordenado o desordenado"
       ],
       [
         "c",
@@ -360,7 +360,7 @@
       ]
     ],
     "answers": [
-      "B"
+      "b"
     ]
   },
   {
@@ -388,7 +388,7 @@
       ]
     ],
     "answers": [
-      "C"
+      "c"
     ]
   },
   {
@@ -412,7 +412,7 @@
       ]
     ],
     "answers": [
-      "E"
+      "e"
     ]
   },
   {
@@ -436,7 +436,7 @@
       ]
     ],
     "answers": [
-      "C"
+      "c"
     ]
   },
   {
@@ -456,7 +456,7 @@
       ]
     ],
     "answers": [
-      "E"
+      "e"
     ]
   },
   {
@@ -484,11 +484,11 @@
       ]
     ],
     "answers": [
-      "C"
+      "c"
     ]
   },
   {
-    "sentence": "Un algoritmo de actualizaci\u00f3n maestro-detalles",
+    "sentence": "Un algoritmo de actualizaci\u00f3n maestro-detalles:",
     "options": [
       [
         "a",
@@ -512,11 +512,11 @@
       ]
     ],
     "answers": [
-      "B"
+      "b"
     ]
   },
   {
-    "sentence": "Un archivo serie",
+    "sentence": "Un archivo serie:",
     "options": [
       [
         "a",
@@ -544,11 +544,11 @@
       ]
     ],
     "answers": [
-      "B"
+      "b"
     ]
   },
   {
-    "sentence": "Dado un archivo con 1000 registros",
+    "sentence": "Dado un archivo con 1000 registros:",
     "options": [
       [
         "a",
@@ -564,7 +564,7 @@
       ]
     ],
     "answers": [
-      "B"
+      "b"
     ]
   },
   {
@@ -596,7 +596,7 @@
       ]
     ],
     "answers": [
-      "A"
+      "a"
     ]
   },
   {
@@ -604,11 +604,11 @@
     "options": [
       [
         "a",
-        "Colecci\u00f3n de registros que abarca un conjunto de entidades con ciertos aspectos en com\u00fan y organizados  para un prop\u00f3sito particular."
+        "Colecci\u00f3n de registros que abarca un conjunto de entidades con ciertos aspectos en com\u00fan y organizados  para un prop\u00f3sito particular"
       ],
       [
         "b",
-        "Colecci\u00f3n de registros semejantes almacenados en disco r\u00edgido."
+        "Colecci\u00f3n de registros semejantes almacenados en disco r\u00edgido"
       ],
       [
         "c",
@@ -616,7 +616,7 @@
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
@@ -640,11 +640,11 @@
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
-    "sentence": "El proceso de baja en un archivo con registros de longitud variable: a. Puede recuperar el espacio disponible con nuevas altas",
+    "sentence": "El proceso de baja en un archivo con registros de longitud variable: a. Puede recuperar el espacio disponible con nuevas altas:",
     "options": [
       [
         "a",
@@ -652,7 +652,7 @@
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
@@ -676,11 +676,11 @@
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
-    "sentence": "El proceso de baja l\u00f3gica (sin ning\u00fan agregado de otras operaciones) de un archivo: a. Nunca recupera espacio en disco",
+    "sentence": "El proceso de baja l\u00f3gica (sin ning\u00fan agregado de otras operaciones) de un archivo: a. Nunca recupera espacio en disco:",
     "options": [
       [
         "a",
@@ -696,11 +696,11 @@
       ]
     ],
     "answers": [
-      "A"
+      "a"
     ]
   },
   {
-    "sentence": "Dado un archivo",
+    "sentence": "Dado un archivo:",
     "options": [
       [
         "a",
@@ -720,7 +720,7 @@
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
@@ -744,11 +744,11 @@
       ]
     ],
     "answers": [
-      "C"
+      "c"
     ]
   },
   {
-    "sentence": "El proceso de compactaci\u00f3n de un archivo tiene sentido ser aplicado: a. Luego de realizar una operaci\u00f3n de alta",
+    "sentence": "El proceso de compactaci\u00f3n de un archivo tiene sentido ser aplicado: a. Luego de realizar una operaci\u00f3n de alta:",
     "options": [
       [
         "a",
@@ -764,11 +764,11 @@
       ]
     ],
     "answers": [
-      "B"
+      "b"
     ]
   },
   {
-    "sentence": "El acceso promedio para recuperar un dato en un archivo desordenado a. Tiene orden lineal",
+    "sentence": "El acceso promedio para recuperar un dato en un archivo desordenado a. Tiene orden lineal:",
     "options": [
       [
         "a",
@@ -784,11 +784,11 @@
       ]
     ],
     "answers": [
-      "A"
+      "a"
     ]
   },
   {
-    "sentence": "La pol\u00edtica de primer ajuste, que permite recuperar espacio borrado en un archivo a. S\u00f3lo se aplica en registros de long fija",
+    "sentence": "La pol\u00edtica de primer ajuste, que permite recuperar espacio borrado en un archivo a. S\u00f3lo se aplica en registros de long fija:",
     "options": [
       [
         "a",
@@ -808,12 +808,12 @@
       ]
     ],
     "answers": [
-      "E",
-      "*La b y la c? No ser\u00eda PUEDE generar fragmentaci\u00f3n?"
+      "e",
+      "*la b y la c? no ser\u00eda puede generar fragmentaci\u00f3n?"
     ]
   },
   {
-    "sentence": "A partir de un archivo con registros de long fija y luego de algunas operaciones con el mismo: a. Nunca genera fragmentaci\u00f3n",
+    "sentence": "A partir de un archivo con registros de long fija y luego de algunas operaciones con el mismo: a. Nunca genera fragmentaci\u00f3n:",
     "options": [
       [
         "a",
@@ -829,8 +829,8 @@
       ]
     ],
     "answers": [
-      "D",
-      "*c\u00f3mo puede generar fragmentaci\u00f3n externa? Si es fijo"
+      "d",
+      "*c\u00f3mo puede generar fragmentaci\u00f3n externa? si es fijo"
     ]
   },
   {
@@ -842,7 +842,7 @@
       ]
     ],
     "answers": [
-      "B",
+      "b",
       "*a"
     ]
   },
@@ -863,11 +863,11 @@
       ]
     ],
     "answers": [
-      "C"
+      "c"
     ]
   },
   {
-    "sentence": "Un archivo de datos",
+    "sentence": "Un archivo de datos:",
     "options": [
       [
         "a",
@@ -883,11 +883,11 @@
       ]
     ],
     "answers": [
-      "E"
+      "e"
     ]
   },
   {
-    "sentence": "Un borrado l\u00f3gico en un archivo de datos",
+    "sentence": "Un borrado l\u00f3gico en un archivo de datos:",
     "options": [
       [
         "a",
@@ -903,11 +903,11 @@
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
-    "sentence": "Un archivo f\u00edsicamente ordenado",
+    "sentence": "Un archivo f\u00edsicamente ordenado:",
     "options": [
       [
         "a",
@@ -931,12 +931,12 @@
       ]
     ],
     "answers": [
-      "E",
-      "B, c?"
+      "e",
+      "b, c?"
     ]
   },
   {
-    "sentence": "En un archivo con registros de longitud variable",
+    "sentence": "En un archivo con registros de longitud variable:",
     "options": [
       [
         "a",
@@ -948,15 +948,15 @@
       ],
       [
         "c",
-        "Se puede utilizar cualquier lugar libre de un archivo para insertar un registro d. Siempre se utiliza la pol\u00edtica de mejor ajuste para recuperar espacio e. Algunas."
+        "Se puede utilizar cualquier lugar libre de un archivo para insertar un registro d. Siempre se utiliza la pol\u00edtica de mejor ajuste para recuperar espacio e. Algunas"
       ]
     ],
     "answers": [
-      "A"
+      "a"
     ]
   },
   {
-    "sentence": "Para aplicar un algoritmo de merge",
+    "sentence": "Para aplicar un algoritmo de merge:",
     "options": [
       [
         "a",
@@ -977,7 +977,7 @@
     ]
   },
   {
-    "sentence": "La funci\u00f3n EOF",
+    "sentence": "La funci\u00f3n EOF:",
     "options": [
       [
         "a",
@@ -993,7 +993,7 @@
       ]
     ],
     "answers": [
-      "F"
+      "f"
     ]
   },
   {
@@ -1005,11 +1005,11 @@
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
-    "sentence": "Un archivo organizado con registros de longitud variable a. No permite realizar bajas l\u00f3gicas",
+    "sentence": "Un archivo organizado con registros de longitud variable a. No permite realizar bajas l\u00f3gicas:",
     "options": [
       [
         "a",
@@ -1025,11 +1025,11 @@
       ]
     ],
     "answers": [
-      "B"
+      "b"
     ]
   },
   {
-    "sentence": "La eficiencia promedio de b\u00fasqueda en un archivo sin orden es: a. Orden lineal",
+    "sentence": "La eficiencia promedio de b\u00fasqueda en un archivo sin orden es: a. Orden lineal:",
     "options": [
       [
         "a",
@@ -1037,7 +1037,7 @@
       ]
     ],
     "answers": [
-      "C. 1"
+      "c. 1"
     ]
   },
   {
@@ -1065,7 +1065,7 @@
       ]
     ],
     "answers": [
-      "C"
+      "c"
     ]
   },
   {
@@ -1089,7 +1089,7 @@
       ],
       [
         "e",
-        "Ninguna de las anteriores."
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
@@ -1101,23 +1101,23 @@
     "options": [
       [
         "a",
-        "Archivos con registros de longitud variable."
+        "Archivos con registros de longitud variable"
       ],
       [
         "b",
-        "Archivos desordenados con registro de longitud fija."
+        "Archivos desordenados con registro de longitud fija"
       ],
       [
         "c",
-        "Archivos ordenados con registros de longitud fija."
+        "Archivos ordenados con registros de longitud fija"
       ],
       [
         "d",
-        "Ninguna de las opciones es correcta."
+        "Ninguna de las opciones es correcta"
       ]
     ],
     "answers": [
-      "3"
+      "c"
     ]
   },
   {
@@ -1129,27 +1129,27 @@
       ],
       [
         "b",
-        "Permite presentar la informaci\u00f3n con un formato especial."
+        "Permite presentar la informaci\u00f3n con un formato especial"
       ],
       [
         "c",
-        "Permite actualizar un archivo maestro a partir de uno o varios archivos detalle."
+        "Permite actualizar un archivo maestro a partir de uno o varios archivos detalle"
       ],
       [
         "d",
-        "Permite Mezclar en un \u00fanico archivo los registros del archivo maestro y los registros de los archivos de  detalle."
+        "Permite Mezclar en un \u00fanico archivo los registros del archivo maestro y los registros de los archivos de  detalle"
       ],
       [
         "e",
-        "Ninguna es correcta."
+        "Ninguna es correcta"
       ]
     ],
     "answers": [
-      "3"
+      "c"
     ]
   },
   {
-    "sentence": "La pol\u00edtica de recuperaci\u00f3n de espacio de Mejor Ajuste, en archivos  con registros de longitud fija",
+    "sentence": "La pol\u00edtica de recuperaci\u00f3n de espacio de Mejor Ajuste, en archivos  con registros de longitud fija:",
     "options": [
       [
         "a",
@@ -1173,11 +1173,11 @@
       ]
     ],
     "answers": [
-      "5"
+      "e"
     ]
   },
   {
-    "sentence": "El proceso de corte de control",
+    "sentence": "El proceso de corte de control:",
     "options": [
       [
         "a",
@@ -1197,11 +1197,11 @@
       ]
     ],
     "answers": [
-      "5"
+      "e"
     ]
   },
   {
-    "sentence": "Un archivo con registros de longitud variable",
+    "sentence": "Un archivo con registros de longitud variable:",
     "options": [
       [
         "a",
@@ -1225,7 +1225,7 @@
       ]
     ],
     "answers": [
-      "5"
+      "e"
     ]
   },
   {
@@ -1253,11 +1253,11 @@
       ]
     ],
     "answers": [
-      "5"
+      "e"
     ]
   },
   {
-    "sentence": "Para actualizar un archivo maestro a partir de N archivos Detalles",
+    "sentence": "Para actualizar un archivo maestro a partir de N archivos Detalles:",
     "options": [
       [
         "a",
@@ -1281,11 +1281,11 @@
       ]
     ],
     "answers": [
-      "1"
+      "a"
     ]
   },
   {
-    "sentence": "Un archivo con registros de longitud fija",
+    "sentence": "Un archivo con registros de longitud fija:",
     "options": [
       [
         "a",
@@ -1305,7 +1305,7 @@
       ]
     ],
     "answers": [
-      "1"
+      "a"
     ]
   },
   {
@@ -1325,11 +1325,11 @@
       ]
     ],
     "answers": [
-      "5"
+      "e"
     ]
   },
   {
-    "sentence": "En archivos con registro de longitud fija",
+    "sentence": "En archivos con registro de longitud fija:",
     "options": [
       [
         "a",
@@ -1345,7 +1345,7 @@
     ]
   },
   {
-    "sentence": "Un archivo con 20 registros: a. No necesita ordenarse",
+    "sentence": "Un archivo con 20 registros: a. No necesita ordenarse:",
     "options": [
       [
         "a",
@@ -1365,7 +1365,7 @@
       ]
     ],
     "answers": [
-      "A"
+      "a"
     ]
   },
   {
@@ -1405,7 +1405,7 @@
       ]
     ],
     "answers": [
-      "H"
+      "h"
     ]
   },
   {
@@ -1429,12 +1429,12 @@
       ]
     ],
     "answers": [
-      "E",
-      "A, c, d?"
+      "e",
+      "a, c, d?"
     ]
   },
   {
-    "sentence": "El proceso de baja l\u00f3gica",
+    "sentence": "El proceso de baja l\u00f3gica:",
     "options": [
       [
         "a",
@@ -1466,11 +1466,11 @@
       ]
     ],
     "answers": [
-      "G"
+      "g"
     ]
   },
   {
-    "sentence": "Una operaci\u00f3n de lectura en un archivo a. Mueve autom\u00e1ticamente al siguiente registro f\u00edsicamente ordenado b. No mueve el puntero",
+    "sentence": "Una operaci\u00f3n de lectura en un archivo a. Mueve autom\u00e1ticamente al siguiente registro f\u00edsicamente ordenado b. No mueve el puntero:",
     "options": [
       [
         "a",
@@ -1494,12 +1494,12 @@
       ]
     ],
     "answers": [
-      "F",
+      "f",
       "\u201ca, d\u201d"
     ]
   },
   {
-    "sentence": "La fragmentaci\u00f3n en un archivo de longitud fija a. Dificulta la baja f\u00edsica",
+    "sentence": "La fragmentaci\u00f3n en un archivo de longitud fija a. Dificulta la baja f\u00edsica:",
     "options": [
       [
         "a",
@@ -1523,7 +1523,7 @@
       ]
     ],
     "answers": [
-      "C"
+      "c"
     ]
   },
   {
@@ -1531,19 +1531,19 @@
     "options": [
       [
         "a",
-        "Utilizar NRR para tener acceso directo."
+        "Utilizar NRR para tener acceso directo"
       ],
       [
         "b",
-        "Utilizar un indicador de longitud al inicio de cada registro."
+        "Utilizar un indicador de longitud al inicio de cada registro"
       ],
       [
         "c",
-        "Utilizar un segundo archivo con la informaci\u00f3n de la direcci\u00f3n del byte de inicio de cada registro. d. Ninguna de las anteriores."
+        "Utilizar un segundo archivo con la informaci\u00f3n de la direcci\u00f3n del byte de inicio de cada registro. d. Ninguna de las anteriores"
       ]
     ],
     "answers": [
-      "A"
+      "a"
     ]
   },
   {
@@ -1567,11 +1567,11 @@
       ],
       [
         "e",
-        "Ninguna de las anteriores."
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
-      "2"
+      "b"
     ]
   },
   {
@@ -1583,19 +1583,19 @@
       ],
       [
         "b",
-        "Permite posicionarse directamente en el primer registro del archivo."
+        "Permite posicionarse directamente en el primer registro del archivo"
       ],
       [
         "c",
-        "Permite conocer la posici\u00f3n actual dentro del archivo."
+        "Permite conocer la posici\u00f3n actual dentro del archivo"
       ],
       [
         "d",
-        "Ninguna de las anteriores."
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
-      "4"
+      "d"
     ]
   },
   {
@@ -1603,23 +1603,23 @@
     "options": [
       [
         "a",
-        "Es necesario que los archivos detalles est\u00e9n ordenados."
+        "Es necesario que los archivos detalles est\u00e9n ordenados"
       ],
       [
         "b",
-        "Es necesario que el archivo maestro est\u00e9 ordenado."
+        "Es necesario que el archivo maestro est\u00e9 ordenado"
       ],
       [
         "c",
-        "Es necesario que todos los archivos tengan la misma estructura."
+        "Es necesario que todos los archivos tengan la misma estructura"
       ],
       [
         "d",
-        "Ninguna de las anteriores."
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
-      "4"
+      "d"
     ]
   },
   {
@@ -1631,15 +1631,15 @@
       ],
       [
         "b",
-        "El SO est\u00e1 encargado de manipularlos."
+        "El SO est\u00e1 encargado de manipularlos"
       ],
       [
         "c",
-        "Mejoran la performance en lecturas y escrituras."
+        "Mejoran la performance en lecturas y escrituras"
       ],
       [
         "d",
-        "Ninguna de las anteriores."
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
@@ -1671,7 +1671,7 @@
       ]
     ],
     "answers": [
-      "E"
+      "e"
     ]
   },
   {
@@ -1695,11 +1695,11 @@
       ]
     ],
     "answers": [
-      "C"
+      "c"
     ]
   },
   {
-    "sentence": "Un \u00edndice implementado con una lista invertida",
+    "sentence": "Un \u00edndice implementado con una lista invertida:",
     "options": [
       [
         "a",
@@ -1731,12 +1731,12 @@
       ]
     ],
     "answers": [
-      "F",
-      "A y c?"
+      "f",
+      "a y c?"
     ]
   },
   {
-    "sentence": "Se tiene un \u00e1rbol B+ de orden M. Suponga que se haya utilizado una de las claves como separador. Si la  clave se borra",
+    "sentence": "Se tiene un \u00e1rbol B+ de orden M. Suponga que se haya utilizado una de las claves como separador. Si la  clave se borra:",
     "options": [
       [
         "a",
@@ -1760,11 +1760,11 @@
       ]
     ],
     "answers": [
-      "C"
+      "c"
     ]
   },
   {
-    "sentence": "Se definen 4 \u00edndices para un archivo de datos. Dichos \u00edndices se implementan con \u00e1rboles balanceados",
+    "sentence": "Se definen 4 \u00edndices para un archivo de datos. Dichos \u00edndices se implementan con \u00e1rboles balanceados:",
     "options": [
       [
         "a",
@@ -1780,11 +1780,11 @@
       ]
     ],
     "answers": [
-      "C"
+      "c"
     ]
   },
   {
-    "sentence": "Sea un arbol B+ de orden M",
+    "sentence": "Sea un arbol B+ de orden M:",
     "options": [
       [
         "a",
@@ -1804,12 +1804,12 @@
       ]
     ],
     "answers": [
-      "A",
-      "E? a y b"
+      "a",
+      "e? a y b"
     ]
   },
   {
-    "sentence": "Un \u00e1rbol B+ de orden M",
+    "sentence": "Un \u00e1rbol B+ de orden M:",
     "options": [
       [
         "a",
@@ -1829,12 +1829,12 @@
       ]
     ],
     "answers": [
-      "D",
-      "A, b?"
+      "d",
+      "a, b?"
     ]
   },
   {
-    "sentence": "Un \u00e1rbol binario de orden 4",
+    "sentence": "Un \u00e1rbol binario de orden 4:",
     "options": [
       [
         "a",
@@ -1862,11 +1862,11 @@
       ]
     ],
     "answers": [
-      "G"
+      "g"
     ]
   },
   {
-    "sentence": "Si se implementa un algoritmo que permita generar un \u00e1rbol B+, ese algoritmo: a. no necesita manipular el puntero al nodo ra\u00edz",
+    "sentence": "Si se implementa un algoritmo que permita generar un \u00e1rbol B+, ese algoritmo: a. no necesita manipular el puntero al nodo ra\u00edz:",
     "options": [
       [
         "a",
@@ -1878,11 +1878,11 @@
       ]
     ],
     "answers": [
-      "C"
+      "c"
     ]
   },
   {
-    "sentence": "Cuando se realiza un alta en un \u00e1rbol B",
+    "sentence": "Cuando se realiza un alta en un \u00e1rbol B:",
     "options": [
       [
         "a",
@@ -1906,11 +1906,11 @@
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
-    "sentence": "Cu\u00e1les propiedades corresponden a un \u00e1rbol B+ de prefijos simples a. cada nodo puede tener como m\u00e1ximo M descendientes, siendo M el orden del \u00e1rbol b. un nodo que tiene x descendientes debe tener x-1 claves",
+    "sentence": "Cu\u00e1les propiedades corresponden a un \u00e1rbol B+ de prefijos simples a. cada nodo puede tener como m\u00e1ximo M descendientes, siendo M el orden del \u00e1rbol b. un nodo que tiene x descendientes debe tener x-1 claves:",
     "options": [
       [
         "a",
@@ -1918,11 +1918,11 @@
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
-    "sentence": "La eficiencia promedio de b\u00fasqueda en un \u00e1rbol B tiene",
+    "sentence": "La eficiencia promedio de b\u00fasqueda en un \u00e1rbol B tiene:",
     "options": [
       [
         "a",
@@ -1942,11 +1942,11 @@
       ]
     ],
     "answers": [
-      "B"
+      "b"
     ]
   },
   {
-    "sentence": "En un \u00e1rbol B de orden 50, cuando quedan 25 elementos en un nodo: a. Se produce underflow y necesariamente debe concatenarse con un adyacente hermano b. Se produce underflow y necesariamente debe redistribuirse con un adyacente hermano",
+    "sentence": "En un \u00e1rbol B de orden 50, cuando quedan 25 elementos en un nodo: a. Se produce underflow y necesariamente debe concatenarse con un adyacente hermano b. Se produce underflow y necesariamente debe redistribuirse con un adyacente hermano:",
     "options": [
       [
         "a",
@@ -1954,11 +1954,11 @@
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
-    "sentence": "un \u00edndice primario es:",
+    "sentence": "Un \u00edndice primario es:",
     "options": [
       [
         "a",
@@ -1966,19 +1966,19 @@
       ]
     ],
     "answers": [
-      "C"
+      "c"
     ]
   },
   {
-    "sentence": "un \u00e1rbol binario:",
+    "sentence": "Un \u00e1rbol binario:",
     "options": [
       [
         "a",
-        "Es una estructura de datos lineal, en la cual cada nodo puede tener a lo sumo dos hijos. b. Es una estructura de datos no lineal, que siempre se encuentra balanceada."
+        "Es una estructura de datos lineal, en la cual cada nodo puede tener a lo sumo dos hijos. b. Es una estructura de datos no lineal, que siempre se encuentra balanceada"
       ],
       [
         "b",
-        "Es una estructura de datos no lineal, donde cada nodo tiene dos hijos."
+        "Es una estructura de datos no lineal, donde cada nodo tiene dos hijos"
       ],
       [
         "c",
@@ -1992,7 +1992,7 @@
     "answers": []
   },
   {
-    "sentence": "un \u00edndice secundario es:",
+    "sentence": "Un \u00edndice secundario es:",
     "options": [
       [
         "a",
@@ -2000,11 +2000,11 @@
       ]
     ],
     "answers": [
-      "A"
+      "a"
     ]
   },
   {
-    "sentence": "cuando se realizan bajas en un \u00e1rbol B",
+    "sentence": "Cuando se realizan bajas en un \u00e1rbol B:",
     "options": [
       [
         "a",
@@ -2032,12 +2032,12 @@
       ]
     ],
     "answers": [
-      "F",
-      "C y e"
+      "f",
+      "c y e"
     ]
   },
   {
-    "sentence": "En un \u00e1rbol B",
+    "sentence": "En un \u00e1rbol B:",
     "options": [
       [
         "a",
@@ -2065,11 +2065,11 @@
       ]
     ],
     "answers": [
-      "E"
+      "e"
     ]
   },
   {
-    "sentence": "En un \u00e1rbol B+",
+    "sentence": "En un \u00e1rbol B+:",
     "options": [
       [
         "a",
@@ -2089,8 +2089,8 @@
       ]
     ],
     "answers": [
-      "D",
-      "A y c"
+      "d",
+      "a y c"
     ]
   },
   {
@@ -2098,7 +2098,7 @@
     "options": [
       [
         "a",
-        "Cada p\u00e1gina debe contener como m\u00ednimo 16 claves."
+        "Cada p\u00e1gina debe contener como m\u00ednimo 16 claves"
       ],
       [
         "b",
@@ -2106,7 +2106,7 @@
       ]
     ],
     "answers": [
-      "C"
+      "c"
     ]
   },
   {
@@ -2114,35 +2114,35 @@
     "options": [
       [
         "a",
-        "Puede ser un \u00e1rbol binario."
+        "Puede ser un \u00e1rbol binario"
       ],
       [
         "b",
-        "Puede ser un \u00e1rbol multicamino."
+        "Puede ser un \u00e1rbol multicamino"
       ],
       [
         "c",
-        "Puede ser un \u00e1rbol binario paginado."
+        "Puede ser un \u00e1rbol binario paginado"
       ],
       [
         "d",
-        "No puede ser un \u00e1rbol B+."
+        "No puede ser un \u00e1rbol B+"
       ],
       [
         "e",
-        "No puede ser un \u00e1rbol B*."
+        "No puede ser un \u00e1rbol B*"
       ],
       [
         "f",
-        "Todas las anteriores."
+        "Todas las anteriores"
       ],
       [
         "g",
-        "Ninguna de las anteriores."
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
-      "F"
+      "f"
     ]
   },
   {
@@ -2150,19 +2150,19 @@
     "options": [
       [
         "a",
-        "En una hoja, puede tener hasta 99 elementos. b. En una hoja, puede tener m\u00e1s de 99 elementos. c. En una hoja, puede tener menos de 99 elementos. d. La ra\u00edz siempre tiene hijos."
+        "En una hoja, puede tener hasta 99 elementos. b. En una hoja, puede tener m\u00e1s de 99 elementos. c. En una hoja, puede tener menos de 99 elementos. d. La ra\u00edz siempre tiene hijos"
       ],
       [
         "b",
-        "La ra\u00edz tiene hijos si el \u00e1rbol tiene m\u00e1s de 50 elementos."
+        "La ra\u00edz tiene hijos si el \u00e1rbol tiene m\u00e1s de 50 elementos"
       ]
     ],
     "answers": [
-      "B"
+      "b"
     ]
   },
   {
-    "sentence": "Un \u00e1rbol B+ de prefijos simples",
+    "sentence": "Un \u00e1rbol B+ de prefijos simples:",
     "options": [
       [
         "a",
@@ -2170,11 +2170,11 @@
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
-    "sentence": "Los \u00e1rboles B*",
+    "sentence": "Los \u00e1rboles B*:",
     "options": [
       [
         "a",
@@ -2194,11 +2194,11 @@
       ]
     ],
     "answers": [
-      "C"
+      "c"
     ]
   },
   {
-    "sentence": "Dado un \u00e1rbol B+",
+    "sentence": "Dado un \u00e1rbol B+:",
     "options": [
       [
         "a",
@@ -2218,11 +2218,11 @@
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
-    "sentence": "Cu\u00e1les de las siguientes definiciones pueden atribuirse a un \u00e1rbol binario",
+    "sentence": "Cu\u00e1les de las siguientes definiciones pueden atribuirse a un \u00e1rbol binario:",
     "options": [
       [
         "a",
@@ -2230,7 +2230,7 @@
       ],
       [
         "b",
-        "Es una estructura de datos no lineal, que se encuentra balanceada en altura."
+        "Es una estructura de datos no lineal, que se encuentra balanceada en altura"
       ],
       [
         "c",
@@ -2238,7 +2238,7 @@
       ]
     ],
     "answers": [
-      "A"
+      "a"
     ]
   },
   {
@@ -2250,19 +2250,19 @@
       ],
       [
         "b",
-        "Es una estructura de datos no lineal, que se encuentra balanceada en altura."
+        "Es una estructura de datos no lineal, que se encuentra balanceada en altura"
       ],
       [
         "c",
-        "Es una estructura de datos no lineal, en la cual cada nodo puede tener a lo sumo 5 hijos."
+        "Es una estructura de datos no lineal, en la cual cada nodo puede tener a lo sumo 5 hijos"
       ]
     ],
     "answers": [
-      "A"
+      "a"
     ]
   },
   {
-    "sentence": "Cuales propiedades corresponden a un \u00e1rbol B",
+    "sentence": "Cuales propiedades corresponden a un \u00e1rbol B:",
     "options": [
       [
         "a",
@@ -2278,15 +2278,15 @@
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
-    "sentence": "Un \u00e1rbol B*",
+    "sentence": "Un \u00e1rbol B*:",
     "options": [
       [
         "a",
-        "Es m\u00e1s eficiente en el algoritmo de b\u00fasqueda que un \u00e1rbol b."
+        "Es m\u00e1s eficiente en el algoritmo de b\u00fasqueda que un \u00e1rbol b"
       ],
       [
         "b",
@@ -2298,15 +2298,15 @@
       ],
       [
         "d",
-        "Permite acceder secuencialmente a los elementos del \u00e1rbol."
+        "Permite acceder secuencialmente a los elementos del \u00e1rbol"
       ]
     ],
     "answers": [
-      "B"
+      "b"
     ]
   },
   {
-    "sentence": "Cuando se borra un elemento de un nodo en un \u00e1rbol b",
+    "sentence": "Cuando se borra un elemento de un nodo en un \u00e1rbol b:",
     "options": [
       [
         "a",
@@ -2314,11 +2314,11 @@
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
-    "sentence": "Cu\u00e1les de las siguientes definiciones pueden atribuirse a un \u00e1rbol binario",
+    "sentence": "Cu\u00e1les de las siguientes definiciones pueden atribuirse a un \u00e1rbol binario:",
     "options": [
       [
         "a",
@@ -2326,7 +2326,7 @@
       ],
       [
         "b",
-        "Es una estructura de datos no lineal, que se encuentra balanceada en altura."
+        "Es una estructura de datos no lineal, que se encuentra balanceada en altura"
       ],
       [
         "c",
@@ -2334,7 +2334,7 @@
       ]
     ],
     "answers": [
-      "E"
+      "e"
     ]
   },
   {
@@ -2346,15 +2346,15 @@
       ],
       [
         "b",
-        "Es una estructura de datos no lineal, que se encuentra balanceada en altura."
+        "Es una estructura de datos no lineal, que se encuentra balanceada en altura"
       ],
       [
         "c",
-        "Ninguna de las opciones anteriores."
+        "Ninguna de las opciones anteriores"
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
@@ -2370,11 +2370,11 @@
       ]
     ],
     "answers": [
-      "C. 1"
+      "c. 1"
     ]
   },
   {
-    "sentence": "Dado un \u00e1rbol B+",
+    "sentence": "Dado un \u00e1rbol B+:",
     "options": [
       [
         "a",
@@ -2394,7 +2394,7 @@
       ]
     ],
     "answers": [
-      "C"
+      "c"
     ]
   },
   {
@@ -2402,27 +2402,27 @@
     "options": [
       [
         "a",
-        "Tiene igual eficiencia para la b\u00fasqueda de informaci\u00f3n que un \u00e1rbol B*."
+        "Tiene igual eficiencia para la b\u00fasqueda de informaci\u00f3n que un \u00e1rbol B*"
       ],
       [
         "b",
-        "Tiene igual eficiencia para la b\u00fasqueda de informaci\u00f3n que un \u00e1rbol B* con prefijos simples. c. Se desbalancean f\u00e1cilmente."
+        "Tiene igual eficiencia para la b\u00fasqueda de informaci\u00f3n que un \u00e1rbol B* con prefijos simples. c. Se desbalancean f\u00e1cilmente"
       ],
       [
         "c",
-        "Ninguna de las anteriores."
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
-      "C"
+      "c"
     ]
   },
   {
-    "sentence": "Dado un archivo de \u00edndice secundario implementado con el m\u00e9todo de listas invertidas: a. Es posible asociar s\u00f3lo una cantidad acotada de claves primarias.",
+    "sentence": "Dado un archivo de \u00edndice secundario implementado con el m\u00e9todo de listas invertidas: a. Es posible asociar s\u00f3lo una cantidad acotada de claves primarias.:",
     "options": [
       [
         "a",
-        "En ocasiones se desperdicia espacio, ya que se debe reservar el mismo."
+        "En ocasiones se desperdicia espacio, ya que se debe reservar el mismo"
       ],
       [
         "b",
@@ -2434,7 +2434,7 @@
       ]
     ],
     "answers": [
-      "C"
+      "c"
     ]
   },
   {
@@ -2442,15 +2442,15 @@
     "options": [
       [
         "a",
-        "Se utiliza para ordenar f\u00edsicamente un archivo."
+        "Se utiliza para ordenar f\u00edsicamente un archivo"
       ],
       [
         "b",
-        "Se utiliza para lograr acceso r\u00e1pido a la informaci\u00f3n de un archivo."
+        "Se utiliza para lograr acceso r\u00e1pido a la informaci\u00f3n de un archivo"
       ],
       [
         "c",
-        "Se utiliza para lograr acceso secuencial r\u00e1pido a un archivo."
+        "Se utiliza para lograr acceso secuencial r\u00e1pido a un archivo"
       ],
       [
         "d",
@@ -2458,11 +2458,11 @@
       ],
       [
         "e",
-        "Ninguna de las anteriores."
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
-      "C"
+      "c"
     ]
   },
   {
@@ -2470,23 +2470,23 @@
     "options": [
       [
         "a",
-        "La diferencia m\u00e1xima de altura entre los dos sub\u00e1rboles cualesquiera que comparten ra\u00edz es 1. b. Un nodo terminal tiene como m\u00ednimo [M/2]-1 claves."
+        "La diferencia m\u00e1xima de altura entre los dos sub\u00e1rboles cualesquiera que comparten ra\u00edz es 1. b. Un nodo terminal tiene como m\u00ednimo [M/2]-1 claves"
       ],
       [
         "b",
-        "Cada nodo puede tener como m\u00e1ximo M hijos."
+        "Cada nodo puede tener como m\u00e1ximo M hijos"
       ],
       [
         "c",
-        "Un nodo no terminal que tiene K descendientes debe tener K-1 claves."
+        "Un nodo no terminal que tiene K descendientes debe tener K-1 claves"
       ],
       [
         "d",
-        "Ninguna de las anteriores."
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
@@ -2494,15 +2494,15 @@
     "options": [
       [
         "a",
-        "Un \u00e1rbol n-ario (n > 2)."
+        "Un \u00e1rbol n-ario (n > 2)"
       ],
       [
         "b",
-        "Un \u00e1rbol B."
+        "Un \u00e1rbol B"
       ],
       [
         "c",
-        "Un \u00e1rbol binario paginado."
+        "Un \u00e1rbol binario paginado"
       ],
       [
         "d",
@@ -2510,19 +2510,19 @@
       ],
       [
         "e",
-        "Ninguna de las anteriores."
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
-    "sentence": "Un \u00e1rbol B*",
+    "sentence": "Un \u00e1rbol B*:",
     "options": [
       [
         "a",
-        "Distribuye las claves de manera m\u00e1s eficiente que un \u00e1rbol B."
+        "Distribuye las claves de manera m\u00e1s eficiente que un \u00e1rbol B"
       ],
       [
         "b",
@@ -2534,16 +2534,16 @@
       ],
       [
         "d",
-        "Permite acceder secuencialmente a los elementos del \u00e1rbol."
+        "Permite acceder secuencialmente a los elementos del \u00e1rbol"
       ],
       [
         "e",
-        "Hay dos respuestas anteriores correctas."
+        "Hay dos respuestas anteriores correctas"
       ]
     ],
     "answers": [
-      "E",
-      "A y b"
+      "e",
+      "a y b"
     ]
   },
   {
@@ -2555,8 +2555,8 @@
       ]
     ],
     "answers": [
-      "D",
-      "A y b"
+      "d",
+      "a y b"
     ]
   },
   {
@@ -2580,8 +2580,8 @@
       ]
     ],
     "answers": [
-      "B",
-      "E* b y d*"
+      "b",
+      "e* b y d*"
     ]
   },
   {
@@ -2601,12 +2601,12 @@
       ]
     ],
     "answers": [
-      "F*",
+      "f*",
       "*c y d"
     ]
   },
   {
-    "sentence": "cu\u00e1les de los siguientes par\u00e1metros afecta la eficiencia de la dispersi\u00f3n: a. cantidad de elementos del archivo",
+    "sentence": "Cu\u00e1les de los siguientes par\u00e1metros afecta la eficiencia de la dispersi\u00f3n: a. cantidad de elementos del archivo:",
     "options": [
       [
         "a",
@@ -2638,7 +2638,7 @@
       ]
     ],
     "answers": [
-      "F"
+      "f"
     ]
   },
   {
@@ -2670,11 +2670,11 @@
       ]
     ],
     "answers": [
-      "F"
+      "f"
     ]
   },
   {
-    "sentence": "Si se dispone la DE de un archivo",
+    "sentence": "Si se dispone la DE de un archivo:",
     "options": [
       [
         "a",
@@ -2686,11 +2686,11 @@
       ]
     ],
     "answers": [
-      "F"
+      "f"
     ]
   },
   {
-    "sentence": "a partir de un archivo dispersado con hashing extensible:",
+    "sentence": "A partir de un archivo dispersado con hashing extensible:",
     "options": [
       [
         "a",
@@ -2710,12 +2710,12 @@
       ]
     ],
     "answers": [
-      "E",
-      "A y d"
+      "e",
+      "a y d"
     ]
   },
   {
-    "sentence": "si se desea ordenar f\u00edsicamente un archivo:",
+    "sentence": "Si se desea ordenar f\u00edsicamente un archivo:",
     "options": [
       [
         "a",
@@ -2739,12 +2739,12 @@
       ]
     ],
     "answers": [
-      "E",
-      "H*"
+      "e",
+      "h*"
     ]
   },
   {
-    "sentence": "el m\u00e9todo de tratamiento de desbordes:",
+    "sentence": "El m\u00e9todo de tratamiento de desbordes:",
     "options": [
       [
         "a",
@@ -2776,11 +2776,11 @@
       ]
     ],
     "answers": [
-      "G"
+      "g"
     ]
   },
   {
-    "sentence": "una funci\u00f3n de hash perfecta",
+    "sentence": "Una funci\u00f3n de hash perfecta:",
     "options": [
       [
         "a",
@@ -2804,11 +2804,11 @@
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
-    "sentence": "si ocurri\u00f3 saturaci\u00f3n",
+    "sentence": "Si ocurri\u00f3 saturaci\u00f3n:",
     "options": [
       [
         "a",
@@ -2840,7 +2840,7 @@
       ]
     ],
     "answers": [
-      "A"
+      "a"
     ]
   },
   {
@@ -2848,15 +2848,15 @@
     "options": [
       [
         "a",
-        "Cuando dos registros diferentes obtienen de la funci\u00f3n de hash la misma direcci\u00f3n de disco. b. Cuando dos registros iguales obtienen de la funci\u00f3n de hash direcciones diferentes de disco. c. Cuando un registro no cabe en el lugar donde debe almacenarse de acuerdo al resultado de la funci\u00f3n de  hash."
+        "Cuando dos registros diferentes obtienen de la funci\u00f3n de hash la misma direcci\u00f3n de disco. b. Cuando dos registros iguales obtienen de la funci\u00f3n de hash direcciones diferentes de disco. c. Cuando un registro no cabe en el lugar donde debe almacenarse de acuerdo al resultado de la funci\u00f3n de  hash"
       ],
       [
         "b",
-        "Cuando dos registros diferentes obtienen de la funci\u00f3n de hash direcciones diferentes de disco."
+        "Cuando dos registros diferentes obtienen de la funci\u00f3n de hash direcciones diferentes de disco"
       ]
     ],
     "answers": [
-      "A"
+      "a"
     ]
   },
   {
@@ -2868,23 +2868,23 @@
       ],
       [
         "b",
-        "Orden logar\u00edtmico."
+        "Orden logar\u00edtmico"
       ],
       [
         "c",
-        "Orden Constante."
+        "Orden Constante"
       ],
       [
         "d",
-        "No dispongo de datos para contestar la pregunta."
+        "No dispongo de datos para contestar la pregunta"
       ]
     ],
     "answers": [
-      "C"
+      "c"
     ]
   },
   {
-    "sentence": "La eficiencia de b\u00fasqueda de un registro en un archivo organizado mediante hashing est\u00e1tico tiene: a. Orden Lineal",
+    "sentence": "La eficiencia de b\u00fasqueda de un registro en un archivo organizado mediante hashing est\u00e1tico tiene: a. Orden Lineal:",
     "options": [
       [
         "a",
@@ -2896,11 +2896,11 @@
       ],
       [
         "c",
-        "Orden Logar\u00edtmico."
+        "Orden Logar\u00edtmico"
       ]
     ],
     "answers": [
-      "B"
+      "b"
     ]
   },
   {
@@ -2908,19 +2908,19 @@
     "options": [
       [
         "a",
-        "Evita la generaci\u00f3n de colisiones."
+        "Evita la generaci\u00f3n de colisiones"
       ],
       [
         "b",
-        "Necesita que cada cubeta tenga capacidad para dos o m\u00e1s registros."
+        "Necesita que cada cubeta tenga capacidad para dos o m\u00e1s registros"
       ],
       [
         "c",
-        "Requiere al menos de dos funciones de hash para el tratamiento de los desbordes. d. Ninguna de las anteriores."
+        "Requiere al menos de dos funciones de hash para el tratamiento de los desbordes. d. Ninguna de las anteriores"
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
@@ -2932,11 +2932,11 @@
       ],
       [
         "b",
-        "La proporci\u00f3n de espacio asignado al archivo que en realidad almacena registros. c. La relaci\u00f3n entre la cantidad de registros y la cantidad de cubetas del archivo."
+        "La proporci\u00f3n de espacio asignado al archivo que en realidad almacena registros. c. La relaci\u00f3n entre la cantidad de registros y la cantidad de cubetas del archivo"
       ],
       [
         "c",
-        "Ninguna de las anteriores."
+        "Ninguna de las anteriores"
       ],
       [
         "d",
@@ -2944,32 +2944,32 @@
       ]
     ],
     "answers": [
-      "E*"
+      "e*"
     ]
   },
   {
-    "sentence": "La densidad de empaquetamiento en un archivo con registros con longitud variable: a. Se calcula como el cociente entre la cantidad de registros del archivo y la cantidad de espacio disponible.",
+    "sentence": "La densidad de empaquetamiento en un archivo con registros con longitud variable: a. Se calcula como el cociente entre la cantidad de registros del archivo y la cantidad de espacio disponible.:",
     "options": [
       [
         "a",
-        "Es \u00fatil para establecer la proporci\u00f3n de espacio del archivo asignado que en realidad almacena registros. c. A medida que disminuye, aumenta la probabilidad de overflow."
+        "Es \u00fatil para establecer la proporci\u00f3n de espacio del archivo asignado que en realidad almacena registros. c. A medida que disminuye, aumenta la probabilidad de overflow"
       ],
       [
         "b",
-        "A medida que disminuye, hay m\u00e1s desperdicio de espacio."
+        "A medida que disminuye, hay m\u00e1s desperdicio de espacio"
       ],
       [
         "c",
-        "Alguna de las anteriores."
+        "Alguna de las anteriores"
       ],
       [
         "d",
-        "Ninguna de las anteriores."
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
-      "F*",
-      "DE no aplica a long variable o que?@"
+      "f*",
+      "de no aplica a long variable o que?@"
     ]
   },
   {
@@ -2977,23 +2977,23 @@
     "options": [
       [
         "a",
-        "T\u00e9cnica para generar una direcci\u00f3n base \u00fanica para una clave dada."
+        "T\u00e9cnica para generar una direcci\u00f3n base \u00fanica para una clave dada"
       ],
       [
         "b",
-        "T\u00e9cnica que convierte la clave asociada a un registro de datos en un n\u00famero aleatorio, que se utiliza para  determinar donde se almacena el registro."
+        "T\u00e9cnica que convierte la clave asociada a un registro de datos en un n\u00famero aleatorio, que se utiliza para  determinar donde se almacena el registro"
       ],
       [
         "c",
-        "T\u00e9cnica de almacenamiento y recuperaci\u00f3n que usa una funci\u00f3n para mapear registros en direcciones de  almacenamiento en memoria secundaria."
+        "T\u00e9cnica de almacenamiento y recuperaci\u00f3n que usa una funci\u00f3n para mapear registros en direcciones de  almacenamiento en memoria secundaria"
       ],
       [
         "d",
-        "Todas las anteriores son aplicables."
+        "Todas las anteriores son aplicables"
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
@@ -3009,15 +3009,15 @@
       ],
       [
         "c",
-        "Requiere al menos de dos funciones de hash para el tratamiento de los desbordes."
+        "Requiere al menos de dos funciones de hash para el tratamiento de los desbordes"
       ]
     ],
     "answers": [
-      "C"
+      "c"
     ]
   },
   {
-    "sentence": "Cu\u00e1l de los siguientes conceptos corresponden con par\u00e1metros de la dispersi\u00f3n",
+    "sentence": "Cu\u00e1l de los siguientes conceptos corresponden con par\u00e1metros de la dispersi\u00f3n:",
     "options": [
       [
         "a",
@@ -3037,11 +3037,11 @@
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
-    "sentence": "La densidad de empaquetamiento se define como",
+    "sentence": "La densidad de empaquetamiento se define como:",
     "options": [
       [
         "a",
@@ -3053,7 +3053,7 @@
       ],
       [
         "c",
-        "El cociente entre la cantidad de registros, y el producto entre la cantidad de nodos y el contenido posible de  registros de cada nodo."
+        "El cociente entre la cantidad de registros, y el producto entre la cantidad de nodos y el contenido posible de  registros de cada nodo"
       ],
       [
         "d",
@@ -3061,16 +3061,16 @@
       ]
     ],
     "answers": [
-      "D",
-      "A y c"
+      "d",
+      "a y c"
     ]
   },
   {
-    "sentence": "Cuando la Densidad de empaquetamiento de un archivo tiende a uno",
+    "sentence": "Cuando la Densidad de empaquetamiento de un archivo tiende a uno:",
     "options": [
       [
         "a",
-        "Es necesario redefinir el espacio disponible \u00fanicamente."
+        "Es necesario redefinir el espacio disponible \u00fanicamente"
       ],
       [
         "b",
@@ -3078,7 +3078,7 @@
       ],
       [
         "c",
-        "Se debe cambiar la pol\u00edtica de hash de est\u00e1tica a din\u00e1mica."
+        "Se debe cambiar la pol\u00edtica de hash de est\u00e1tica a din\u00e1mica"
       ],
       [
         "d",
@@ -3086,7 +3086,7 @@
       ]
     ],
     "answers": [
-      "D"
+      "d"
     ]
   },
   {
@@ -3094,7 +3094,7 @@
     "options": [
       [
         "a",
-        "Presenta una variante de hash que permite no solo ubicar r\u00e1pidamente los registros, sino que adem\u00e1s  permite el acceso secuencial a los mismos."
+        "Presenta una variante de hash que permite no solo ubicar r\u00e1pidamente los registros, sino que adem\u00e1s  permite el acceso secuencial a los mismos"
       ],
       [
         "b",
@@ -3102,15 +3102,15 @@
       ],
       [
         "c",
-        "Siempre se recupera un registro con un y solo un acceso a disco."
+        "Siempre se recupera un registro con un y solo un acceso a disco"
       ],
       [
         "d",
-        "En algunos casos recupera un registro con un y solo un acceso a disco."
+        "En algunos casos recupera un registro con un y solo un acceso a disco"
       ]
     ],
     "answers": [
-      "C"
+      "c"
     ]
   },
   {
@@ -3118,15 +3118,15 @@
     "options": [
       [
         "a",
-        "Hay m\u00e1s fragmentaci\u00f3n."
+        "Hay m\u00e1s fragmentaci\u00f3n"
       ],
       [
         "b",
-        "Hay mayor probabilidad de saturaci\u00f3n."
+        "Hay mayor probabilidad de saturaci\u00f3n"
       ],
       [
         "c",
-        "La b\u00fasqueda dentro de la cubeta es m\u00e1s lenta."
+        "La b\u00fasqueda dentro de la cubeta es m\u00e1s lenta"
       ],
       [
         "d",
@@ -3134,7 +3134,7 @@
       ]
     ],
     "answers": [
-      "1"
+      "a"
     ]
   },
   {
@@ -3142,7 +3142,7 @@
     "options": [
       [
         "a",
-        "La relaci\u00f3n entre la cantidad de registros y la cantidad de cubetas del archivo."
+        "La relaci\u00f3n entre la cantidad de registros y la cantidad de cubetas del archivo"
       ],
       [
         "b",
@@ -3154,7 +3154,7 @@
       ]
     ],
     "answers": [
-      "2"
+      "b"
     ]
   },
   {
@@ -3162,11 +3162,11 @@
     "options": [
       [
         "a",
-        "Siempre que dos registros diferentes obtienen de la funci\u00f3n de hash la misma direcci\u00f3n de disco. 2. Siempre que dos registros iguales obtienen de la funci\u00f3n de hash direcciones diferentes de disco. 3. Cuando un registro no cabe en el lugar donde debe almacenarse seg\u00fan el resultado de la funci\u00f3n de hash. 4. Cuando dos registros diferentes obtienen de la funci\u00f3n de hash direcciones diferentes de disco. 5. Ninguna de las anteriores."
+        "Siempre que dos registros diferentes obtienen de la funci\u00f3n de hash la misma direcci\u00f3n de disco. 2. Siempre que dos registros iguales obtienen de la funci\u00f3n de hash direcciones diferentes de disco. 3. Cuando un registro no cabe en el lugar donde debe almacenarse seg\u00fan el resultado de la funci\u00f3n de hash. 4. Cuando dos registros diferentes obtienen de la funci\u00f3n de hash direcciones diferentes de disco. 5. Ninguna de las anteriores"
       ]
     ],
     "answers": [
-      "3"
+      "c"
     ]
   },
   {
@@ -3174,19 +3174,19 @@
     "options": [
       [
         "a",
-        "Dada una clave, siempre se debe aplicar dos funciones: inicialmente se aplica la 1ra funci\u00f3n,y al resultado  se le aplica la 2da funci\u00f3n para obtener finalmente la direcci\u00f3n de almacenamiento."
+        "Dada una clave, siempre se debe aplicar dos funciones: inicialmente se aplica la 1ra funci\u00f3n,y al resultado  se le aplica la 2da funci\u00f3n para obtener finalmente la direcci\u00f3n de almacenamiento"
       ],
       [
         "b",
-        "Se cuenta con dos funciones, pero s\u00f3lo se aplica la 2da funci\u00f3n si se produjo una saturaci\u00f3n al aplicar la  1ra funci\u00f3n."
+        "Se cuenta con dos funciones, pero s\u00f3lo se aplica la 2da funci\u00f3n si se produjo una saturaci\u00f3n al aplicar la  1ra funci\u00f3n"
       ],
       [
         "c",
-        "Cuando se usa la 2da funci\u00f3n, el valor obtenido reemplaza al anteriormente obtenido por la 1ra funci\u00f3n. 4. Ninguna de las anteriores."
+        "Cuando se usa la 2da funci\u00f3n, el valor obtenido reemplaza al anteriormente obtenido por la 1ra funci\u00f3n. 4. Ninguna de las anteriores"
       ]
     ],
     "answers": [
-      "2"
+      "b"
     ]
   },
   {
@@ -3194,15 +3194,15 @@
     "options": [
       [
         "a",
-        "Siempre se encuentra un registro con un solo acceso a disco."
+        "Siempre se encuentra un registro con un solo acceso a disco"
       ],
       [
         "b",
-        "No se permiten claves duplicadas."
+        "No se permiten claves duplicadas"
       ],
       [
         "c",
-        "Es posible usar archivos con registros de longitud variable."
+        "Es posible usar archivos con registros de longitud variable"
       ],
       [
         "d",
@@ -3210,7 +3210,7 @@
       ]
     ],
     "answers": [
-      "2"
+      "b"
     ]
   },
   {
@@ -3218,19 +3218,19 @@
     "options": [
       [
         "a",
-        "El espacio aumenta o disminuye dependiendo de los registros que contiene el archivo. 2. Necesita una tabla auxiliar."
+        "El espacio aumenta o disminuye dependiendo de los registros que contiene el archivo. 2. Necesita una tabla auxiliar"
       ],
       [
         "b",
-        "La densidad de empaquetamiento siempre se mantiene por debajo del 75%."
+        "La densidad de empaquetamiento siempre se mantiene por debajo del 75%"
       ],
       [
         "c",
-        "Ninguna de las anteriores."
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
-      "2"
+      "b"
     ]
   },
   {
@@ -3238,23 +3238,23 @@
     "options": [
       [
         "a",
-        "Iniciar un nuevo archivo y relacionarlo con el archivo que qued\u00f3 completo."
+        "Iniciar un nuevo archivo y relacionarlo con el archivo que qued\u00f3 completo"
       ],
       [
         "b",
-        "Obtener m\u00e1s espacio para el mismo archivo, actualizar la funci\u00f3n de hash, y redispersar el archivo completo. 3. Obtener m\u00e1s espacio para el mismo archivo, actualizar la funci\u00f3n de hash pero no redispersar (se usa la  nueva funci\u00f3n s\u00f3lo para los nuevos elementos)."
+        "Obtener m\u00e1s espacio para el mismo archivo, actualizar la funci\u00f3n de hash, y redispersar el archivo completo. 3. Obtener m\u00e1s espacio para el mismo archivo, actualizar la funci\u00f3n de hash pero no redispersar (se usa la  nueva funci\u00f3n s\u00f3lo para los nuevos elementos)"
       ],
       [
         "c",
-        "No es posible que se agote el espacio disponible asignado al archivo."
+        "No es posible que se agote el espacio disponible asignado al archivo"
       ],
       [
         "d",
-        "Ninguna de las anteriores."
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
-      "2"
+      "b"
     ]
   },
   {
@@ -3262,31 +3262,31 @@
     "options": [
       [
         "a",
-        "Se debe usar archivos con registro de long fija."
+        "Se debe usar archivos con registro de long fija"
       ],
       [
         "b",
-        "Siempre se encuentra un registro con un solo acceso a disco."
+        "Siempre se encuentra un registro con un solo acceso a disco"
       ],
       [
         "c",
-        "No existe orden f\u00edsico de datos."
+        "No existe orden f\u00edsico de datos"
       ],
       [
         "d",
-        "Ninguna de las anteriores."
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
-      "1"
+      "a"
     ]
   },
   {
-    "sentence": "El m\u00e9todo de tratamiento de desborde en \u00e1rea separada",
+    "sentence": "El m\u00e9todo de tratamiento de desborde en \u00e1rea separada:",
     "options": [
       [
         "a",
-        "Utiliza una segunda funci\u00f3n de hash para determinar donde va el registro en overflow. 2. Utiliza una segunda funci\u00f3n de hash para determinar el nuevo nodo donde se guardar\u00e1 el registro en  overflow."
+        "Utiliza una segunda funci\u00f3n de hash para determinar donde va el registro en overflow. 2. Utiliza una segunda funci\u00f3n de hash para determinar el nuevo nodo donde se guardar\u00e1 el registro en  overflow"
       ],
       [
         "b",
@@ -3298,11 +3298,11 @@
       ],
       [
         "d",
-        "Ninguna de las anteriores."
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
-      "5"
+      "e"
     ]
   },
   {
@@ -3314,7 +3314,7 @@
       ],
       [
         "b",
-        "Saturaci\u00f3n progresiva encadenada."
+        "Saturaci\u00f3n progresiva encadenada"
       ],
       [
         "c",
@@ -3326,11 +3326,11 @@
       ]
     ],
     "answers": [
-      "4"
+      "d"
     ]
   },
   {
-    "sentence": "El hash con espacio de direccionamiento din\u00e1mico",
+    "sentence": "El hash con espacio de direccionamiento din\u00e1mico:",
     "options": [
       [
         "a",
@@ -3350,11 +3350,11 @@
       ],
       [
         "e",
-        "Ninguna de las anteriores."
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
-      "3"
+      "c"
     ]
   },
   {
@@ -3362,23 +3362,23 @@
     "options": [
       [
         "a",
-        "Mejora el acceso a un archivo."
+        "Mejora el acceso a un archivo"
       ],
       [
         "b",
-        "Puede empeorar el acceso a los datos de un archivo."
+        "Puede empeorar el acceso a los datos de un archivo"
       ],
       [
         "c",
-        "Si es hash extensible la mejora es notable."
+        "Si es hash extensible la mejora es notable"
       ],
       [
         "d",
-        "El concepto no es aplicable."
+        "El concepto no es aplicable"
       ]
     ],
     "answers": [
-      "4"
+      "d"
     ]
   },
   {
@@ -3394,40 +3394,40 @@
       ],
       [
         "c",
-        "Siempre es m\u00e1s eficiente que cualquier situaci\u00f3n similar resultante con el m\u00e9todo de saturaci\u00f3n progresiva."
+        "Siempre es m\u00e1s eficiente que cualquier situaci\u00f3n similar resultante con el m\u00e9todo de saturaci\u00f3n progresiva"
       ]
     ],
     "answers": [
-      "3",
+      "c",
       "*2"
     ]
   },
   {
-    "sentence": "Una funci\u00f3n de hash",
+    "sentence": "Una funci\u00f3n de hash:",
     "options": [
       [
         "a",
-        "Siempre devuelve una direcci\u00f3n donde se deber\u00eda almacenar el registro dispersado 2. Siempre devuelve una secuencia de bits que sirve para determinar d\u00f3nde se deber\u00eda almacenar el registro  dispersado."
+        "Siempre devuelve una direcci\u00f3n donde se deber\u00eda almacenar el registro dispersado 2. Siempre devuelve una secuencia de bits que sirve para determinar d\u00f3nde se deber\u00eda almacenar el registro  dispersado"
       ],
       [
         "b",
-        "Siempre debe ser aleatoria."
+        "Siempre debe ser aleatoria"
       ],
       [
         "c",
-        "Todas las anteriores."
+        "Todas las anteriores"
       ],
       [
         "d",
-        "Algunas de las anteriores."
+        "Algunas de las anteriores"
       ]
     ],
     "answers": [
-      "3"
+      "c"
     ]
   },
   {
-    "sentence": "Cu\u00e1les de los siguientes \u00edtems puede considerarse atributos o propiedades de la t\u00e9cnica de hash 1. No requerir espacio adicional de almacenamiento",
+    "sentence": "Cu\u00e1les de los siguientes \u00edtems puede considerarse atributos o propiedades de la t\u00e9cnica de hash 1. No requerir espacio adicional de almacenamiento:",
     "options": [
       [
         "a",
@@ -3447,16 +3447,16 @@
       ],
       [
         "e",
-        "Algunas de las anteriores."
+        "Algunas de las anteriores"
       ]
     ],
     "answers": [
-      "6",
+      "f",
       "1, 2 y 3"
     ]
   },
   {
-    "sentence": "Cu\u00e1l de los siguientes par\u00e1metros de la t\u00e9cnica de hash es m\u00e1s importante? 1. Funci\u00f3n de hash",
+    "sentence": "Cu\u00e1l de los siguientes par\u00e1metros de la t\u00e9cnica de hash es m\u00e1s importante? 1. Funci\u00f3n de hash:",
     "options": [
       [
         "a",
@@ -3476,15 +3476,15 @@
       ],
       [
         "e",
-        "Ninguno prevalece sobre el otro."
+        "Ninguno prevalece sobre el otro"
       ]
     ],
     "answers": [
-      "6"
+      "f"
     ]
   },
   {
-    "sentence": "Se define la densidad de empaquetamiento como",
+    "sentence": "Se define la densidad de empaquetamiento como:",
     "options": [
       [
         "a",
@@ -3496,27 +3496,27 @@
       ],
       [
         "c",
-        "El cociente entre la cantidad de registros del archivo, y el producto entre la cantidad de nodos disponibles y la  capacidad de estos nodos."
+        "El cociente entre la cantidad de registros del archivo, y el producto entre la cantidad de nodos disponibles y la  capacidad de estos nodos"
       ],
       [
         "d",
-        "Las respuestas a,b y c son correctas."
+        "Las respuestas a,b y c son correctas"
       ],
       [
         "e",
-        "Las respuestas a y b son correctas."
+        "Las respuestas a y b son correctas"
       ],
       [
         "f",
-        "Las respuestas a y c son correctas."
+        "Las respuestas a y c son correctas"
       ],
       [
         "g",
-        "Las respuestas b y c son correctas."
+        "Las respuestas b y c son correctas"
       ]
     ],
     "answers": [
-      "F"
+      "f"
     ]
   },
   {
@@ -3524,7 +3524,7 @@
     "options": [
       [
         "a",
-        "Mantener el archivo f\u00edsicamente ordenado."
+        "Mantener el archivo f\u00edsicamente ordenado"
       ],
       [
         "b",
@@ -3536,7 +3536,7 @@
       ],
       [
         "d",
-        "no realizar grandes desplazamientos en disco."
+        "no realizar grandes desplazamientos en disco"
       ],
       [
         "e",
@@ -3553,7 +3553,7 @@
     ]
   },
   {
-    "sentence": "Un archivo con registro de longitud variable",
+    "sentence": "Un archivo con registro de longitud variable:",
     "options": [
       [
         "a",
@@ -3585,7 +3585,7 @@
     ]
   },
   {
-    "sentence": "Una clave permite",
+    "sentence": "Una clave permite:",
     "options": [
       [
         "a",
@@ -3617,7 +3617,7 @@
     ]
   },
   {
-    "sentence": "Para que tenga sentido un algoritmo de corte de control",
+    "sentence": "Para que tenga sentido un algoritmo de corte de control:",
     "options": [
       [
         "a",
@@ -3653,7 +3653,7 @@
     ]
   },
   {
-    "sentence": "Para que tenga sentido un algoritmo de corte de control",
+    "sentence": "Para que tenga sentido un algoritmo de corte de control:",
     "options": [
       [
         "a",
@@ -3689,7 +3689,7 @@
     ]
   },
   {
-    "sentence": "Un archivo en el cual se accede a un registro luego de acceder a su predecesor en alg\u00fan orden",
+    "sentence": "Un archivo en el cual se accede a un registro luego de acceder a su predecesor en alg\u00fan orden:",
     "options": [
       [
         "a",
@@ -3721,7 +3721,7 @@
     ]
   },
   {
-    "sentence": "El concepto de framentaci\u00f3n interna en un archivo",
+    "sentence": "El concepto de framentaci\u00f3n interna en un archivo:",
     "options": [
       [
         "a",
@@ -3749,7 +3749,7 @@
     ]
   },
   {
-    "sentence": "La tecnica de primer ajuste",
+    "sentence": "La tecnica de primer ajuste:",
     "options": [
       [
         "a",
@@ -3773,7 +3773,7 @@
     ]
   },
   {
-    "sentence": "El proceso de baja l\u00f3gica",
+    "sentence": "El proceso de baja l\u00f3gica:",
     "options": [
       [
         "a",
@@ -3805,7 +3805,7 @@
     ]
   },
   {
-    "sentence": "El proceso de alta de registro con recuperaci\u00f3n de espacio",
+    "sentence": "El proceso de alta de registro con recuperaci\u00f3n de espacio:",
     "options": [
       [
         "a",
@@ -3833,7 +3833,7 @@
     ]
   },
   {
-    "sentence": "El proceso de baja l\u00f3gica",
+    "sentence": "El proceso de baja l\u00f3gica:",
     "options": [
       [
         "a",
@@ -3861,7 +3861,7 @@
     ]
   },
   {
-    "sentence": "Un indice primario",
+    "sentence": "Un indice primario:",
     "options": [
       [
         "a",
@@ -3881,7 +3881,7 @@
     ]
   },
   {
-    "sentence": "Cuando un arbol B tiende a llenarse",
+    "sentence": "Cuando un arbol B tiende a llenarse:",
     "options": [
       [
         "a",
@@ -3905,7 +3905,7 @@
     ]
   },
   {
-    "sentence": "Cuales de las siguientes propiedades no corresponde a un arbol b* de orden M",
+    "sentence": "Cuales de las siguientes propiedades no corresponde a un arbol b* de orden M:",
     "options": [
       [
         "a",
@@ -3933,7 +3933,7 @@
     ]
   },
   {
-    "sentence": "Un \u00e1rbol que se encuentra balanceado",
+    "sentence": "Un \u00e1rbol que se encuentra balanceado:",
     "options": [
       [
         "a",
@@ -3977,7 +3977,7 @@
     ]
   },
   {
-    "sentence": "La eficiencia de busqueda de un arbol b",
+    "sentence": "La eficiencia de busqueda de un arbol b:",
     "options": [
       [
         "a",
@@ -4037,7 +4037,7 @@
     ]
   },
   {
-    "sentence": "Un \u00e1rbol B+ de prefijos simples",
+    "sentence": "Un \u00e1rbol B+ de prefijos simples:",
     "options": [
       [
         "a",
@@ -4073,7 +4073,7 @@
     ]
   },
   {
-    "sentence": "Un Arbol B+",
+    "sentence": "Un Arbol B+:",
     "options": [
       [
         "a",
@@ -4105,7 +4105,7 @@
     ]
   },
   {
-    "sentence": "Un arbol b+ de prefijos simples de orden M",
+    "sentence": "Un arbol b+ de prefijos simples de orden M:",
     "options": [
       [
         "a",
@@ -4133,7 +4133,7 @@
     ]
   },
   {
-    "sentence": "Cuales de los siguientes par\u00e1metros no corresponde a hashing",
+    "sentence": "Cuales de los siguientes par\u00e1metros no corresponde a hashing:",
     "options": [
       [
         "a",
@@ -4161,7 +4161,7 @@
     ]
   },
   {
-    "sentence": "Cual de los siguientes par\u00e1metros afecta la eficiencia de la dispersi\u00f3n",
+    "sentence": "Cual de los siguientes par\u00e1metros afecta la eficiencia de la dispersi\u00f3n:",
     "options": [
       [
         "a",
@@ -4201,7 +4201,7 @@
     ]
   },
   {
-    "sentence": "Un archivo tratado con hash estatico, que tiene una densidad de empaquetamiento del 10%",
+    "sentence": "Un archivo tratado con hash estatico, que tiene una densidad de empaquetamiento del 10%:",
     "options": [
       [
         "a",
@@ -4249,7 +4249,7 @@
     ]
   },
   {
-    "sentence": "La funci\u00f3n de hashing",
+    "sentence": "La funci\u00f3n de hashing:",
     "options": [
       [
         "a",
@@ -4289,23 +4289,23 @@
     "options": [
       [
         "a",
-        "Utiliza un \u00e1rea de memoria separada para las claves en overflow."
+        "Utiliza un \u00e1rea de memoria separada para las claves en overflow"
       ],
       [
         "b",
-        "Reduce la densidad de empaquetamiento."
+        "Reduce la densidad de empaquetamiento"
       ],
       [
         "c",
-        "Utiliza una segunda funci\u00f3n de dispersi\u00f3n siempre que se desee almacenar un registro en un archivo . d. Solo se aplica a la dispersi\u00f3n extensible."
+        "Utiliza una segunda funci\u00f3n de dispersi\u00f3n siempre que se desee almacenar un registro en un archivo . d. Solo se aplica a la dispersi\u00f3n extensible"
       ],
       [
         "d",
-        "Ayuda a predecir la cantidad de claves en overflow."
+        "Ayuda a predecir la cantidad de claves en overflow"
       ],
       [
         "e",
-        "Hay m\u00e1s de una opci\u00f3n correcta."
+        "Hay m\u00e1s de una opci\u00f3n correcta"
       ],
       [
         "f",
@@ -4317,7 +4317,7 @@
     ]
   },
   {
-    "sentence": "El metodo de area de desborde separada",
+    "sentence": "El metodo de area de desborde separada:",
     "options": [
       [
         "a",
@@ -4341,7 +4341,7 @@
       ],
       [
         "f",
-        "Ninguna de las anteriores."
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
@@ -4349,7 +4349,7 @@
     ]
   },
   {
-    "sentence": "Si se tiene una pol\u00edtica de hash con espacio de direccionamiento din\u00e1mico",
+    "sentence": "Si se tiene una pol\u00edtica de hash con espacio de direccionamiento din\u00e1mico:",
     "options": [
       [
         "a",
@@ -4381,7 +4381,7 @@
     ]
   },
   {
-    "sentence": "A partir de un archivo dispersado con hashing extensible",
+    "sentence": "A partir de un archivo dispersado con hashing extensible:",
     "options": [
       [
         "a",
@@ -4413,7 +4413,7 @@
     ]
   },
   {
-    "sentence": "La tecnica de hashing extensible",
+    "sentence": "La tecnica de hashing extensible:",
     "options": [
       [
         "a",
@@ -4453,7 +4453,7 @@
     ]
   },
   {
-    "sentence": "Un archivo con registro de longitud fija",
+    "sentence": "Un archivo con registro de longitud fija:",
     "options": [
       [
         "a",
@@ -4485,11 +4485,11 @@
     ]
   },
   {
-    "sentence": "Para realizar un algoritmo de actualizaci\u00f3n maestro-detalle",
+    "sentence": "Para realizar un algoritmo de actualizaci\u00f3n maestro-detalle:",
     "options": [
       [
         "a",
-        "Se requiere al menos 2 archivos."
+        "Se requiere al menos 2 archivos"
       ],
       [
         "b",
@@ -4525,23 +4525,23 @@
     "options": [
       [
         "a",
-        "Tiene orden lineal."
+        "Tiene orden lineal"
       ],
       [
         "b",
-        "Tiene orden logar\u00edtmico."
+        "Tiene orden logar\u00edtmico"
       ],
       [
         "c",
-        "Tiene orden constante (uno)."
+        "Tiene orden constante (uno)"
       ],
       [
         "d",
-        "Las opciones a y b son correctas."
+        "Las opciones a y b son correctas"
       ],
       [
         "e",
-        "Ninguna opci\u00f3n es correcta."
+        "Ninguna opci\u00f3n es correcta"
       ]
     ],
     "answers": [
@@ -4549,7 +4549,7 @@
     ]
   },
   {
-    "sentence": "Un algoritmo de corte de control",
+    "sentence": "Un algoritmo de corte de control:",
     "options": [
       [
         "a",
@@ -4573,23 +4573,23 @@
     "options": [
       [
         "a",
-        "Puede tener orden lineal."
+        "Puede tener orden lineal"
       ],
       [
         "b",
-        "Puede tener orden logar\u00edtmico."
+        "Puede tener orden logar\u00edtmico"
       ],
       [
         "c",
-        "Tiene orden constante (uno)."
+        "Tiene orden constante (uno)"
       ],
       [
         "d",
-        "Las opciones a y b son correctas."
+        "Las opciones a y b son correctas"
       ],
       [
         "e",
-        "Ninguna opci\u00f3n es correcta."
+        "Ninguna opci\u00f3n es correcta"
       ]
     ],
     "answers": [
@@ -4597,7 +4597,7 @@
     ]
   },
   {
-    "sentence": "El proceso de merge de archivos",
+    "sentence": "El proceso de merge de archivos:",
     "options": [
       [
         "a",
@@ -4625,7 +4625,7 @@
     ]
   },
   {
-    "sentence": "La tecnica de mejor ajuste",
+    "sentence": "La tecnica de mejor ajuste:",
     "options": [
       [
         "a",
@@ -4645,7 +4645,7 @@
     ]
   },
   {
-    "sentence": "La tecnica de primer ajuste",
+    "sentence": "La tecnica de primer ajuste:",
     "options": [
       [
         "a",
@@ -4677,7 +4677,7 @@
     ]
   },
   {
-    "sentence": "La tecnica de mejor ajuste",
+    "sentence": "La tecnica de mejor ajuste:",
     "options": [
       [
         "a",
@@ -4705,7 +4705,7 @@
     ]
   },
   {
-    "sentence": "El proceso de alta de registro por Peor Ajuste",
+    "sentence": "El proceso de alta de registro por Peor Ajuste:",
     "options": [
       [
         "a",
@@ -4733,7 +4733,7 @@
     ]
   },
   {
-    "sentence": "En un \u00edndice secundario",
+    "sentence": "En un \u00edndice secundario:",
     "options": [
       [
         "a",
@@ -4761,7 +4761,7 @@
     ]
   },
   {
-    "sentence": "Un \u00e1rbol binario",
+    "sentence": "Un \u00e1rbol binario:",
     "options": [
       [
         "a",
@@ -4793,7 +4793,7 @@
     ]
   },
   {
-    "sentence": "Cuales de las siguientes propiedades no corresponde a un arbol b* de orden M",
+    "sentence": "Cuales de las siguientes propiedades no corresponde a un arbol b* de orden M:",
     "options": [
       [
         "a",
@@ -4813,7 +4813,7 @@
     ]
   },
   {
-    "sentence": "Dado un arbol b* de orden 100",
+    "sentence": "Dado un arbol b* de orden 100:",
     "options": [
       [
         "a",
@@ -4845,7 +4845,7 @@
     ]
   },
   {
-    "sentence": "Una inserci\u00f3n en un nodo cualquiera (terminal) de arbol b",
+    "sentence": "Una inserci\u00f3n en un nodo cualquiera (terminal) de arbol b:",
     "options": [
       [
         "a",
@@ -4881,7 +4881,7 @@
     ]
   },
   {
-    "sentence": "dado un arbol b de prefijos simples de orden 100",
+    "sentence": "Dado un arbol b de prefijos simples de orden 100:",
     "options": [
       [
         "a",
@@ -4905,7 +4905,7 @@
     ]
   },
   {
-    "sentence": "Un arbol b",
+    "sentence": "Un arbol b:",
     "options": [
       [
         "a",

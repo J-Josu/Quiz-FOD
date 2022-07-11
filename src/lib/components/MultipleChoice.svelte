@@ -4,7 +4,7 @@
     options : string[][],
     answers : string[]
   }
-  import MultipleChoiceContent from '$lib/MultipleChoiceContent.svelte';
+  import MultipleChoiceContent from './MultipleChoiceContent.svelte';
   
   export let quizes : MultipleChoice[];
 

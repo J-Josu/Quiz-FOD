@@ -1,10 +1,14 @@
 <script lang="ts">
-  import { welcomePopUpOpen } from "$lib/stores";
-  import WelcomePopUp from "$lib/WelcomePopUp.svelte";
+  import { welcomePopUpOpen } from "$stores/stores";
+  import WelcomePopUp from "$components/WelcomePopUp.svelte";
 
   let waited = false;
-  setTimeout(() => waited = true, 500)
+  setTimeout(() => (waited = true), 500);
 </script>
+
+<svelte:head>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+</svelte:head>
 
 {#if waited && $welcomePopUpOpen}
   <WelcomePopUp />
@@ -21,7 +25,7 @@
   #a2d2ff,
   #cdb4db,
   #ffc8dd */
-  
+
   /* hsl(278, 35%, 75%),
   hsl(337, 100%, 75%),
   hsl(338, 100%, 75%),
@@ -29,7 +33,7 @@
   hsl(209, 100%, 75%),
   hsl(278, 35%, 75%),
   hsl(337, 100%, 75%) */
-  
+
   /* hsl(278, 35%, 08%),
         hsl(337, 100%, 19%),
         hsl(338, 100%, 14%),
@@ -51,10 +55,11 @@
   :global(body) {
     --color-top: 0;
     --color-bottom: 25;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     background-image: repeating-linear-gradient(
       to bottom,
-    hsl(278, 35%, 08%),
+      hsl(278, 35%, 08%),
       hsl(337, 100%, 19%),
       hsl(338, 100%, 14%),
       hsl(208, 97%, 17%),
@@ -63,21 +68,19 @@
       hsl(337, 100%, 19%)
     );
     background-size: 700% 700%;
-	  animation: gradient 25s linear infinite reverse;
+    animation: gradient 25s linear infinite reverse;
     display: grid;
     align-content: center;
     align-items: center;
     height: 100vh;
     justify-content: center;
-    color:hsl(0, 0%, 90%);
+    color: hsl(0, 0%, 90%);
     margin: 0;
   }
-  :global(*,*::after,*::before) {
+  :global(*, *::after, *::before) {
     box-sizing: border-box;
   }
 
-
-  
   /* button{
     border: none;
     color: hsl(0, 0%, 70%);

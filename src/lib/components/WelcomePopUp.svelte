@@ -1,6 +1,6 @@
 <script lang="ts">
   import { fade } from 'svelte/transition';
-  import { welcomePopUpOpen } from "./stores";
+  import { welcomePopUpOpen } from '$stores/stores';
 </script>
 
 <div
@@ -13,6 +13,7 @@
       el creador no se hace responsable por que la informacion
       en los quiz este equivocada.
     </p>
+    <footer style:color='#000'>Y obviamente dono mi ALMA</footer>
     <button on:click={() => welcomePopUpOpen.set(false)}>Acepto los Terminos<br/>y<br/>Condiciones</button>
   </div>
 </div>

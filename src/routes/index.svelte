@@ -1,35 +1,37 @@
 <script lang="ts">
-  import MultipleChoice from '$lib/MultipleChoice.svelte';
-  import quizData from '$lib/data/extracted_multiple_choices.json';
-  import { welcomePopUpOpen } from '$lib/stores';
+  import MultipleChoice from "$components/MultipleChoice.svelte";
+  import quizData from "$lib/data/extracted_multiple_choices.json";
+  import { welcomePopUpOpen } from "$stores/stores";
 
   let isPlaying = false;
 </script>
 
 <svelte:head>
   <title>Quiz FOD</title>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta
+    name="description"
+    content="Una forma mas entretenida de estudiar y repasar que
+    solo leer teoria y/o resumenes."
+  />
 </svelte:head>
 
 <div>
-  <h1>{isPlaying? 'Quiz Time':'Si sabes, empeza'}</h1>
-  
-  {#if isPlaying}
-    <MultipleChoice quizes={quizData}></MultipleChoice>
-  {:else}
-    <button on:click={() => isPlaying=true}>Comenzar</button>
-  {/if}
+  <h1>{isPlaying ? "Quiz Time" : "Si sabes, empeza"}</h1>
 
+  {#if isPlaying}
+    <MultipleChoice quizes={quizData} />
+  {:else}
+    <button on:click={() => (isPlaying = true)}>Comenzar</button>
+  {/if}
 </div>
 
 {#if isPlaying}
-  <button on:click={() => isPlaying=false} class='reset'>Home</button>
+  <button on:click={() => (isPlaying = false)} class="reset">Home</button>
 {/if}
 
-<button
-  on:click={() => welcomePopUpOpen.set(!$welcomePopUpOpen)}
-  class='info'
->&#9432;</button>
+<button on:click={() => welcomePopUpOpen.set(!$welcomePopUpOpen)} class="info"
+  >&#9432;</button
+>
 
 <style>
   h1 {
@@ -44,7 +46,7 @@
     align-content: center;
     align-items: center;
   }
-  button{
+  button {
     --light: 70%;
     border: none;
     color: hsl(0, 0%, var(--light));
@@ -64,9 +66,9 @@
     bottom: 0;
     left: 0;
   }
-  button::before{
+  button::before {
     border-radius: 6px;
-    content: '';
+    content: "";
     position: absolute;
     width: calc(100% + 6px);
     height: calc(100% + 6px);
@@ -80,7 +82,7 @@
     --light: 90%;
     transform: translate(5px, -5px);
   }
-  button:hover::before{
+  button:hover::before {
     --light: 50%;
     transform: translate(-10px, 10px);
   }
@@ -92,10 +94,10 @@
     right: 0;
     margin: 0.5rem;
     padding: 0.5rem;
-    font-weight:bolder;
-    border-radius:100%;
+    font-weight: bolder;
+    border-radius: 100%;
     font-size: 1.5rem;
-    border:none;
+    border: none;
     color: hsla(0, 0%, 90%, 50%);
     transition: all 0.3s ease;
     /* box-shadow:1px 1px 2rem 1rem hsla(0, 0%, 90%, 50%); */
@@ -106,8 +108,8 @@
   .info:hover {
     color: hsla(0, 0%, 90%, 100%);
     transform: none;
-    border:none;
+    border: none;
     background-color: hsla(0, 0%, 90%, 5%);
-    box-shadow:0px 0px 1rem 1rem hsla(0, 0%, 90%, 5%);
+    box-shadow: 0px 0px 1rem 1rem hsla(0, 0%, 90%, 5%);
   }
 </style>

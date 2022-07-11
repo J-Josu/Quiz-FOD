@@ -9,22 +9,28 @@ type JsonValue =
   | JsonValue[]
   | { [key: string]: JsonValue };
 
-export const localStore = (key: string, initial: JsonValue) => {
-  const toString = (value: JsonValue) => JSON.stringify(value, null, 2);
+export const localStore = <T>(key: string, initial: T) => {
+  const toString = (value: T) => JSON.stringify(value, null, 2);
   const toObj = JSON.parse;
 
-  if (browser && localStorage.getItem(key) === null) {
-    localStorage.setItem(key, toString(initial));
+  let startValue = initial;
+  if (browser) {
+    let savedValue = localStorage.getItem(key);
+    if (savedValue === null) {
+      localStorage.setItem(key, toString(initial));
+      startValue = initial;
+    }
+    else {
+      startValue = toObj(savedValue);
+    }
   }
 
-  const saved = browser? toObj(localStorage.getItem(key)) : initial;
-
-  const { subscribe, set, update } = writable(saved);
+  const { subscribe, set, update } = writable<T>(startValue);
 
   return {
     subscribe,
-    set: (value: JsonValue) => {
-      localStorage.setItem(key, toString(value));
+    set: (value: T) => {
+      browser && localStorage.setItem(key, toString(value));
       return set(value);
     },
     update,

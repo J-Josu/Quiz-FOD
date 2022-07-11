@@ -90,7 +90,7 @@
   }
 
   .reset {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     margin: 1.5rem;

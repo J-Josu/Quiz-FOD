@@ -49,7 +49,7 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    max-width: 1024px;
+    max-width: clamp(95vw, 90vw, 1024px);
     margin: 0 auto;
   }
 
@@ -62,23 +62,21 @@
     padding: clamp(0.5rem, 2vw, 2rem);
   }
   footer button {
+    position: relative;
+    padding: 0;
+    border: none;
     opacity: 0.75;
     color: var(--fc-primary);
-    border: none;
-    border-radius: 6px;
-    transition: all 0.5s ease;
-    position: relative;
     font-weight: bolder;
-    padding: 0;
   }
   footer button::before {
-    opacity: 1;
     content: "";
     position: absolute;
-    bottom: 0;
     width: 0%;
+    bottom: 0;
     left: 50%;
     border-bottom: 2px solid var(--fc-primary);
+    opacity: 1;
     transition: width 0.5s ease, left 0.5s ease;
   }
   footer button:hover {
@@ -86,6 +84,6 @@
   }
   footer button:hover::before {
     width: 100%;
-    left: 0.5px;
+    left: 0px;
   }
 </style>

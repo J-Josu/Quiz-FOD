@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { emojiCount } from "$lib/stores/stores";
+
   type MultipleChoice = {
     sentence: string;
     options: string[][];
@@ -32,9 +34,24 @@
 <div>
   <button on:click={submitAnswer}>Ver respuesta</button>
   <button on:click={() => newChoice()}>Nueva</button>
+  <!-- remove tomorrow -->
+  <button on:click={() => ($emojiCount += 1)}>Emoji++</button>
+  <button on:click={() => ($emojiCount = $emojiCount)}>Emoji=Emoji</button>
+  <button on:click={() => emojiCount.reset()}>!Emoji</button>
+  <!--  -->
 </div>
 
 <style>
+  /* remove tomorrow */
+  div {
+    display: flex;
+    overflow-x: scroll;
+    max-width: 75vw;
+  }
+  button {
+    min-width: fit-content;
+  }
+  /*  */
   button {
     border: none;
     color: var(--fc-tertiary);

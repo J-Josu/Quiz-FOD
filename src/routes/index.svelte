@@ -5,6 +5,7 @@
   import WelcomePopUp from "$components/WelcomePopUp.svelte";
   import MultipleChoice from "$components/MultipleChoice.svelte";
   import quizData from "$lib/data/extracted_multiple_choices.json";
+  import EmojiRain from "$lib/components/EmojiRain.svelte";
 
   let waited = false;
   setTimeout(() => (waited = true), 500);
@@ -24,6 +25,8 @@
 {#if waited && $welcomePopUpOpen}
   <WelcomePopUp />
 {/if}
+
+<EmojiRain />
 
 <section>
   {#if !isPlaying}

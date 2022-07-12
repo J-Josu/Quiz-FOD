@@ -15,9 +15,9 @@
 <style>
   section {
     display: flex;
-		flex: 1;
+    flex: 1;
     flex-direction: column;
-		justify-content: center;
+    justify-content: center;
     align-items: center;
   }
   section > * {
@@ -37,7 +37,7 @@
     position: absolute;
     bottom: 0;
     width: 0%;
-    left:50%;
+    left: 50%;
     border-bottom: 2px solid var(--fc-accent);
     transition: width 0.5s ease, left 0.5s ease;
   }

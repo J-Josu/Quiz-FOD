@@ -7,7 +7,7 @@ type CounterStatus = {
   reset: () => void
 }
 
-export const limitedCounter = (max: number, initial = 0): CounterStatus => {
+export const limitedCounterStore = (max: number, initial = 0): CounterStatus => {
   const _max = max;
   let count = initial;
   let state: 'RESETED' | 'EQUAL' | 'INCREMENTED' | '' = '';
@@ -15,8 +15,8 @@ export const limitedCounter = (max: number, initial = 0): CounterStatus => {
   let subscribeFunctions: ((currentCount: number) => void)[] = [];
 
   const set = (newValue: number): void => {
-    console.log(newValue);
     lastCount = count;
+
     if (newValue > count) {
       state = 'INCREMENTED';
       count = newValue > _max ? count : newValue;
@@ -26,9 +26,8 @@ export const limitedCounter = (max: number, initial = 0): CounterStatus => {
       count = 0;
       state = 'RESETED';
     }
-    subscribeFunctions.forEach((func) => func(count))
 
-    console.log(count);
+    subscribeFunctions.forEach((func) => func(count))
   }
 
   const update = (callback: (currentCount: number) => number) => {
@@ -41,8 +40,9 @@ export const limitedCounter = (max: number, initial = 0): CounterStatus => {
       callback(count);
 
     return () => {
-      subscribeFunctions =
-        subscribeFunctions.filter((func: (count: number) => void) => callback !== func)
+      subscribeFunctions = subscribeFunctions.filter(
+        (func: (count: number) => void) => callback !== func
+      )
     }
   }
 

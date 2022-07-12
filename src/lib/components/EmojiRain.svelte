@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { emojiCount } from "$stores/stores";
   import { onMount } from "svelte";
+  import { emojiCount } from "$stores/stores";
 
   type Emoji = {
     character: string;
@@ -17,12 +17,13 @@
 
   let emojis: Emoji[] = [];
   let frame: number = -1;
+
   const loop = () => {
     frame = requestAnimationFrame(loop);
 
     emojis = emojis
       .map((emoji) => {
-        emoji.y += 0.7 * emoji.r;
+        emoji.y += 0.5 * emoji.r;
         return emoji.y > 120 ? null : emoji;
       })
       .filter((emoji) => emoji !== null) as Emoji[];
@@ -55,13 +56,12 @@
                 ? characters.unknown
                 : characters.bad,
             x: Math.random() * 100,
-            y: -Math.random() * 10,
+            y: Math.random() * -10,
             r: 0.1 + Math.random() * 1,
           };
         })
         .sort((a, b) => a.r - b.r),
     ];
-    console.log("entre");
     frame !== -1 && cancelAnimationFrame(frame);
     loop();
   };
@@ -91,9 +91,10 @@
     margin: 0;
     z-index: -1;
   }
+
   span {
     position: absolute;
-    font-size: 5vw;
+    font-size: clamp(4px, 5vw, 2rem);
     user-select: none;
   }
 </style>

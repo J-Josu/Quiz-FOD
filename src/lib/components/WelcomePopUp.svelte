@@ -53,6 +53,7 @@
   p {
     text-align: center;
   }
+
   button {
     --light: 70%;
     border: none;

@@ -6,52 +6,65 @@
     options: string[][];
     answers: string[];
   };
-  import MultipleChoiceContent from "./MultipleChoiceContent.svelte";
+  import ChoiceContent from "./ChoiceContent.svelte";
 
   export let quizes: MultipleChoice[];
 
   let choice: MultipleChoice;
-  let state: "new" | "answered" | "" = "";
-  function newChoice() {
-    state = "new";
+  let selected = "";
+  let showAnswers = false;
+  let answered = false;
+  
+  const newChoice = () => {
+    selected = "";
+    showAnswers = false;
+    answered = false;
     choice = quizes[Math.floor(Math.random() * quizes.length)];
-  }
+  };
 
-  function submitAnswer() {
-    state = "answered";
-  }
-
+  const validateAnswer = () => {
+    if (answered) return;
+    answered = true;
+    showAnswers = true;
+    if (selected == "" || choice.options.length === 0) {
+      $emojiCount = $emojiCount;
+      return;
+    }
+    const possibleAnswers = choice.answers.map((answer) =>
+      answer.toLocaleLowerCase()
+    );
+    const existAnswers = possibleAnswers
+      .map((answer) => {
+        const optionIndex = choice.options.findIndex(
+          (option) =>
+            option.filter((value) => value.toLowerCase() === answer).length > 0
+        );
+        return optionIndex;
+      })
+      .filter((index) => index != -1);
+    if (existAnswers.length === 0) {
+      $emojiCount = $emojiCount;
+      return;
+    }
+    const userAnswerIndex = choice.options.findIndex(
+      (option) => option[0].toLowerCase() === selected.toLowerCase()
+    );
+    if (existAnswers.findIndex((index) => index === userAnswerIndex) === -1) {
+      emojiCount.reset();
+      return;
+    }
+    $emojiCount += 1;
+  };
   newChoice();
 </script>
 
-<MultipleChoiceContent
-  sentence={choice.sentence}
-  options={choice.options}
-  answers={choice.answers}
-  {state}
-  on:reset={(e) => (state = "")}
-/>
+<ChoiceContent {...choice} bind:selected {showAnswers} />
 <div>
-  <button on:click={submitAnswer}>Ver respuesta</button>
-  <button on:click={() => newChoice()}>Nueva</button>
-  <!-- remove tomorrow -->
-  <button on:click={() => ($emojiCount += 1)}>Emoji++</button>
-  <button on:click={() => ($emojiCount = $emojiCount)}>Emoji=Emoji</button>
-  <button on:click={() => emojiCount.reset()}>!Emoji</button>
-  <!--  -->
+  <button on:click={validateAnswer}>Ver respuesta</button>
+  <button on:click={newChoice}>Nueva</button>
 </div>
 
 <style>
-  /* remove tomorrow */
-  div {
-    display: flex;
-    overflow-x: scroll;
-    max-width: 75vw;
-  }
-  button {
-    min-width: fit-content;
-  }
-  /*  */
   button {
     border: none;
     color: var(--fc-tertiary);
@@ -122,8 +135,6 @@
   @media screen and (max-width: 688px) {
     button {
       margin: 0.5rem 0.25rem;
-      /* padding: 0.25rem 0.5rem;
-      font-size: 0.75rem; */
     }
   }
 </style>

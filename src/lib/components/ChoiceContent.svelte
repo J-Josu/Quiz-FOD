@@ -1,42 +1,38 @@
 <script lang="ts">
-  import { createEventDispatcher } from "svelte";
-  import { slide } from "svelte/transition"
-  import McOption from "./MCOption.svelte";
-
-  const dispatch = createEventDispatcher<{reset:{}}>();
+  import { slide } from "svelte/transition";
+  import ChoiceOption from "./ChoiceOption.svelte";
 
   export let sentence: string;
   export let options: string[][];
   export let answers: string[];
-  export let state: string;
-  
-  let selected='';
-  function handleSelected(e:CustomEvent<{index:string}>) {
-    selected = e.detail.index
+  export let selected = "";
+  export let showAnswers = false;
+
+  function handleSelected(e: CustomEvent<{ index: string }>) {
+    selected = e.detail.index;
   }
 
-  $: if (state === 'new') {
-    selected = '';
-    dispatch('reset', {});
-  }
+  $: if (!showAnswers) selected = "";
 </script>
 
-<div class='container'>
+<div class="container">
   <h3>{sentence}</h3>
   <ul>
     {#each options as option}
-      <McOption
+      <ChoiceOption
         index={option[0]}
         text={option[1]}
-        selected={selected===option[0]}
+        selected={selected === option[0]}
         on:selected={handleSelected}
-      ></McOption>
+      />
     {/each}
   </ul>
-  {#if state==='answered'}
-    <div class='container' in:slide>
-      <h4>{answers.length > 1? 'Posibles respuestas': 'Posible respuesta'}</h4>
-      <p style='display:flex; gap:2rem; '>
+  {#if showAnswers}
+    <div class="container" in:slide>
+      <h4>
+        {answers.length > 1 ? "Posibles respuestas" : "Posible respuesta"}
+      </h4>
+      <p style="display:flex; gap:2rem; ">
         {#if answers.length > 0}
           {#each answers as answer}
             <span>{answer}</span>
@@ -58,13 +54,16 @@
     border-radius: 1rem;
     max-width: 960px;
   }
+
   h4 {
     display: block;
   }
+
   ul {
     list-style: none;
     margin-top: 0;
   }
+
   p {
     margin-top: 0;
   }

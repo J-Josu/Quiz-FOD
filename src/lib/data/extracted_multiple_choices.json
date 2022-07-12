@@ -809,7 +809,7 @@
     ],
     "answers": [
       "e",
-      "*la b y la c? no ser\u00eda puede generar fragmentaci\u00f3n?"
+      "*La b y la c? No ser\u00eda PUEDE generar fragmentaci\u00f3n?"
     ]
   },
   {
@@ -830,7 +830,7 @@
     ],
     "answers": [
       "d",
-      "*c\u00f3mo puede generar fragmentaci\u00f3n externa? si es fijo"
+      "*c\u00f3mo puede generar fragmentaci\u00f3n externa? Si es fijo"
     ]
   },
   {
@@ -2969,7 +2969,7 @@
     ],
     "answers": [
       "f*",
-      "de no aplica a long variable o que?@"
+      "DE no aplica a long variable o que?@"
     ]
   },
   {
@@ -4313,7 +4313,7 @@
       ]
     ],
     "answers": [
-      "Utiliza un \u00e1rea de memoria separada para las claves en overflow."
+      "Utiliza un \u00e1rea de memoria separada para las claves en overflow"
     ]
   },
   {
@@ -4517,7 +4517,7 @@
       ]
     ],
     "answers": [
-      "Se requiere al menos 2 archivos."
+      "Se requiere al menos 2 archivos"
     ]
   },
   {
@@ -4545,7 +4545,7 @@
       ]
     ],
     "answers": [
-      "Tiene orden lineal."
+      "Tiene orden lineal"
     ]
   },
   {
@@ -4593,7 +4593,7 @@
       ]
     ],
     "answers": [
-      "Ninguna opci\u00f3n es correcta."
+      "Ninguna opci\u00f3n es correcta"
     ]
   },
   {

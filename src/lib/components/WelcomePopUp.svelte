@@ -1,20 +1,19 @@
 <script lang="ts">
-  import { fade } from 'svelte/transition';
-  import { welcomePopUpOpen } from '$stores/stores';
+  import { fade } from "svelte/transition";
+  import { welcomePopUpOpen } from "$stores/stores";
 </script>
 
-<div
-  class='container'
-  transition:fade
->
-  <div class='content'>
+<div class="container" transition:fade>
+  <div class="content">
     <h1>Advertencia</h1>
-    <p>Usted utiliza esta pagina bajo su propia voluntad,<br>
-      el creador no se hace responsable por que la informacion
-      en los quiz este equivocada.
+    <p>
+      Usted utiliza esta pagina bajo su propia voluntad,<br />
+      el creador no se hace responsable por que la informacion en los quiz este equivocada.
     </p>
-    <footer style:color='#000'>Y obviamente dono mi ALMA</footer>
-    <button on:click={() => welcomePopUpOpen.set(false)}>Acepto los Terminos<br/>y<br/>Condiciones</button>
+    <footer style:color="#000">Y obviamente dono mi ALMA</footer>
+    <button on:click={() => ($welcomePopUpOpen = false)}
+      >Acepto los Terminos<br />y<br />Condiciones</button
+    >
   </div>
 </div>
 
@@ -34,7 +33,7 @@
   }
 
   .content {
-    --alpha : 95%;
+    --alpha: 95%;
     max-width: 480px;
     display: flex;
     flex-direction: column;
@@ -48,13 +47,13 @@
   }
   .content:hover {
     --alpha: 99.5%;
-    box-shadow:1px 1px 2rem 1rem hsla(0, 0%, 0%, var(--alpha));
+    box-shadow: 1px 1px 2rem 1rem hsla(0, 0%, 0%, var(--alpha));
   }
-  
+
   p {
     text-align: center;
   }
-  button{
+  button {
     --light: 70%;
     border: none;
     color: hsl(0, 0%, var(--light));
@@ -70,9 +69,9 @@
     border-radius: 6px;
     cursor: pointer;
   }
-  button::before{
+  button::before {
     border-radius: 6px;
-    content: '';
+    content: "";
     position: absolute;
     width: calc(100% + 6px);
     height: calc(100% + 6px);
@@ -86,7 +85,7 @@
     --light: 90%;
     transform: translate(5px, -5px);
   }
-  button:hover::before{
+  button:hover::before {
     --light: 50%;
     transform: translate(-10px, 10px);
   }

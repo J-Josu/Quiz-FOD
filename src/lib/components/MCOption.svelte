@@ -1,22 +1,16 @@
 <script lang="ts">
   import { createEventDispatcher } from "svelte";
 
-  const dispatch = createEventDispatcher<{selected:{index:string}}>();
+  const dispatch = createEventDispatcher<{ selected: { index: string } }>();
 
   export let index: string;
   export let text: string;
-  export let selected= false;
-  // export let update:any;
+  export let selected = false;
 
-  function handleClick() {
-    // update(index);
-    dispatch('selected',{index})
-  }
-
-  $: styledText = text[0].toUpperCase() + text.slice(1)
+  $: styledText = text[0].toUpperCase() + text.slice(1);
 </script>
 
-<div class:selected on:click={handleClick}>
+<div class:selected on:click={() => dispatch("selected", { index })}>
   <span>{index.toLocaleUpperCase()}.&nbsp;</span>
   <span>{styledText}</span>
 </div>

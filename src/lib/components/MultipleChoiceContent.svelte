@@ -1,5 +1,6 @@
 <script lang="ts">
   import { createEventDispatcher } from "svelte";
+  import { slide } from "svelte/transition"
   import McOption from "./MCOption.svelte";
 
   const dispatch = createEventDispatcher<{reset:{}}>();
@@ -21,7 +22,7 @@
 </script>
 
 <div class='container'>
-  <h2>{sentence}</h2>
+  <h3>{sentence}</h3>
   <ul>
     {#each options as option}
       <McOption
@@ -33,9 +34,9 @@
     {/each}
   </ul>
   {#if state==='answered'}
-    <div class='container'>
-      <h3>{answers.length > 1? 'Posibles respuestas': 'Posible respuesta'}</h3>
-      <div style='display:flex; gap:2rem; '>
+    <div class='container' in:slide>
+      <h4>{answers.length > 1? 'Posibles respuestas': 'Posible respuesta'}</h4>
+      <p style='display:flex; gap:2rem; '>
         {#if answers.length > 0}
           {#each answers as answer}
             <span>{answer}</span>
@@ -43,19 +44,28 @@
         {:else}
           <span>No disponible</span>
         {/if}
-      </div>
+      </p>
     </div>
   {/if}
 </div>
 
 <style>
   .container {
-    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
     background-color: hsla(var(--fc-primary-content), 2.5%);
     border-radius: 1rem;
     max-width: 960px;
   }
+  h4 {
+    display: block;
+  }
   ul {
     list-style: none;
+    margin-top: 0;
+  }
+  p {
+    margin-top: 0;
   }
 </style>

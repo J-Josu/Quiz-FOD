@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { dev } from "$app/env";
+  import { blur, scale } from "svelte/transition";
   import { welcomePopUpOpen } from "$stores/stores";
   import WelcomePopUp from "$components/WelcomePopUp.svelte";
   import MultipleChoice from "$components/MultipleChoice.svelte";
@@ -24,21 +26,25 @@
 {/if}
 
 <section>
-  <h1>{isPlaying ? "Quiz Time" : "Si sabes, empeza"}</h1>
-
-  {#if isPlaying}
-    <MultipleChoice quizes={quizData} />
+  {#if !isPlaying}
+    <div in:blur>
+      <h1>Si sabes, empeza</h1>
+      <button on:click={() => (isPlaying = true)}>Comenzar</button>
+    </div>
   {:else}
-    <button on:click={() => (isPlaying = true)}>Comenzar</button>
+    <div in:scale>
+      <h1>Quiz Time</h1>
+      <MultipleChoice quizes={quizData} />
+    </div>
+    <button on:click={() => (isPlaying = false)} class="reset">Home</button>
   {/if}
 </section>
 
-{#if isPlaying}
-  <button on:click={() => (isPlaying = false)} class="reset">Home</button>
+{#if dev}
+  <button class="info" on:click={() => ($welcomePopUpOpen = true)}
+    >&#9432;</button
+  >
 {/if}
-<button class="info" on:click={() => welcomePopUpOpen.set(!$welcomePopUpOpen)}
-  >&#9432;</button
->
 
 <style>
   section {
@@ -46,6 +52,12 @@
     flex: 1;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
     align-items: center;
   }
 
@@ -71,10 +83,10 @@
     border-radius: 6px;
     content: "";
     position: absolute;
-    width: calc(100% + calc(var(--delta)*2));
-    height: calc(100% + calc(var(--delta)*2));
-    left: calc(var(--delta)*-1);
-    bottom: calc(var(--delta)*-1);
+    width: calc(100% + calc(var(--delta) * 2));
+    height: calc(100% + calc(var(--delta) * 2));
+    left: calc(var(--delta) * -1);
+    bottom: calc(var(--delta) * -1);
     z-index: -1;
     border: var(--delta) solid var(--color);
     opacity: 0.5;
@@ -120,7 +132,7 @@
     background-color: hsla(var(--fc-primary-content), 0.05);
     box-shadow: 0px 0px 1rem 1rem hsl(var(--fc-primary-content), 0.05);
   }
-  
+
   @media screen and (max-width: 1312px) {
     button {
       margin: 1.5rem;
@@ -136,8 +148,8 @@
     }
     .info {
       content: none;
-      margin: calc(0.5rem*0.75);
-      padding: calc(0.5rem*0.75);
+      margin: calc(0.5rem * 0.75);
+      padding: calc(0.5rem * 0.75);
     }
   }
   @media screen and (max-width: 992px) {
@@ -154,22 +166,8 @@
       margin: 0.5rem;
     }
     .info {
-      margin: calc(0.5rem*0.5);
-      padding: calc(0.5rem*0.5);
+      margin: 0.25rem;
+      padding: 0.25rem;
     }
   }
-  /* @media screen and (max-width: 688px) {
-    button {
-      margin: 0.5rem;
-      padding: 0.25rem 0.5rem;
-      font-size: 0.75rem;
-    }
-    .reset {
-      margin: 0.25rem;
-    }
-    .info {
-      margin: calc(0.5rem*0.25);
-      padding: calc(0.5rem*0.25);
-    }
-  } */
 </style>

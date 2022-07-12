@@ -35,9 +35,6 @@
 </div>
 
 <style>
-  /* div {
-    display: flex;
-  } */
   button {
     border: none;
     color: var(--fc-tertiary);

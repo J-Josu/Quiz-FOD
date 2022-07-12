@@ -4,7 +4,7 @@
   import { preferredTheme } from "$stores/stores";
 
   const toggleTheme = () => {
-    window.document.body.classList.toggle("dark-mode");
+    document.body.classList.toggle("dark-mode");
     preferredTheme.set(
       $preferredTheme === "dark-mode" ? "light-mode" : "dark-mode"
     );

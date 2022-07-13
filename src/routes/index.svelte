@@ -1,11 +1,11 @@
 <script lang="ts">
-  import { dev } from "$app/env";
   import { blur, scale } from "svelte/transition";
+  import { dev } from "$app/env";
   import { welcomePopUpOpen } from "$stores/stores";
+  import quizData from "$lib/data/extracted_multiple_choices.json";
   import WelcomePopUp from "$components/WelcomePopUp.svelte";
   import MultipleChoice from "$components/MultipleChoice.svelte";
-  import quizData from "$lib/data/extracted_multiple_choices.json";
-  import EmojiRain from "$lib/components/EmojiRain.svelte";
+  import EmojiRain from "$components/EmojiRain.svelte";
 
   let waited = false;
   setTimeout(() => (waited = true), 500);
@@ -35,7 +35,7 @@
       <button on:click={() => (isPlaying = true)}>Comenzar</button>
     </div>
   {:else}
-    <div in:scale>
+    <div in:scale style="overflow-x:hidden">
       <h1>Quiz Time</h1>
       <MultipleChoice quizes={quizData} />
     </div>

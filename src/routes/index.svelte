@@ -2,7 +2,6 @@
   import { blur, scale } from "svelte/transition";
   import { dev } from "$app/env";
   import { welcomePopUpOpen } from "$stores/stores";
-  import quizData from "$lib/data/extracted_multiple_choices.json";
   import WelcomePopUp from "$components/WelcomePopUp.svelte";
   import MultipleChoice from "$components/MultipleChoice.svelte";
   import EmojiRain from "$components/EmojiRain.svelte";
@@ -35,9 +34,9 @@
       <button on:click={() => (isPlaying = true)}>Comenzar</button>
     </div>
   {:else}
-    <div in:scale style="overflow-x:hidden">
+    <div in:scale>
       <h1>Quiz Time</h1>
-      <MultipleChoice quizes={quizData} />
+      <MultipleChoice />
     </div>
     <button on:click={() => (isPlaying = false)} class="reset">Home</button>
   {/if}

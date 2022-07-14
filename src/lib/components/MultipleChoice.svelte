@@ -1,16 +1,9 @@
 <script lang="ts">
-  import { emojiCount } from "$lib/stores/stores";
-
-  type MultipleChoice = {
-    sentence: string;
-    options: string[][];
-    answers: string[];
-  };
+  import { onMount } from "svelte";
+  import { emojiCount, choiceSample } from "$lib/stores/stores";
   import ChoiceContent from "./ChoiceContent.svelte";
 
-  export let quizes: MultipleChoice[];
-
-  let choice: MultipleChoice;
+  $: choice = $choiceSample;
   let selected = "";
   let showAnswers = false;
   let answered = false;
@@ -19,7 +12,7 @@
     selected = "";
     showAnswers = false;
     answered = false;
-    choice = quizes[Math.floor(Math.random() * quizes.length)];
+    choiceSample.nextChoice();
   };
 
   const validateAnswer = () => {
@@ -55,11 +48,12 @@
     }
     $emojiCount += 1;
   };
-  newChoice();
+
+  onMount(() => choiceSample.nextChoice());
 </script>
 
 <ChoiceContent {...choice} bind:selected {showAnswers} />
-<div>
+<div style="display:flex">
   <button on:click={validateAnswer}>Ver respuesta</button>
   <button on:click={newChoice}>Nueva</button>
 </div>

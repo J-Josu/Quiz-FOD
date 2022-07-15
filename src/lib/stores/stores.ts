@@ -8,7 +8,7 @@ export const welcomePopUpOpen = localStore<boolean>('welcomePopUp', true);
 
 export const preferredTheme = localStore<string>('preferredTheme', 'light-mode');
 
-export const emojiCount = limitedCounterStore(35);
+export const emojiCount = limitedCounterStore(32);
 
 
 type MultipleChoice = {
@@ -17,8 +17,7 @@ type MultipleChoice = {
   answers: string[];
 };
 
-const shuffledChoicesData = quizData;
-shuffledChoicesData.sort(() => Math.random() - 0.5);
+const shuffledChoicesData = [...quizData].sort(() => Math.random() - 0.5);
 
 const createChoiceStore = () => {
   const { set, subscribe } = writable<MultipleChoice>(shuffledChoicesData[0]);

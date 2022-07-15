@@ -11,7 +11,7 @@
 </script>
 
 <div class:selected on:click={() => dispatch("selected", { index })}>
-  <span>{index.toLocaleUpperCase()}.&nbsp;</span>
+  <span>{index.toUpperCase()}.&nbsp;</span>
   <span>{styledText}</span>
 </div>
 

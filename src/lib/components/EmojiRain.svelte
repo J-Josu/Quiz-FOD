@@ -2,6 +2,8 @@
   import { onMount } from "svelte";
   import { emojiCount } from "$stores/stores";
 
+  const EMOJI_DUPLICATION_STEP = 4;
+
   type Emoji = {
     character: string;
     x: number;
@@ -24,7 +26,7 @@
     emojis = emojis
       .map((emoji) => {
         emoji.y += 0.5 * emoji.r;
-        return emoji.y > 120 ? null : emoji;
+        return emoji.y > 110 ? null : emoji;
       })
       .filter((emoji) => emoji !== null) as Emoji[];
 
@@ -42,12 +44,13 @@
         Math.pow(
           2,
           Math.floor(
-            (state === "RESETED" ? emojiCount.lastCount() : $emojiCount) / 5
+            (state === "RESETED" ? emojiCount.lastCount() : $emojiCount) /
+              EMOJI_DUPLICATION_STEP
           )
         )
       )
         .fill(null)
-        .map((_, i) => {
+        .map((_) => {
           return {
             character:
               state === "INCREMENTED"
@@ -72,10 +75,10 @@
 </script>
 
 <div>
-  {#each emojis as c}
+  {#each emojis as emoji}
     <span
-      style="left: {c.x}%; top: {c.y}%; transform: scale({c.r});opacity:{c.r +
-        0.25}">{c.character}</span
+      style="left: {emoji.x}%; top: {emoji.y}%; transform: scale({emoji.r});opacity:{emoji.r +
+        0.25}">{emoji.character}</span
     >
   {/each}
 </div>

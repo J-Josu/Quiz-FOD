@@ -1,14 +1,16 @@
 # Dev Notes
 
+Site available at [j-josu.github.io/Quiz-FOD](https://j-josu.github.io/Quiz-FOD/)
+
 
 ## TODO
 
-- [ ] Create NavBar
 - [X] Implement 'emojis rain'
 - [X] Implement global styling
-- [ ] Learn MDsveX
 - [X] Detect possible correct user answer
 - [X] Responsive?
+- [ ] Create NavBar
+- [ ] Learn MDsveX
 
 
 ## How to build page

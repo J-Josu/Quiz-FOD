@@ -30,20 +30,18 @@
     {/each}
     </ul>
     {#if showAnswers}
-    <div class="container" in:slide>
-      <h4>
-        {answers.length > 1 ? "Posibles respuestas" : "Posible respuesta"}
-      </h4>
-      <p style="display:flex; gap:2rem; ">
-      {#if answers.length > 0}
+      <div class="container" in:slide>
+        <h4>
+          {answers.length > 1 ? "Posibles respuestas" : "Posible respuesta"}
+        </h4>
+        <p style="display:flex; gap:2rem;">
         {#each answers as answer}
           <span>{answer}</span>
+        {:else}
+          <span>No disponible</span>
         {/each}
-      {:else}
-        <span>No disponible</span>
-      {/if}
-      </p>
-    </div>
+        </p>
+      </div>
     {/if}
   </div>
 {/key}

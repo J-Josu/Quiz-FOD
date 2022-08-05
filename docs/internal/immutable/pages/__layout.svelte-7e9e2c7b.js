@@ -1,4 +1,4 @@
-import{S as F,i as K,s as R,F as A,e as h,t as M,k as $,G as B,c as p,a as g,h as C,d as o,m as N,b as _,H as k,g as v,I as G,J as H,K as J,L as P,q as U,o as j,M as z,v as D,N as Q}from"../chunks/index-ab7acaee.js";import{p as O}from"../chunks/stores-22bcfcef.js";import"../chunks/index-b931e40b.js";const{document:E}=Q;function V(d){let r,n,m,c,l,f,a,i,T,u,b,I;const y=d[2].default,t=A(y,d,d[1],null);return{c(){r=h("link"),n=h("script"),m=M(`if (document) {\r
+import{S as F,i as K,s as R,F as A,e as h,t as M,k as $,G as B,c as p,a as g,h as C,d as o,m as N,b as _,H as k,g as v,I as G,J as H,K as J,L as P,q as U,o as j,M as z,v as D,N as Q}from"../chunks/index-ab7acaee.js";import{p as O}from"../chunks/stores-06c30eef.js";import"../chunks/index-b931e40b.js";const{document:E}=Q;function V(d){let r,n,m,c,l,f,a,i,T,u,b,I;const y=d[2].default,t=A(y,d,d[1],null);return{c(){r=h("link"),n=h("script"),m=M(`if (document) {\r
       let mode = localStorage.getItem("preferredTheme");\r
       if (mode === '"dark-mode"')\r
         document.documentElement.classList.add("dark-mode");\r

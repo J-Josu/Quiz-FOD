@@ -352,10 +352,14 @@
       ],
       [
         "b",
-        "Puede ser m\u00e1s eficiente si se considera como precondici\u00f3n que el archivo est\u00e1 ordenado. c. Es igual de eficiente si el archivo est\u00e1 ordenado o desordenado"
+        "Puede ser m\u00e1s eficiente si se considera como precondici\u00f3n que el archivo est\u00e1 ordenado"
       ],
       [
         "c",
+        "Es igual de eficiente si el archivo est\u00e1 ordenado o desordenado"
+      ],
+      [
+        "d",
         "Ninguna de las anteriores"
       ]
     ],
@@ -372,18 +376,22 @@
       ],
       [
         "b",
-        "Requiere que todos los archivos est\u00e9n ordenados por el mismo criterio c. Puede hacerse sin los archivos ordenados"
+        "Requiere que todos los archivos est\u00e9n ordenados por el mismo criterio"
       ],
       [
         "c",
-        "No puede realizarse sin los archivos ordenados"
+        "Puede hacerse sin los archivos ordenados"
       ],
       [
         "d",
-        "Algunas de las anteriores"
+        "No puede realizarse sin los archivos ordenados"
       ],
       [
         "e",
+        "Algunas de las anteriores"
+      ],
+      [
+        "f",
         "Ninguna de las anteriores"
       ]
     ],
@@ -408,7 +416,11 @@
       ],
       [
         "d",
-        "Se debe realizar con registros de long variable (dec\u00eda \u201clong fija\u201d) e. Ninguna"
+        "Se debe realizar con registros de long variable (dec\u00eda \u201clong fija\u201d)"
+      ],
+      [
+        "e",
+        "Ninguna"
       ]
     ],
     "answers": [
@@ -424,14 +436,18 @@
       ],
       [
         "b",
-        "Se utiliza para posicionarse en el primer registro del archivo c. Vincula el archivo l\u00f3gico con el archivo f\u00edsico"
+        "Se utiliza para posicionarse en el primer registro del archivo"
       ],
       [
         "c",
-        "Se utiliza para saber la longitud del archivo"
+        "Vincula el archivo l\u00f3gico con el archivo f\u00edsico"
       ],
       [
         "d",
+        "Se utiliza para saber la longitud del archivo"
+      ],
+      [
+        "e",
         "Algunas de las anteriores"
       ]
     ],
@@ -444,14 +460,26 @@
     "options": [
       [
         "a",
-        "Se puede acceder a un registro de un archivo fragmentado en un s\u00f3lo acceso b. Se puede acceder a un registro de un archivo no fragmentado en un s\u00f3lo acceso c. Se puede acceder a un registro de un archivo en un s\u00f3lo acceso d. Se puede lograr acceso directo a un archivo"
+        "Se puede acceder a un registro de un archivo fragmentado en un s\u00f3lo acceso"
       ],
       [
         "b",
-        "Todas las anteriores"
+        "Se puede acceder a un registro de un archivo no fragmentado en un s\u00f3lo acceso"
       ],
       [
         "c",
+        "Se puede acceder a un registro de un archivo en un s\u00f3lo acceso"
+      ],
+      [
+        "d",
+        "Se puede lograr acceso directo a un archivo"
+      ],
+      [
+        "e",
+        "Todas las anteriores"
+      ],
+      [
+        "f",
         "Algunas de las anteriores"
       ]
     ],
@@ -552,14 +580,22 @@
     "options": [
       [
         "a",
-        "Siempre se puede llevar a memoria RAM para hacer b\u00fasquedas m\u00e1s eficientes b. No siempre se puede llevar a memoria RAM para hacer b\u00fasquedas m\u00e1s eficientes c. Siempre se puede realizar b\u00fasqueda dicot\u00f3mica"
+        "Siempre se puede llevar a memoria RAM para hacer b\u00fasquedas m\u00e1s eficientes"
       ],
       [
         "b",
-        "No puede realizarse b\u00fasqueda dicot\u00f3mica"
+        "No siempre se puede llevar a memoria RAM para hacer b\u00fasquedas m\u00e1s eficientes"
       ],
       [
         "c",
+        "Siempre se puede realizar b\u00fasqueda dicot\u00f3mica"
+      ],
+      [
+        "d",
+        "No puede realizarse b\u00fasqueda dicot\u00f3mica"
+      ],
+      [
+        "e",
         "Algunas de las anteriores"
       ]
     ],
@@ -612,7 +648,11 @@
       ],
       [
         "c",
-        "Colecci\u00f3n de registros del mismo tipo almacenados en un dispositivo de memoria secundaria. d. Todas las opciones son correctas"
+        "Colecci\u00f3n de registros del mismo tipo almacenados en un dispositivo de memoria secundaria"
+      ],
+      [
+        "d",
+        "Todas las opciones son correctas"
       ]
     ],
     "answers": [
@@ -644,11 +684,23 @@
     ]
   },
   {
-    "sentence": "El proceso de baja en un archivo con registros de longitud variable: a. Puede recuperar el espacio disponible con nuevas altas:",
+    "sentence": "El proceso de baja en un archivo con registros de longitud variable:",
     "options": [
       [
         "a",
-        "Puede recuperar el espacio disponible compactando peri\u00f3dicamente el archivo c. Puede recuperar el espacio disponible compactando el archivo ante cada baja d. Todas las anteriores"
+        "Puede recuperar el espacio disponible con nuevas altas"
+      ],
+      [
+        "b",
+        "Puede recuperar el espacio disponible compactando peri\u00f3dicamente el archivo"
+      ],
+      [
+        "c",
+        "Puede recuperar el espacio disponible compactando el archivo ante cada baja"
+      ],
+      [
+        "d",
+        "Todas las anteriores"
       ]
     ],
     "answers": [
@@ -680,18 +732,22 @@
     ]
   },
   {
-    "sentence": "El proceso de baja l\u00f3gica (sin ning\u00fan agregado de otras operaciones) de un archivo: a. Nunca recupera espacio en disco:",
+    "sentence": "El proceso de baja l\u00f3gica (sin ning\u00fan agregado de otras operaciones) de un archivo:",
     "options": [
       [
         "a",
-        "Siempre recupera espacio en disco"
+        "Nunca recupera espacio en disco"
       ],
       [
         "b",
-        "A veces recupera espacio en disco"
+        "Siempre recupera espacio en disco"
       ],
       [
         "c",
+        "A veces recupera espacio en disco"
+      ],
+      [
+        "d",
         "No dispongo de informaci\u00f3n suficiente para responder la pregunta"
       ]
     ],
@@ -748,18 +804,22 @@
     ]
   },
   {
-    "sentence": "El proceso de compactaci\u00f3n de un archivo tiene sentido ser aplicado: a. Luego de realizar una operaci\u00f3n de alta:",
+    "sentence": "El proceso de compactaci\u00f3n de un archivo tiene sentido ser aplicado:",
     "options": [
       [
         "a",
-        "Luego de realizar una operaci\u00f3n de baja l\u00f3gica"
+        "Luego de realizar una operaci\u00f3n de alta"
       ],
       [
         "b",
-        "Luego de realizar una operaci\u00f3n de baja f\u00edsicamente"
+        "Luego de realizar una operaci\u00f3n de baja l\u00f3gica"
       ],
       [
         "c",
+        "Luego de realizar una operaci\u00f3n de baja f\u00edsicamente"
+      ],
+      [
+        "d",
         "Luego de realizar una operaci\u00f3n de modificaci\u00f3n"
       ]
     ],
@@ -768,18 +828,22 @@
     ]
   },
   {
-    "sentence": "El acceso promedio para recuperar un dato en un archivo desordenado a. Tiene orden lineal:",
+    "sentence": "El acceso promedio para recuperar un dato en un archivo desordenado:",
     "options": [
       [
         "a",
-        "Tiene orden logar\u00edtmico"
+        "Tiene orden lineal"
       ],
       [
         "b",
-        "Tiene orden constante (1)"
+        "Tiene orden logar\u00edtmico"
       ],
       [
         "c",
+        "Tiene orden constante (1)"
+      ],
+      [
+        "d",
         "No tengo datos suficientes para responder"
       ]
     ],
@@ -788,22 +852,26 @@
     ]
   },
   {
-    "sentence": "La pol\u00edtica de primer ajuste, que permite recuperar espacio borrado en un archivo a. S\u00f3lo se aplica en registros de long fija:",
+    "sentence": "La pol\u00edtica de primer ajuste, que permite recuperar espacio borrado en un archivo:",
     "options": [
       [
         "a",
-        "S\u00f3lo se aplica en registros de long variable"
+        "S\u00f3lo se aplica en registros de long fija"
       ],
       [
         "b",
-        "Genera fragmentaci\u00f3n interna"
+        "S\u00f3lo se aplica en registros de long variable"
       ],
       [
         "c",
-        "Genera fragmentaci\u00f3n externa"
+        "Genera fragmentaci\u00f3n interna"
       ],
       [
         "d",
+        "Genera fragmentaci\u00f3n externa"
+      ],
+      [
+        "e",
         "Hay m\u00e1s de una respuesta correcta"
       ]
     ],
@@ -813,18 +881,22 @@
     ]
   },
   {
-    "sentence": "A partir de un archivo con registros de long fija y luego de algunas operaciones con el mismo: a. Nunca genera fragmentaci\u00f3n:",
+    "sentence": "A partir de un archivo con registros de long fija y luego de algunas operaciones con el mismo:",
     "options": [
       [
         "a",
-        "Puede generar fragmentaci\u00f3n interna"
+        "Nunca genera fragmentaci\u00f3n"
       ],
       [
         "b",
-        "Puede generar fragmentaci\u00f3n externa"
+        "Puede generar fragmentaci\u00f3n interna"
       ],
       [
         "c",
+        "Puede generar fragmentaci\u00f3n externa"
+      ],
+      [
+        "d",
         "Las \u00faltimas dos son correctas"
       ]
     ],
@@ -838,7 +910,19 @@
     "options": [
       [
         "a",
-        "Acceso a los registros uno tras otro y en el orden f\u00edsico en el que est\u00e1n guardados. b. Acceso a los registros de acuerdo al orden establecido por otra estructura. c. Acceso a un registro determinado sin necesidad de haber accedido a los predecesores. d. Ninguna"
+        "Acceso a los registros uno tras otro y en el orden f\u00edsico en el que est\u00e1n guardados"
+      ],
+      [
+        "b",
+        "Acceso a los registros de acuerdo al orden establecido por otra estructura"
+      ],
+      [
+        "c",
+        "Acceso a un registro determinado sin necesidad de haber accedido a los predecesores"
+      ],
+      [
+        "d",
+        "Ninguna"
       ]
     ],
     "answers": [
@@ -855,10 +939,14 @@
       ],
       [
         "b",
-        "permite actualizar un archivo maestro a partir de varios archivos detalle c. permite presentar la informaci\u00f3n con una estructura especial"
+        "permite actualizar un archivo maestro a partir de varios archivos detalle"
       ],
       [
         "c",
+        "permite presentar la informaci\u00f3n con una estructura especial"
+      ],
+      [
+        "d",
         "permite actualizar un archivo con varios archivos detalles"
       ]
     ],
@@ -879,7 +967,11 @@
       ],
       [
         "c",
-        "Puede tener registros de long fija y variable en el mismo archivo e. Ninguna"
+        "Puede tener registros de long fija y variable en el mismo archivo"
+      ],
+      [
+        "d",
+        "Ninguna"
       ]
     ],
     "answers": [
@@ -891,14 +983,18 @@
     "options": [
       [
         "a",
-        "recupera inmediatamente el espacio borrado, dejando el archivo de tama\u00f1o menor b. no se puede aplicar con registros de long variable"
+        "recupera inmediatamente el espacio borrado, dejando el archivo de tama\u00f1o menor"
       ],
       [
         "b",
-        "s\u00f3lo se aplica con registros de long fija"
+        "no se puede aplicar con registros de long variable"
       ],
       [
         "c",
+        "s\u00f3lo se aplica con registros de long fija"
+      ],
+      [
+        "d",
         "Permite recuperar el espacio con nuevas altas"
       ]
     ],
@@ -919,14 +1015,18 @@
       ],
       [
         "c",
-        "Permite b\u00fasqueda binaria s\u00f3lo si las altas mantienen el archivo ordenado d. No permite b\u00fasqueda binaria si hay bajas l\u00f3gicas"
+        "Permite b\u00fasqueda binaria s\u00f3lo si las altas mantienen el archivo ordenado"
       ],
       [
         "d",
-        "Algunas de las anteriores"
+        "No permite b\u00fasqueda binaria si hay bajas l\u00f3gicas"
       ],
       [
         "e",
+        "Algunas de las anteriores"
+      ],
+      [
+        "f",
         "Ninguna de las anteriores"
       ]
     ],
@@ -948,7 +1048,15 @@
       ],
       [
         "c",
-        "Se puede utilizar cualquier lugar libre de un archivo para insertar un registro d. Siempre se utiliza la pol\u00edtica de mejor ajuste para recuperar espacio e. Algunas"
+        "Se puede utilizar cualquier lugar libre de un archivo para insertar un registro"
+      ],
+      [
+        "d",
+        "Siempre se utiliza la pol\u00edtica de mejor ajuste para recuperar espacio"
+      ],
+      [
+        "e",
+        "Algunas"
       ]
     ],
     "answers": [
@@ -964,10 +1072,26 @@
       ],
       [
         "b",
-        "Es necesario que el archivo maestro est\u00e9 ordenado  c. Es necesario que los detalles est\u00e9n ordenados  d. No es necesario que el archivo maestro est\u00e9 ordenado  e. No es necesario que los archivos detalles est\u00e9n ordenados f. Algunas de las anteriores"
+        "Es necesario que el archivo maestro est\u00e9 ordenado"
       ],
       [
         "c",
+        "Es necesario que los detalles est\u00e9n ordenados"
+      ],
+      [
+        "d",
+        "No es necesario que el archivo maestro est\u00e9 ordenado"
+      ],
+      [
+        "e",
+        "No es necesario que los archivos detalles est\u00e9n ordenados"
+      ],
+      [
+        "f",
+        "Algunas de las anteriores"
+      ],
+      [
+        "g",
         "Ninguna de las anteriores"
       ]
     ],
@@ -981,14 +1105,34 @@
     "options": [
       [
         "a",
-        "Puede devolver verdadero despu\u00e9s de un reset b. Puede devolver falso despu\u00e9s de una lectura c. Puede devolver verdadero despu\u00e9s de una lectura d. Devuelve verdadero si estas al final del archivo e. Devuelve falso si no estas al final del archivo f. Todas las anteriores"
+        "Puede devolver verdadero despu\u00e9s de un reset"
       ],
       [
         "b",
-        "Algunas de las anteriores"
+        "Puede devolver falso despu\u00e9s de una lectura"
       ],
       [
         "c",
+        "Puede devolver verdadero despu\u00e9s de una lectura"
+      ],
+      [
+        "d",
+        "Devuelve verdadero si estas al final del archivo"
+      ],
+      [
+        "e",
+        "Devuelve falso si no estas al final del archivo"
+      ],
+      [
+        "f",
+        "Todas las anteriores"
+      ],
+      [
+        "g",
+        "Algunas de las anteriores"
+      ],
+      [
+        "h",
         "Ninguna de las anteriores"
       ]
     ],
@@ -1001,7 +1145,23 @@
     "options": [
       [
         "a",
-        "Archivos desordenados con registros de longitud variable b. Archivos desordenados con registros de longitud fija c. Archivos ordenados con registros de longitud variable d. Archivos ordenados con registros de longitud fija e. Ninguna de las anteriores"
+        "Archivos desordenados con registros de longitud variable"
+      ],
+      [
+        "b",
+        "Archivos desordenados con registros de longitud fija"
+      ],
+      [
+        "c",
+        "Archivos ordenados con registros de longitud variable"
+      ],
+      [
+        "d",
+        "Archivos ordenados con registros de longitud fija"
+      ],
+      [
+        "e",
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
@@ -1009,18 +1169,22 @@
     ]
   },
   {
-    "sentence": "Un archivo organizado con registros de longitud variable a. No permite realizar bajas l\u00f3gicas:",
+    "sentence": "Un archivo organizado con registros de longitud variable:",
     "options": [
       [
         "a",
-        "Optimiza la utilizaci\u00f3n de espacio en disco"
+        "No permite realizar bajas l\u00f3gicas"
       ],
       [
         "b",
-        "No permite realizar bajas f\u00edsicas"
+        "Optimiza la utilizaci\u00f3n de espacio en disco"
       ],
       [
         "c",
+        "No permite realizar bajas f\u00edsicas"
+      ],
+      [
+        "d",
         "S\u00f3lo acepta altas al final del archivo"
       ]
     ],
@@ -1029,10 +1193,14 @@
     ]
   },
   {
-    "sentence": "La eficiencia promedio de b\u00fasqueda en un archivo sin orden es: a. Orden lineal:",
+    "sentence": "La eficiencia promedio de b\u00fasqueda en un archivo sin orden es:",
     "options": [
       [
         "a",
+        "Orden lineal"
+      ],
+      [
+        "b",
         "Orden logar\u00edtmico"
       ]
     ],
@@ -1193,7 +1361,11 @@
       ],
       [
         "d",
-        "Genera un \u00fanico archivo, uniendo un archivo maestro con todos los archivos detalle 5. Ninguna de las anteriores"
+        "Genera un \u00fanico archivo, uniendo un archivo maestro con todos los archivos detalle"
+      ],
+      [
+        "e",
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
@@ -1313,14 +1485,22 @@
     "options": [
       [
         "a",
-        "Los archivos deben estar ordenados con \u00edndices implementados con alguna estructura de dato no lineal 2. Los archivos deben estar ordenados con \u00edndices implementados con alguna estructura de dato lineal 3. Los archivos deben estar ordenados"
+        "Los archivos deben estar ordenados con \u00edndices implementados con alguna estructura de dato no lineal"
       ],
       [
         "b",
-        "Los archivos no deben estar ordenados"
+        "Los archivos deben estar ordenados con \u00edndices implementados con alguna estructura de dato lineal"
       ],
       [
         "c",
+        "Los archivos deben estar ordenados"
+      ],
+      [
+        "d",
+        "Los archivos no deben estar ordenados"
+      ],
+      [
+        "e",
         "Ninguna de las anteriores"
       ]
     ],
@@ -1333,10 +1513,14 @@
     "options": [
       [
         "a",
-        "En archivos con registros de longitud variable 3. Para realizar acceso directo a un registro"
+        "En archivos con registros de longitud variable"
       ],
       [
         "b",
+        "Para realizar acceso directo a un registro"
+      ],
+      [
+        "c",
         "Para realizar acceso secuencial en un archivo"
       ]
     ],
@@ -1345,22 +1529,34 @@
     ]
   },
   {
-    "sentence": "Un archivo con 20 registros: a. No necesita ordenarse:",
+    "sentence": "Un archivo con 20 registros:",
     "options": [
       [
         "a",
-        "Necesita ordenarse"
+        "No necesita ordenarse"
       ],
       [
         "b",
-        "Si se ordena, debe mantenerse ordenado"
+        "Necesita ordenarse"
       ],
       [
         "c",
-        "Si se ordena, debe aceptar s\u00f3lo b\u00fasquedas binarias e. Si est\u00e1 desordenado, la b\u00fasqueda necesita saber la posici\u00f3n f. Algunas de las anteriores"
+        "Si se ordena, debe mantenerse ordenado"
       ],
       [
         "d",
+        "Si se ordena, debe aceptar s\u00f3lo b\u00fasquedas binarias"
+      ],
+      [
+        "e",
+        "Si est\u00e1 desordenado, la b\u00fasqueda necesita saber la posici\u00f3n"
+      ],
+      [
+        "f",
+        "Algunas de las anteriores"
+      ],
+      [
+        "g",
         "Ninguna de las anteriores"
       ]
     ],
@@ -1413,18 +1609,26 @@
     "options": [
       [
         "a",
-        "Se debe aplicar a un archivo ordenado para obtener un resultado coherente b. Se debe aplicar a un archivo desordenado para obtener un resultado coherente c. Es necesario que el archivo este ordenado"
+        "Se debe aplicar a un archivo ordenado para obtener un resultado coherente"
       ],
       [
         "b",
-        "Es suficiente que el archivo este ordenado por un criterio"
+        "Se debe aplicar a un archivo desordenado para obtener un resultado coherente"
       ],
       [
         "c",
-        "Algunas de las anteriores"
+        "Es necesario que el archivo este ordenado"
       ],
       [
         "d",
+        "Es suficiente que el archivo este ordenado por un criterio"
+      ],
+      [
+        "e",
+        "Algunas de las anteriores"
+      ],
+      [
+        "f",
         "Ninguna de las anteriores"
       ]
     ],
@@ -1470,26 +1674,34 @@
     ]
   },
   {
-    "sentence": "Una operaci\u00f3n de lectura en un archivo a. Mueve autom\u00e1ticamente al siguiente registro f\u00edsicamente ordenado b. No mueve el puntero:",
+    "sentence": "Una operaci\u00f3n de lectura en un archivo:",
     "options": [
       [
         "a",
-        "Solo mueve si no est\u00e1 en el \u00faltimo registro"
+        "Mueve autom\u00e1ticamente al siguiente registro f\u00edsicamente ordenado"
       ],
       [
         "b",
-        "Mueve autom\u00e1ticamente el puntero"
+        "No mueve el puntero"
       ],
       [
         "c",
-        "Solo se mueve el puntero despu\u00e9s de un reset"
+        "Solo mueve si no est\u00e1 en el \u00faltimo registro"
       ],
       [
         "d",
-        "Algunas de las anteriores"
+        "Mueve autom\u00e1ticamente el puntero"
       ],
       [
         "e",
+        "Solo se mueve el puntero despu\u00e9s de un reset"
+      ],
+      [
+        "f",
+        "Algunas de las anteriores"
+      ],
+      [
+        "g",
         "Ninguna de las anteriores"
       ]
     ],
@@ -1499,26 +1711,30 @@
     ]
   },
   {
-    "sentence": "La fragmentaci\u00f3n en un archivo de longitud fija a. Dificulta la baja f\u00edsica:",
+    "sentence": "La fragmentaci\u00f3n en un archivo de longitud fija:",
     "options": [
       [
         "a",
-        "Dificulta la baja l\u00f3gica"
+        "Dificulta la baja f\u00edsica"
       ],
       [
         "b",
-        "Produce p\u00e9rdida de espacio"
+        "Dificulta la baja l\u00f3gica"
       ],
       [
         "c",
-        "Es menor utilizando primer ajuste"
+        "Produce p\u00e9rdida de espacio"
       ],
       [
         "d",
-        "Algunas de las anteriores"
+        "Es menor utilizando primer ajuste"
       ],
       [
         "e",
+        "Algunas de las anteriores"
+      ],
+      [
+        "f",
         "Ninguna de las anteriores"
       ]
     ],
@@ -1539,7 +1755,11 @@
       ],
       [
         "c",
-        "Utilizar un segundo archivo con la informaci\u00f3n de la direcci\u00f3n del byte de inicio de cada registro. d. Ninguna de las anteriores"
+        "Utilizar un segundo archivo con la informaci\u00f3n de la direcci\u00f3n del byte de inicio de cada registro"
+      ],
+      [
+        "d",
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
@@ -1679,18 +1899,22 @@
     "options": [
       [
         "a",
-        "Se construye de manera similar a un \u00e1rbol binario, salvo que en los nodos cabe m\u00e1s de un elemento b. Se construye de manera similar a un \u00e1rbol B"
+        "Se construye de manera similar a un \u00e1rbol binario, salvo que en los nodos cabe m\u00e1s de un elemento"
       ],
       [
         "b",
-        "puede ser la estructura superior (separadores) de un \u00e1rbol B+"
+        "Se construye de manera similar a un \u00e1rbol B"
       ],
       [
         "c",
-        "algunas"
+        "puede ser la estructura superior (separadores) de un \u00e1rbol B+"
       ],
       [
         "d",
+        "algunas"
+      ],
+      [
+        "e",
         "ninguna"
       ]
     ],
@@ -1768,14 +1992,26 @@
     "options": [
       [
         "a",
-        "la eficiencia de los 4 \u00e1rboles es de orden similar, es decir, orden lineal b. los 4 \u00e1rboles tienen una eficiencia en t\u00e9rminos matem\u00e1ticos igual c. alguno de los \u00e1rboles puede ser m\u00e1s eficiente que otro en t\u00e9rminos matem\u00e1ticos d. todas"
+        "la eficiencia de los 4 \u00e1rboles es de orden similar, es decir, orden lineal"
       ],
       [
         "b",
-        "algunas"
+        "los 4 \u00e1rboles tienen una eficiencia en t\u00e9rminos matem\u00e1ticos igual"
       ],
       [
         "c",
+        "alguno de los \u00e1rboles puede ser m\u00e1s eficiente que otro en t\u00e9rminos matem\u00e1ticos"
+      ],
+      [
+        "d",
+        "todas"
+      ],
+      [
+        "e",
+        "algunas"
+      ],
+      [
+        "f",
         "ninguna"
       ]
     ],
@@ -1792,14 +2028,22 @@
       ],
       [
         "b",
-        "ante una inserci\u00f3n con overflow siempre se produce divisi\u00f3n c. ante una inserci\u00f3n con onverflow siempre se produce redistribuci\u00f3n. d. todas"
+        "ante una inserci\u00f3n con overflow siempre se produce divisi\u00f3n"
       ],
       [
         "c",
-        "algunas"
+        "ante una inserci\u00f3n con onverflow siempre se produce redistribuci\u00f3n"
       ],
       [
         "d",
+        "todas"
+      ],
+      [
+        "e",
+        "algunas"
+      ],
+      [
+        "f",
         "ninguna"
       ]
     ],
@@ -1821,10 +2065,14 @@
       ],
       [
         "c",
-        "Es un \u00e1rbol que en cada nodo (salvo la ra\u00edz) tiende a llenarse en al menos \u2154 d. algunas"
+        "Es un \u00e1rbol que en cada nodo (salvo la ra\u00edz) tiende a llenarse en al menos \u2154"
       ],
       [
         "d",
+        "algunas"
+      ],
+      [
+        "e",
         "ninguna"
       ]
     ],
@@ -1846,18 +2094,22 @@
       ],
       [
         "c",
-        "si se emplean los algoritmos correctos puede quedar balanceado en altura d. si est\u00e1 desbalanceado no puede presentar una eficiencia de b\u00fasqueda de orden logar\u00edtmica"
+        "si se emplean los algoritmos correctos puede quedar balanceado en altura"
       ],
       [
         "d",
-        "todas"
+        "si est\u00e1 desbalanceado no puede presentar una eficiencia de b\u00fasqueda de orden logar\u00edtmica"
       ],
       [
         "e",
-        "algunas"
+        "todas"
       ],
       [
         "f",
+        "algunas"
+      ],
+      [
+        "g",
         "no corresponde"
       ]
     ],
@@ -1866,14 +2118,26 @@
     ]
   },
   {
-    "sentence": "Si se implementa un algoritmo que permita generar un \u00e1rbol B+, ese algoritmo: a. no necesita manipular el puntero al nodo ra\u00edz:",
+    "sentence": "Si se implementa un algoritmo que permita generar un \u00e1rbol B+, ese algoritmo:",
     "options": [
       [
         "a",
-        "no necesita manipular el puntero al nodo de los elementos de datos menores c. la estructura interna del \u00e1rbol puede implementarse como B* d. todas"
+        "no necesita manipular el puntero al nodo ra\u00edz"
       ],
       [
         "b",
+        "no necesita manipular el puntero al nodo de los elementos de datos menores"
+      ],
+      [
+        "c",
+        "la estructura interna del \u00e1rbol puede implementarse como B*"
+      ],
+      [
+        "d",
+        "todas"
+      ],
+      [
+        "e",
         "algunas"
       ]
     ],
@@ -1910,11 +2174,23 @@
     ]
   },
   {
-    "sentence": "Cu\u00e1les propiedades corresponden a un \u00e1rbol B+ de prefijos simples a. cada nodo puede tener como m\u00e1ximo M descendientes, siendo M el orden del \u00e1rbol b. un nodo que tiene x descendientes debe tener x-1 claves:",
+    "sentence": "Cu\u00e1les propiedades corresponden a un \u00e1rbol B+ de prefijos simples:",
     "options": [
       [
         "a",
-        "est\u00e1 siempre balanceado, sin importar los elementos que se inserten d. todas las anteriores"
+        "cada nodo puede tener como m\u00e1ximo M descendientes, siendo M el orden del \u00e1rbol"
+      ],
+      [
+        "b",
+        "un nodo que tiene x descendientes debe tener x-1 claves"
+      ],
+      [
+        "c",
+        "est\u00e1 siempre balanceado, sin importar los elementos que se inserten"
+      ],
+      [
+        "d",
+        "todas las anteriores"
       ]
     ],
     "answers": [
@@ -1946,11 +2222,23 @@
     ]
   },
   {
-    "sentence": "En un \u00e1rbol B de orden 50, cuando quedan 25 elementos en un nodo: a. Se produce underflow y necesariamente debe concatenarse con un adyacente hermano b. Se produce underflow y necesariamente debe redistribuirse con un adyacente hermano:",
+    "sentence": "En un \u00e1rbol B de orden 50, cuando quedan 25 elementos en un nodo:",
     "options": [
       [
         "a",
-        "Se produce underflow y la operaci\u00f3n a realizar depende del estado de los nodos adyacentes hermanos d. no se produce underflow"
+        "Se produce underflow y necesariamente debe concatenarse con un adyacente hermano"
+      ],
+      [
+        "b",
+        "Se produce underflow y necesariamente debe redistribuirse con un adyacente hermano"
+      ],
+      [
+        "c",
+        "Se produce underflow y la operaci\u00f3n a realizar depende del estado de los nodos adyacentes hermanos"
+      ],
+      [
+        "d",
+        "no se produce underflow"
       ]
     ],
     "answers": [
@@ -1962,7 +2250,23 @@
     "options": [
       [
         "a",
-        "una estructura de datos adicional que contiene el mismo volumen de informaci\u00f3n que el archivo original b. una estructura de datos adicional que permite ordenar f\u00edsicamente el archivo original c. una estructura de datos adicional que agilizar el acceso a la informaci\u00f3n del archivo d. una estructura de datos adicional que puede contener mayor volumen de informaci\u00f3n que el archivo original e. ninguna"
+        "una estructura de datos adicional que contiene el mismo volumen de informaci\u00f3n que el archivo original"
+      ],
+      [
+        "b",
+        "una estructura de datos adicional que permite ordenar f\u00edsicamente el archivo original"
+      ],
+      [
+        "c",
+        "una estructura de datos adicional que agilizar el acceso a la informaci\u00f3n del archivo"
+      ],
+      [
+        "d",
+        "una estructura de datos adicional que puede contener mayor volumen de informaci\u00f3n que el archivo original"
+      ],
+      [
+        "e",
+        "ninguna"
       ]
     ],
     "answers": [
@@ -1974,18 +2278,22 @@
     "options": [
       [
         "a",
-        "Es una estructura de datos lineal, en la cual cada nodo puede tener a lo sumo dos hijos. b. Es una estructura de datos no lineal, que siempre se encuentra balanceada"
+        "Es una estructura de datos lineal, en la cual cada nodo puede tener a lo sumo dos hijos"
       ],
       [
         "b",
-        "Es una estructura de datos no lineal, donde cada nodo tiene dos hijos"
+        "Es una estructura de datos no lineal, que siempre se encuentra balanceada"
       ],
       [
         "c",
-        "Es una estructura de datos lineal que se puede desbalancear"
+        "Es una estructura de datos no lineal, donde cada nodo tiene dos hijos"
       ],
       [
         "d",
+        "Es una estructura de datos lineal que se puede desbalancear"
+      ],
+      [
+        "e",
         "Es una estructura de datos no lineal que puede llegar a tener un orden lineal de b\u00fasqueda (e)"
       ]
     ],
@@ -1996,7 +2304,23 @@
     "options": [
       [
         "a",
-        "una estructura de datos adicional que permite asociar una o varias claves primarias con una clave secundaria b. una estructura de datos adicional que contiene el mismo volumen de informaci\u00f3n que el archivo original c. una estructura de datos adicional que ordena f\u00edsicamente (en memoria secundaria) el archivo original d. una estructura de datos adicional que permite relacionar una clave secundaria con una sola clave primaria e. todas"
+        "una estructura de datos adicional que permite asociar una o varias claves primarias con una clave secundaria"
+      ],
+      [
+        "b",
+        "una estructura de datos adicional que contiene el mismo volumen de informaci\u00f3n que el archivo original"
+      ],
+      [
+        "c",
+        "una estructura de datos adicional que ordena f\u00edsicamente (en memoria secundaria) el archivo original"
+      ],
+      [
+        "d",
+        "una estructura de datos adicional que permite relacionar una clave secundaria con una sola clave primaria"
+      ],
+      [
+        "e",
+        "todas"
       ]
     ],
     "answers": [
@@ -2081,10 +2405,14 @@
       ],
       [
         "c",
-        "los nodos internos conforman un \u00edndice para llegar a un elemento buscado d. hay m\u00e1s de una correcta"
+        "los nodos internos conforman un \u00edndice para llegar a un elemento buscado"
       ],
       [
         "d",
+        "hay m\u00e1s de una correcta"
+      ],
+      [
+        "e",
         "ninguna"
       ]
     ],
@@ -2102,7 +2430,15 @@
       ],
       [
         "b",
-        "Divide el \u00e1rbol binario en p\u00e1ginas que almacena en memoria principal. c. Para que sea m\u00e1s eficiente, es necesario que las p\u00e1ginas se ubiquen en direcciones cercanas d. Ninguna de las anteriores"
+        "Divide el \u00e1rbol binario en p\u00e1ginas que almacena en memoria principal"
+      ],
+      [
+        "c",
+        "Para que sea m\u00e1s eficiente, es necesario que las p\u00e1ginas se ubiquen en direcciones cercanas"
+      ],
+      [
+        "d",
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
@@ -2150,10 +2486,22 @@
     "options": [
       [
         "a",
-        "En una hoja, puede tener hasta 99 elementos. b. En una hoja, puede tener m\u00e1s de 99 elementos. c. En una hoja, puede tener menos de 99 elementos. d. La ra\u00edz siempre tiene hijos"
+        "En una hoja, puede tener hasta 99 elementos"
       ],
       [
         "b",
+        "En una hoja, puede tener m\u00e1s de 99 elementos"
+      ],
+      [
+        "c",
+        "En una hoja, puede tener menos de 99 elementos"
+      ],
+      [
+        "d",
+        "La ra\u00edz siempre tiene hijos"
+      ],
+      [
+        "e",
         "La ra\u00edz tiene hijos si el \u00e1rbol tiene m\u00e1s de 50 elementos"
       ]
     ],
@@ -2166,7 +2514,19 @@
     "options": [
       [
         "a",
-        "Se utiliza para representar un \u00edndice de un archivo b. Se utiliza para lograr acceso secuencial r\u00e1pido a un archivo c. Optimiza el espacio requerido para almacenar el \u00e1rbol. d. Todas las anteriores son correctas"
+        "Se utiliza para representar un \u00edndice de un archivo"
+      ],
+      [
+        "b",
+        "Se utiliza para lograr acceso secuencial r\u00e1pido a un archivo"
+      ],
+      [
+        "c",
+        "Optimiza el espacio requerido para almacenar el \u00e1rbol"
+      ],
+      [
+        "d",
+        "Todas las anteriores son correctas"
       ]
     ],
     "answers": [
@@ -2226,14 +2586,18 @@
     "options": [
       [
         "a",
-        "Es una estructura de datos no lineal, en la cual cada nodo puede tener a lo sumo dos hijos b. Es una estructura de datos no lineal, que siempre se encuentra balanceada"
+        "Es una estructura de datos no lineal, en la cual cada nodo puede tener a lo sumo dos hijos"
       ],
       [
         "b",
-        "Es una estructura de datos no lineal, que se encuentra balanceada en altura"
+        "Es una estructura de datos no lineal, que siempre se encuentra balanceada"
       ],
       [
         "c",
+        "Es una estructura de datos no lineal, que se encuentra balanceada en altura"
+      ],
+      [
+        "d",
         "Es una estructura de datos no lineal, en la cual cada nodo puede tener un n\u00famero de hijos ilimitado"
       ]
     ],
@@ -2246,14 +2610,18 @@
     "options": [
       [
         "a",
-        "Es una estructura de datos no lineal, en la cual cada nodo puede tener un n\u00famero determinado de hijos b. Es una estructura de datos no lineal, que siempre se encuentra balanceada"
+        "Es una estructura de datos no lineal, en la cual cada nodo puede tener un n\u00famero determinado de hijos"
       ],
       [
         "b",
-        "Es una estructura de datos no lineal, que se encuentra balanceada en altura"
+        "Es una estructura de datos no lineal, que siempre se encuentra balanceada"
       ],
       [
         "c",
+        "Es una estructura de datos no lineal, que se encuentra balanceada en altura"
+      ],
+      [
+        "d",
         "Es una estructura de datos no lineal, en la cual cada nodo puede tener a lo sumo 5 hijos"
       ]
     ],
@@ -2266,14 +2634,18 @@
     "options": [
       [
         "a",
-        "Cada nodo puede tener como m\u00e1ximo M descendientes, siendo M el orden del \u00e1rbol b. Un nodo que tiene x descendientes debe tener x-1 claves"
+        "Cada nodo puede tener como m\u00e1ximo M descendientes, siendo M el orden del \u00e1rbol"
       ],
       [
         "b",
-        "Est\u00e1 siempre balanceado, sin importar los elementos que se inserten"
+        "Un nodo que tiene x descendientes debe tener x-1 claves"
       ],
       [
         "c",
+        "Est\u00e1 siempre balanceado, sin importar los elementos que se inserten"
+      ],
+      [
+        "d",
         "Todas las propiedades anteriores corresponden a un \u00e1rbol B"
       ]
     ],
@@ -2310,7 +2682,19 @@
     "options": [
       [
         "a",
-        "El elemento debe estar en un nodo terminal, si no lo est\u00e1 debe ser llevado a un nodo terminal. b. A veces puede producirse underflow en el nodo, y que esto produzca a una redistribuci\u00f3n. c. A veces puede producirse underflow en un nodo, y que esto produzca una concatenaci\u00f3n. d. Todas las respuestas son correctas"
+        "El elemento debe estar en un nodo terminal, si no lo est\u00e1 debe ser llevado a un nodo terminal"
+      ],
+      [
+        "b",
+        "A veces puede producirse underflow en el nodo, y que esto produzca a una redistribuci\u00f3n"
+      ],
+      [
+        "c",
+        "A veces puede producirse underflow en un nodo, y que esto produzca una concatenaci\u00f3n"
+      ],
+      [
+        "d",
+        "Todas las respuestas son correctas"
       ]
     ],
     "answers": [
@@ -2318,19 +2702,51 @@
     ]
   },
   {
+    "sentence": "Si el orden de un \u00e1rbol B es 100, y al borrar un elemento quedan 48 en ese nodo:",
+    "options": [
+      [
+        "a",
+        "Se produce underflow y necesariamente debe concatenarse con un adyacente hermano"
+      ],
+      [
+        "b",
+        "Se produce underflow y necesariamente debe redistribuirse con un adyacente hermano"
+      ],
+      [
+        "c",
+        "Se produce underflow y la operaci\u00f3n a realizar depende del estado de los nodos adyacentes hermanos"
+      ],
+      [
+        "d",
+        "No se produce underflow"
+      ]
+    ],
+    "answers": [
+      "c"
+    ]
+  },
+  {
     "sentence": "Cu\u00e1les de las siguientes definiciones pueden atribuirse a un \u00e1rbol binario:",
     "options": [
       [
         "a",
-        "Es una estructura de datos lineal, en la cual cada nodo puede tener a lo sumo dos hijos b. Es una estructura de datos no lineal, que siempre se encuentra balanceada"
+        "Es una estructura de datos lineal, en la cual cada nodo puede tener a lo sumo dos hijos"
       ],
       [
         "b",
-        "Es una estructura de datos no lineal, que se encuentra balanceada en altura"
+        "Es una estructura de datos no lineal, que siempre se encuentra balanceada"
       ],
       [
         "c",
-        "Es una estructura de datos no lineal, en la cual cada nodo puede tener un n\u00famero de hijos ilimitado e. Ninguna de las anteriores"
+        "Es una estructura de datos no lineal, que se encuentra balanceada en altura"
+      ],
+      [
+        "d",
+        "Es una estructura de datos no lineal, en la cual cada nodo puede tener un n\u00famero de hijos ilimitado"
+      ],
+      [
+        "e",
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
@@ -2342,14 +2758,18 @@
     "options": [
       [
         "a",
-        "Es una estructura de datos lineal, en la cual cada nodo puede tener un n\u00famero indeterminado de hijos b. Es una estructura de datos no lineal, que siempre se encuentra balanceada"
+        "Es una estructura de datos lineal, en la cual cada nodo puede tener un n\u00famero indeterminado de hijos"
       ],
       [
         "b",
-        "Es una estructura de datos no lineal, que se encuentra balanceada en altura"
+        "Es una estructura de datos no lineal, que siempre se encuentra balanceada"
       ],
       [
         "c",
+        "Es una estructura de datos no lineal, que se encuentra balanceada en altura"
+      ],
+      [
+        "d",
         "Ninguna de las opciones anteriores"
       ]
     ],
@@ -2371,6 +2791,30 @@
     ],
     "answers": [
       "c. 1"
+    ]
+  },
+  {
+    "sentence": "Si el orden de un \u00e1rbol B es 100, y al borrar un elemento quedan 49 en ese nodo:",
+    "options": [
+      [
+        "a",
+        "Se produce underflow y necesariamente debe concatenarse con un adyacente hermano"
+      ],
+      [
+        "b",
+        "Se produce underflow y necesariamente debe redistribuirse con un adyacente hermano"
+      ],
+      [
+        "c",
+        "Se produce underflow y la operaci\u00f3n a realizar depende del estado de los nodos adyacentes hermanos"
+      ],
+      [
+        "d",
+        "No se produce underflow"
+      ]
+    ],
+    "answers": [
+      "d"
     ]
   },
   {
@@ -2406,10 +2850,14 @@
       ],
       [
         "b",
-        "Tiene igual eficiencia para la b\u00fasqueda de informaci\u00f3n que un \u00e1rbol B* con prefijos simples. c. Se desbalancean f\u00e1cilmente"
+        "Tiene igual eficiencia para la b\u00fasqueda de informaci\u00f3n que un \u00e1rbol B* con prefijos simples"
       ],
       [
         "c",
+        "Se desbalancean f\u00e1cilmente"
+      ],
+      [
+        "d",
         "Ninguna de las anteriores"
       ]
     ],
@@ -2418,18 +2866,22 @@
     ]
   },
   {
-    "sentence": "Dado un archivo de \u00edndice secundario implementado con el m\u00e9todo de listas invertidas: a. Es posible asociar s\u00f3lo una cantidad acotada de claves primarias.:",
+    "sentence": "Dado un archivo de \u00edndice secundario implementado con el m\u00e9todo de listas invertidas:",
     "options": [
       [
         "a",
-        "En ocasiones se desperdicia espacio, ya que se debe reservar el mismo"
+        "Es posible asociar s\u00f3lo una cantidad acotada de claves primarias"
       ],
       [
         "b",
-        "El m\u00e9todo consiste en usar un archivo adicional de claves primarias que son referenciadas desde el \u00edndice  secundario"
+        "En ocasiones se desperdicia espacio, ya que se debe reservar el mismo"
       ],
       [
         "c",
+        "El m\u00e9todo consiste en usar un archivo adicional de claves primarias que son referenciadas desde el \u00edndice  secundario"
+      ],
+      [
+        "d",
         "Ninguna de las anteriores"
       ]
     ],
@@ -2470,18 +2922,22 @@
     "options": [
       [
         "a",
-        "La diferencia m\u00e1xima de altura entre los dos sub\u00e1rboles cualesquiera que comparten ra\u00edz es 1. b. Un nodo terminal tiene como m\u00ednimo [M/2]-1 claves"
+        "La diferencia m\u00e1xima de altura entre los dos sub\u00e1rboles cualesquiera que comparten ra\u00edz es 1"
       ],
       [
         "b",
-        "Cada nodo puede tener como m\u00e1ximo M hijos"
+        "Un nodo terminal tiene como m\u00ednimo [M/2]-1 claves"
       ],
       [
         "c",
-        "Un nodo no terminal que tiene K descendientes debe tener K-1 claves"
+        "Cada nodo puede tener como m\u00e1ximo M hijos"
       ],
       [
         "d",
+        "Un nodo no terminal que tiene K descendientes debe tener K-1 claves"
+      ],
+      [
+        "e",
         "Ninguna de las anteriores"
       ]
     ],
@@ -2551,7 +3007,19 @@
     "options": [
       [
         "a",
-        "El elemento debe estar en un nodo terminal, si no lo est\u00e1 debe ser llevado a un nodo terminal. b. A veces puede producirse underflow en el nodo, y que esto produzca a una redistribuci\u00f3n. c. Puede borrarse un elemento que no est\u00e9 necesariamente ubicado en un nodo terminal. d. Alguna de las anteriores respuestas son correctas"
+        "El elemento debe estar en un nodo terminal, si no lo est\u00e1 debe ser llevado a un nodo terminal"
+      ],
+      [
+        "b",
+        "A veces puede producirse underflow en el nodo, y que esto produzca a una redistribuci\u00f3n"
+      ],
+      [
+        "c",
+        "Puede borrarse un elemento que no est\u00e9 necesariamente ubicado en un nodo terminal"
+      ],
+      [
+        "d",
+        "Alguna de las anteriores respuestas son correctas"
       ]
     ],
     "answers": [
@@ -2572,10 +3040,18 @@
       ],
       [
         "c",
-        "permite detectar si la cantidad de espacio libre en el archivo puede crecer d. permite detectar si la cantidad de elementos del archivo puede crecer e. algunas"
+        "permite detectar si la cantidad de espacio libre en el archivo puede crecer"
       ],
       [
         "d",
+        "permite detectar si la cantidad de elementos del archivo puede crecer"
+      ],
+      [
+        "e",
+        "algunas"
+      ],
+      [
+        "f",
         "ninguna"
       ]
     ],
@@ -2589,40 +3065,19 @@
     "options": [
       [
         "a",
-        "puede no ocurrir si hay al menos dos claves sin\u00f3nimos para una funci\u00f3n de hashing b. puede ocurrir si hay al menos dos claves sin\u00f3nimos para una funci\u00f3n de hashing c. puede utilizar un algoritmo para tratamiento de registros en saturaci\u00f3n d. puede no utilizar un algoritmo para tratamiento de registros en saturaci\u00f3n e. todas"
+        "puede no ocurrir si hay al menos dos claves sin\u00f3nimos para una funci\u00f3n de hashing"
       ],
       [
         "b",
-        "algunas"
+        "puede ocurrir si hay al menos dos claves sin\u00f3nimos para una funci\u00f3n de hashing"
       ],
       [
         "c",
-        "ninguna"
-      ]
-    ],
-    "answers": [
-      "f*",
-      "*c y d"
-    ]
-  },
-  {
-    "sentence": "Cu\u00e1les de los siguientes par\u00e1metros afecta la eficiencia de la dispersi\u00f3n: a. cantidad de elementos del archivo:",
-    "options": [
-      [
-        "a",
-        "cantidad de espacio para almacenar el archivo"
-      ],
-      [
-        "b",
-        "densidad de empaquetamiento"
-      ],
-      [
-        "c",
-        "funci\u00f3n de dispersi\u00f3n"
+        "puede utilizar un algoritmo para tratamiento de registros en saturaci\u00f3n"
       ],
       [
         "d",
-        "algoritmos para el tratamiento de registros en saturaci\u00f3n"
+        "puede no utilizar un algoritmo para tratamiento de registros en saturaci\u00f3n"
       ],
       [
         "e",
@@ -2634,6 +3089,47 @@
       ],
       [
         "g",
+        "ninguna"
+      ]
+    ],
+    "answers": [
+      "f*",
+      "*c y d"
+    ]
+  },
+  {
+    "sentence": "Cu\u00e1les de los siguientes par\u00e1metros afecta la eficiencia de la dispersi\u00f3n:",
+    "options": [
+      [
+        "a",
+        "cantidad de elementos del archivo"
+      ],
+      [
+        "b",
+        "cantidad de espacio para almacenar el archivo"
+      ],
+      [
+        "c",
+        "densidad de empaquetamiento"
+      ],
+      [
+        "d",
+        "funci\u00f3n de dispersi\u00f3n"
+      ],
+      [
+        "e",
+        "algoritmos para el tratamiento de registros en saturaci\u00f3n"
+      ],
+      [
+        "f",
+        "todas"
+      ],
+      [
+        "g",
+        "algunas"
+      ],
+      [
+        "h",
         "ninguna"
       ]
     ],
@@ -2678,10 +3174,26 @@
     "options": [
       [
         "a",
-        "siempre se puede calcular la cantidad probable de registros en saturaci\u00f3n b. no se puede calcular la cantidad probable de registros en saturaci\u00f3n c. si se calcula la cantidad probable de registros en saturaci\u00f3n, la DE fue mayor que 1 d. si se calcula la cantidad probable de registros en saturaci\u00f3n, la DE fue menor que 1 e. algunas"
+        "siempre se puede calcular la cantidad probable de registros en saturaci\u00f3n"
       ],
       [
         "b",
+        "no se puede calcular la cantidad probable de registros en saturaci\u00f3n"
+      ],
+      [
+        "c",
+        "si se calcula la cantidad probable de registros en saturaci\u00f3n, la DE fue mayor que 1"
+      ],
+      [
+        "d",
+        "si se calcula la cantidad probable de registros en saturaci\u00f3n, la DE fue menor que 1"
+      ],
+      [
+        "e",
+        "algunas"
+      ],
+      [
+        "f",
         "ninguna"
       ]
     ],
@@ -2702,10 +3214,18 @@
       ],
       [
         "c",
-        "se puede utilizar dispersi\u00f3n doble para tratar registros en saturaci\u00f3n d. no se puede utilizar saturaci\u00f3n progresiva para tratar registros en saturaci\u00f3n e. algunas"
+        "se puede utilizar dispersi\u00f3n doble para tratar registros en saturaci\u00f3n"
       ],
       [
         "d",
+        "no se puede utilizar saturaci\u00f3n progresiva para tratar registros en saturaci\u00f3n"
+      ],
+      [
+        "e",
+        "algunas"
+      ],
+      [
+        "f",
         "ninguna"
       ]
     ],
@@ -2723,18 +3243,30 @@
       ],
       [
         "b",
-        "se puede utilizar dispersi\u00f3n doble para tratar registros en saturaci\u00f3n c. se puede utilizar saturaci\u00f3n progresiva para tratar registros en saturaci\u00f3n d. se puede utilizar saturaci\u00f3n progresiva encadenada para tratar registros en saturaci\u00f3n e. la DE debe ser menor o igual a 1"
+        "se puede utilizar dispersi\u00f3n doble para tratar registros en saturaci\u00f3n"
       ],
       [
         "c",
-        "todas"
+        "se puede utilizar saturaci\u00f3n progresiva para tratar registros en saturaci\u00f3n"
       ],
       [
         "d",
-        "algunas"
+        "se puede utilizar saturaci\u00f3n progresiva encadenada para tratar registros en saturaci\u00f3n"
       ],
       [
         "e",
+        "la DE debe ser menor o igual a 1"
+      ],
+      [
+        "f",
+        "todas"
+      ],
+      [
+        "g",
+        "algunas"
+      ],
+      [
+        "h",
         "ninguna"
       ]
     ],
@@ -2788,18 +3320,22 @@
       ],
       [
         "b",
-        "necesita de un algoritmo para tratamiento de registros en saturaci\u00f3n c. puede tener menos del 1% de claves sin\u00f3nimos"
+        "necesita de un algoritmo para tratamiento de registros en saturaci\u00f3n"
       ],
       [
         "c",
-        "no tiene claves sin\u00f3nimas"
+        "puede tener menos del 1% de claves sin\u00f3nimos"
       ],
       [
         "d",
-        "todas"
+        "no tiene claves sin\u00f3nimas"
       ],
       [
         "e",
+        "todas"
+      ],
+      [
+        "f",
         "algunas"
       ]
     ],
@@ -2848,10 +3384,18 @@
     "options": [
       [
         "a",
-        "Cuando dos registros diferentes obtienen de la funci\u00f3n de hash la misma direcci\u00f3n de disco. b. Cuando dos registros iguales obtienen de la funci\u00f3n de hash direcciones diferentes de disco. c. Cuando un registro no cabe en el lugar donde debe almacenarse de acuerdo al resultado de la funci\u00f3n de  hash"
+        "Cuando dos registros diferentes obtienen de la funci\u00f3n de hash la misma direcci\u00f3n de disco"
       ],
       [
         "b",
+        "Cuando dos registros iguales obtienen de la funci\u00f3n de hash direcciones diferentes de disco"
+      ],
+      [
+        "c",
+        "Cuando un registro no cabe en el lugar donde debe almacenarse de acuerdo al resultado de la funci\u00f3n de  hash"
+      ],
+      [
+        "d",
         "Cuando dos registros diferentes obtienen de la funci\u00f3n de hash direcciones diferentes de disco"
       ]
     ],
@@ -2884,18 +3428,22 @@
     ]
   },
   {
-    "sentence": "La eficiencia de b\u00fasqueda de un registro en un archivo organizado mediante hashing est\u00e1tico tiene: a. Orden Lineal:",
+    "sentence": "La eficiencia de b\u00fasqueda de un registro en un archivo organizado mediante hashing est\u00e1tico tiene:",
     "options": [
       [
         "a",
-        "Algunas veces es uno"
+        "Orden Lineal"
       ],
       [
         "b",
-        "Siempre es uno"
+        "Algunas veces es uno"
       ],
       [
         "c",
+        "Siempre es uno"
+      ],
+      [
+        "d",
         "Orden Logar\u00edtmico"
       ]
     ],
@@ -2916,7 +3464,11 @@
       ],
       [
         "c",
-        "Requiere al menos de dos funciones de hash para el tratamiento de los desbordes. d. Ninguna de las anteriores"
+        "Requiere al menos de dos funciones de hash para el tratamiento de los desbordes"
+      ],
+      [
+        "d",
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
@@ -2932,14 +3484,18 @@
       ],
       [
         "b",
-        "La proporci\u00f3n de espacio asignado al archivo que en realidad almacena registros. c. La relaci\u00f3n entre la cantidad de registros y la cantidad de cubetas del archivo"
+        "La proporci\u00f3n de espacio asignado al archivo que en realidad almacena registros"
       ],
       [
         "c",
-        "Ninguna de las anteriores"
+        "La relaci\u00f3n entre la cantidad de registros y la cantidad de cubetas del archivo"
       ],
       [
         "d",
+        "Ninguna de las anteriores"
+      ],
+      [
+        "e",
         "Todas las anteriores"
       ]
     ],
@@ -2948,22 +3504,30 @@
     ]
   },
   {
-    "sentence": "La densidad de empaquetamiento en un archivo con registros con longitud variable: a. Se calcula como el cociente entre la cantidad de registros del archivo y la cantidad de espacio disponible.:",
+    "sentence": "La densidad de empaquetamiento en un archivo con registros con longitud variable:",
     "options": [
       [
         "a",
-        "Es \u00fatil para establecer la proporci\u00f3n de espacio del archivo asignado que en realidad almacena registros. c. A medida que disminuye, aumenta la probabilidad de overflow"
+        "Se calcula como el cociente entre la cantidad de registros del archivo y la cantidad de espacio disponible"
       ],
       [
         "b",
-        "A medida que disminuye, hay m\u00e1s desperdicio de espacio"
+        "Es \u00fatil para establecer la proporci\u00f3n de espacio del archivo asignado que en realidad almacena registros"
       ],
       [
         "c",
-        "Alguna de las anteriores"
+        "A medida que disminuye, aumenta la probabilidad de overflow"
       ],
       [
         "d",
+        "A medida que disminuye, hay m\u00e1s desperdicio de espacio"
+      ],
+      [
+        "e",
+        "Alguna de las anteriores"
+      ],
+      [
+        "f",
         "Ninguna de las anteriores"
       ]
     ],
@@ -3005,10 +3569,14 @@
       ],
       [
         "b",
-        "La localizaci\u00f3n de un registro siempre debe utilizar una tabla adicional en memoria c. No es conveniente de aplicar sobre claves secundarias"
+        "La localizaci\u00f3n de un registro siempre debe utilizar una tabla adicional en memoria"
       ],
       [
         "c",
+        "No es conveniente de aplicar sobre claves secundarias"
+      ],
+      [
+        "d",
         "Requiere al menos de dos funciones de hash para el tratamiento de los desbordes"
       ]
     ],
@@ -3146,10 +3714,14 @@
       ],
       [
         "b",
-        "La proporci\u00f3n de espacio asignado al archivo que en realidad almacena registros. 3. DE = cantidad de registros / (cantidad de cubetas)"
+        "La proporci\u00f3n de espacio asignado al archivo que en realidad almacena registros"
       ],
       [
         "c",
+        "DE = cantidad de registros / (cantidad de cubetas)"
+      ],
+      [
+        "d",
         "Ninguna de las anteriores"
       ]
     ],
@@ -3162,7 +3734,23 @@
     "options": [
       [
         "a",
-        "Siempre que dos registros diferentes obtienen de la funci\u00f3n de hash la misma direcci\u00f3n de disco. 2. Siempre que dos registros iguales obtienen de la funci\u00f3n de hash direcciones diferentes de disco. 3. Cuando un registro no cabe en el lugar donde debe almacenarse seg\u00fan el resultado de la funci\u00f3n de hash. 4. Cuando dos registros diferentes obtienen de la funci\u00f3n de hash direcciones diferentes de disco. 5. Ninguna de las anteriores"
+        "Siempre que dos registros diferentes obtienen de la funci\u00f3n de hash la misma direcci\u00f3n de disco"
+      ],
+      [
+        "b",
+        "Siempre que dos registros iguales obtienen de la funci\u00f3n de hash direcciones diferentes de disco"
+      ],
+      [
+        "c",
+        "Cuando un registro no cabe en el lugar donde debe almacenarse seg\u00fan el resultado de la funci\u00f3n de hash"
+      ],
+      [
+        "d",
+        "Cuando dos registros diferentes obtienen de la funci\u00f3n de hash direcciones diferentes de disco"
+      ],
+      [
+        "e",
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
@@ -3182,7 +3770,11 @@
       ],
       [
         "c",
-        "Cuando se usa la 2da funci\u00f3n, el valor obtenido reemplaza al anteriormente obtenido por la 1ra funci\u00f3n. 4. Ninguna de las anteriores"
+        "Cuando se usa la 2da funci\u00f3n, el valor obtenido reemplaza al anteriormente obtenido por la 1ra funci\u00f3n"
+      ],
+      [
+        "d",
+        "Ninguna de las anteriores"
       ]
     ],
     "answers": [
@@ -3218,14 +3810,18 @@
     "options": [
       [
         "a",
-        "El espacio aumenta o disminuye dependiendo de los registros que contiene el archivo. 2. Necesita una tabla auxiliar"
+        "El espacio aumenta o disminuye dependiendo de los registros que contiene el archivo"
       ],
       [
         "b",
-        "La densidad de empaquetamiento siempre se mantiene por debajo del 75%"
+        "Necesita una tabla auxiliar"
       ],
       [
         "c",
+        "La densidad de empaquetamiento siempre se mantiene por debajo del 75%"
+      ],
+      [
+        "d",
         "Ninguna de las anteriores"
       ]
     ],
@@ -3242,14 +3838,18 @@
       ],
       [
         "b",
-        "Obtener m\u00e1s espacio para el mismo archivo, actualizar la funci\u00f3n de hash, y redispersar el archivo completo. 3. Obtener m\u00e1s espacio para el mismo archivo, actualizar la funci\u00f3n de hash pero no redispersar (se usa la  nueva funci\u00f3n s\u00f3lo para los nuevos elementos)"
+        "Obtener m\u00e1s espacio para el mismo archivo, actualizar la funci\u00f3n de hash, y redispersar el archivo completo"
       ],
       [
         "c",
-        "No es posible que se agote el espacio disponible asignado al archivo"
+        "Obtener m\u00e1s espacio para el mismo archivo, actualizar la funci\u00f3n de hash pero no redispersar (se usa la  nueva funci\u00f3n s\u00f3lo para los nuevos elementos)"
       ],
       [
         "d",
+        "No es posible que se agote el espacio disponible asignado al archivo"
+      ],
+      [
+        "e",
         "Ninguna de las anteriores"
       ]
     ],
@@ -3286,18 +3886,22 @@
     "options": [
       [
         "a",
-        "Utiliza una segunda funci\u00f3n de hash para determinar donde va el registro en overflow. 2. Utiliza una segunda funci\u00f3n de hash para determinar el nuevo nodo donde se guardar\u00e1 el registro en  overflow"
+        "Utiliza una segunda funci\u00f3n de hash para determinar donde va el registro en overflow"
       ],
       [
         "b",
-        "Selecciona el primer nodo libre m\u00e1s cercano al nodo saturado"
+        "Utiliza una segunda funci\u00f3n de hash para determinar el nuevo nodo donde se guardar\u00e1 el registro en  overflow"
       ],
       [
         "c",
-        "Selecciona el primer nodo libre m\u00e1s cercano al saturado y los linkea"
+        "Selecciona el primer nodo libre m\u00e1s cercano al nodo saturado"
       ],
       [
         "d",
+        "Selecciona el primer nodo libre m\u00e1s cercano al saturado y los linkea"
+      ],
+      [
+        "e",
         "Ninguna de las anteriores"
       ]
     ],
@@ -3390,10 +3994,14 @@
       ],
       [
         "b",
-        "Se demora siempre menos en la b\u00fasqueda que utilizando el m\u00e9todo de \u00e1rea separado 3. Es un m\u00e9todo m\u00e1s de tratamiento de colisiones"
+        "Se demora siempre menos en la b\u00fasqueda que utilizando el m\u00e9todo de \u00e1rea separado"
       ],
       [
         "c",
+        "Es un m\u00e9todo m\u00e1s de tratamiento de colisiones"
+      ],
+      [
+        "d",
         "Siempre es m\u00e1s eficiente que cualquier situaci\u00f3n similar resultante con el m\u00e9todo de saturaci\u00f3n progresiva"
       ]
     ],
@@ -3407,18 +4015,22 @@
     "options": [
       [
         "a",
-        "Siempre devuelve una direcci\u00f3n donde se deber\u00eda almacenar el registro dispersado 2. Siempre devuelve una secuencia de bits que sirve para determinar d\u00f3nde se deber\u00eda almacenar el registro  dispersado"
+        "Siempre devuelve una direcci\u00f3n donde se deber\u00eda almacenar el registro dispersado"
       ],
       [
         "b",
-        "Siempre debe ser aleatoria"
+        "Siempre devuelve una secuencia de bits que sirve para determinar d\u00f3nde se deber\u00eda almacenar el registro  dispersado"
       ],
       [
         "c",
-        "Todas las anteriores"
+        "Siempre debe ser aleatoria"
       ],
       [
         "d",
+        "Todas las anteriores"
+      ],
+      [
+        "e",
         "Algunas de las anteriores"
       ]
     ],
@@ -3427,26 +4039,30 @@
     ]
   },
   {
-    "sentence": "Cu\u00e1les de los siguientes \u00edtems puede considerarse atributos o propiedades de la t\u00e9cnica de hash 1. No requerir espacio adicional de almacenamiento:",
+    "sentence": "Cu\u00e1les de los siguientes \u00edtems puede considerarse atributos o propiedades de la t\u00e9cnica de hash:",
     "options": [
       [
         "a",
-        "Facilitar inserci\u00f3n y eliminaci\u00f3n r\u00e1pida de elementos en el archivo"
+        "No requerir espacio adicional de almacenamiento"
       ],
       [
         "b",
-        "Permitir la b\u00fasqueda m\u00e1s eficiente de informaci\u00f3n en un archivo de datos"
+        "Facilitar inserci\u00f3n y eliminaci\u00f3n r\u00e1pida de elementos en el archivo"
       ],
       [
         "c",
-        "Permitir acceso secuencial a los datos"
+        "Permitir la b\u00fasqueda m\u00e1s eficiente de informaci\u00f3n en un archivo de datos"
       ],
       [
         "d",
-        "Todas las anteriores"
+        "Permitir acceso secuencial a los datos"
       ],
       [
         "e",
+        "Todas las anteriores"
+      ],
+      [
+        "f",
         "Algunas de las anteriores"
       ]
     ],
@@ -3456,26 +4072,30 @@
     ]
   },
   {
-    "sentence": "Cu\u00e1l de los siguientes par\u00e1metros de la t\u00e9cnica de hash es m\u00e1s importante? 1. Funci\u00f3n de hash:",
+    "sentence": "Cu\u00e1l de los siguientes par\u00e1metros de la t\u00e9cnica de hash es m\u00e1s importante?",
     "options": [
       [
         "a",
-        "Tama\u00f1o de cada nodo de almacenamiento"
+        "Funci\u00f3n de hash"
       ],
       [
         "b",
-        "Densidad de empaquetamiento"
+        "Tama\u00f1o de cada nodo de almacenamiento"
       ],
       [
         "c",
-        "M\u00e9todo de tratamiento de overflow"
+        "Densidad de empaquetamiento"
       ],
       [
         "d",
-        "Ninguno es importante"
+        "M\u00e9todo de tratamiento de overflow"
       ],
       [
         "e",
+        "Ninguno es importante"
+      ],
+      [
+        "f",
         "Ninguno prevalece sobre el otro"
       ]
     ],
@@ -3737,10 +4357,14 @@
       ],
       [
         "d",
-        "Se puede analizar solamente en archivos ordenados de longitud fija e. Algunas de las anteriores"
+        "Se puede analizar solamente en archivos ordenados de longitud fija"
       ],
       [
         "e",
+        "Algunas de las anteriores"
+      ],
+      [
+        "f",
         "Ninguna de las anteriores"
       ]
     ],
@@ -3753,18 +4377,26 @@
     "options": [
       [
         "a",
-        "permite borrar elementos de un archivo que contiene registros de longitud fija b. permite borrar elementos de un archivo que contiene registros de longitud variable c. permite hacer baja logica"
+        "permite borrar elementos de un archivo que contiene registros de longitud fija"
       ],
       [
         "b",
-        "permite hacer baja fisica"
+        "permite borrar elementos de un archivo que contiene registros de longitud variable"
       ],
       [
         "c",
-        "Algunas de las respuestas anteriores son correctas"
+        "permite hacer baja logica"
       ],
       [
         "d",
+        "permite hacer baja fisica"
+      ],
+      [
+        "e",
+        "Algunas de las respuestas anteriores son correctas"
+      ],
+      [
+        "f",
         "Ninguna de las respuestas anteriores son validas"
       ]
     ],
@@ -3793,10 +4425,14 @@
       ],
       [
         "e",
-        "Se aplica solamente a archivos con registros con longitud variable f. Todas las anteriores"
+        "Se aplica solamente a archivos con registros con longitud variable"
       ],
       [
         "f",
+        "Todas las anteriores"
+      ],
+      [
+        "g",
         "Alguna de las anteriores"
       ]
     ],
@@ -3849,10 +4485,18 @@
       ],
       [
         "d",
-        "Se aplica solamente a archivos con registros con longitud fija e. Se aplica solamente a archivos con registros con longitud variable f. Todas las anteriores"
+        "Se aplica solamente a archivos con registros con longitud fija"
       ],
       [
         "e",
+        "Se aplica solamente a archivos con registros con longitud variable"
+      ],
+      [
+        "f",
+        "Todas las anteriores"
+      ],
+      [
+        "g",
         "Alguna de las anteriores"
       ]
     ],
@@ -3865,14 +4509,26 @@
     "options": [
       [
         "a",
-        "Se puede generar a partir de una clave un\u00edvoca de un registro   b. Se puede generar a partir de una clave no un\u00edvoca de un registro c. Puede implementarse con una estructura de datos lineal"
+        "Se puede generar a partir de una clave un\u00edvoca de un registro"
       ],
       [
         "b",
-        "Debe implementarse con una estructura eficiente no lineal e. Algunas de las anteriores"
+        "Se puede generar a partir de una clave no un\u00edvoca de un registro"
       ],
       [
         "c",
+        "Puede implementarse con una estructura de datos lineal"
+      ],
+      [
+        "d",
+        "Debe implementarse con una estructura eficiente no lineal"
+      ],
+      [
+        "e",
+        "Algunas de las anteriores"
+      ],
+      [
+        "f",
         "Ninguna de las anteriores"
       ]
     ],
@@ -3885,18 +4541,26 @@
     "options": [
       [
         "a",
-        "se debe procurar mas espacio para el archivo que lo contiene, reacomodando todos los nodos b. se debe procurar mas espacio para el archivo que lo contiene, reacomodando el nodo padre y sus hermanos c. se debe procurar mas espacio para el archivo"
+        "se debe procurar mas espacio para el archivo que lo contiene, reacomodando todos los nodos"
       ],
       [
         "b",
-        "todas las anteriores"
+        "se debe procurar mas espacio para el archivo que lo contiene, reacomodando el nodo padre y sus hermanos"
       ],
       [
         "c",
-        "algunas de las anteriores"
+        "se debe procurar mas espacio para el archivo"
       ],
       [
         "d",
+        "todas las anteriores"
+      ],
+      [
+        "e",
+        "algunas de las anteriores"
+      ],
+      [
+        "f",
         "ninguna de las anteriores"
       ]
     ],
@@ -4077,26 +4741,34 @@
     "options": [
       [
         "a",
-        "Al realizar un inserci\u00f3n, puede tener nodos hojas con underflow b. Al realizar una baja, puede tener nodos hojas con overflow c. Al realizar un inserci\u00f3n, puede requerirse concatenaci\u00f3n"
+        "Al realizar un inserci\u00f3n, puede tener nodos hojas con underflow"
       ],
       [
         "b",
-        "Al realizarse una baja, puede requerirse divisi\u00f3n"
+        "Al realizar una baja, puede tener nodos hojas con overflow"
       ],
       [
         "c",
-        "Al realizarse un alta puede requerirse redistribuci\u00f3n"
+        "Al realizar un inserci\u00f3n, puede requerirse concatenaci\u00f3n"
       ],
       [
         "d",
-        "Todas las anteriores"
+        "Al realizarse una baja, puede requerirse divisi\u00f3n"
       ],
       [
         "e",
-        "Algunas de las anteriores"
+        "Al realizarse un alta puede requerirse redistribuci\u00f3n"
       ],
       [
         "f",
+        "Todas las anteriores"
+      ],
+      [
+        "g",
+        "Algunas de las anteriores"
+      ],
+      [
+        "h",
         "Ninguna de las anteriores"
       ]
     ],
@@ -4109,22 +4781,38 @@
     "options": [
       [
         "a",
-        "se puede aplicar a una clave unica, cuyo atributo es un string b. se puede aplicar a una clave secundaria, cuyo atributo es un storing c. se puede aplicar a una clave primaria, cuyo atributo es un entero d. se puede aplicar solamente a una clave un\u00edvoca, cuyo atributo es string e. todas las anteriores son correctas"
+        "se puede aplicar a una clave unica, cuyo atributo es un string"
       ],
       [
         "b",
-        "a y b son las opciones correctas"
+        "se puede aplicar a una clave secundaria, cuyo atributo es un storing"
       ],
       [
         "c",
-        "a, c y d son las opciones correctas"
+        "se puede aplicar a una clave primaria, cuyo atributo es un entero"
       ],
       [
         "d",
-        "a, b y d son las opciones correctas"
+        "se puede aplicar solamente a una clave un\u00edvoca, cuyo atributo es string"
       ],
       [
         "e",
+        "todas las anteriores son correctas"
+      ],
+      [
+        "f",
+        "a y b son las opciones correctas"
+      ],
+      [
+        "g",
+        "a, c y d son las opciones correctas"
+      ],
+      [
+        "h",
+        "a, b y d son las opciones correctas"
+      ],
+      [
+        "i",
         "ninguna de las opciones que tengo es correcta"
       ]
     ],
@@ -4297,18 +4985,22 @@
       ],
       [
         "c",
-        "Utiliza una segunda funci\u00f3n de dispersi\u00f3n siempre que se desee almacenar un registro en un archivo . d. Solo se aplica a la dispersi\u00f3n extensible"
+        "Utiliza una segunda funci\u00f3n de dispersi\u00f3n siempre que se desee almacenar un registro en un archivo"
       ],
       [
         "d",
-        "Ayuda a predecir la cantidad de claves en overflow"
+        "Solo se aplica a la dispersi\u00f3n extensible"
       ],
       [
         "e",
-        "Hay m\u00e1s de una opci\u00f3n correcta"
+        "Ayuda a predecir la cantidad de claves en overflow"
       ],
       [
         "f",
+        "Hay m\u00e1s de una opci\u00f3n correcta"
+      ],
+      [
+        "g",
         "Ninguna de las opciones anteriores es correcta"
       ]
     ],
@@ -4425,26 +5117,30 @@
       ],
       [
         "c",
-        "Utiliza una funci\u00f3n de hash pero esta funci\u00f3n no devuelve la direcci\u00f3n donde guardar el registro d. Utiliza area de desborde por separado para los registros en overflow"
+        "Utiliza una funci\u00f3n de hash pero esta funci\u00f3n no devuelve la direcci\u00f3n donde guardar el registro"
       ],
       [
         "d",
-        "Todas las anteriores son validas"
+        "Utiliza area de desborde por separado para los registros en overflow"
       ],
       [
         "e",
-        "Las respuestas a y c son correctas"
+        "Todas las anteriores son validas"
       ],
       [
         "f",
-        "Las respuestas b y c son correctas"
+        "Las respuestas a y c son correctas"
       ],
       [
         "g",
-        "Las respuestas a, c y d son correctas"
+        "Las respuestas b y c son correctas"
       ],
       [
         "h",
+        "Las respuestas a, c y d son correctas"
+      ],
+      [
+        "i",
         "Ninguna es correcta"
       ]
     ],
@@ -4553,14 +5249,30 @@
     "options": [
       [
         "a",
-        "Se puede aplicar sobre un archivo con registros de longitud fija b. Se puede aplicar sobre un archivo con registros de longitud variable c. Se aplica sobre un archivo con registros de longitud fija d. Se aplica sobre un archivo con registros de longitud variable e. Todas las anteriores son correctas"
+        "Se puede aplicar sobre un archivo con registros de longitud fija"
       ],
       [
         "b",
-        "Algunas de las anteriores son correctas"
+        "Se puede aplicar sobre un archivo con registros de longitud variable"
       ],
       [
         "c",
+        "Se aplica sobre un archivo con registros de longitud fija"
+      ],
+      [
+        "d",
+        "Se aplica sobre un archivo con registros de longitud variable"
+      ],
+      [
+        "e",
+        "Todas las anteriores son correctas"
+      ],
+      [
+        "f",
+        "Algunas de las anteriores son correctas"
+      ],
+      [
+        "g",
         "Ninguna de las anteriores son correctas"
       ]
     ],
@@ -4605,18 +5317,22 @@
       ],
       [
         "b",
-        "Requiere que todos los archivos est\u00e9n ordenados por el mismo criterio c. Puede realizarse con los archivos ordenados"
+        "Requiere que todos los archivos est\u00e9n ordenados por el mismo criterio"
       ],
       [
         "c",
-        "No puede realizarse sin los archivos ordenados"
+        "Puede realizarse con los archivos ordenados"
       ],
       [
         "d",
-        "Algunas de las anteriores"
+        "No puede realizarse sin los archivos ordenados"
       ],
       [
         "e",
+        "Algunas de las anteriores"
+      ],
+      [
+        "f",
         "Ninguna de las anteriores"
       ]
     ],
@@ -4629,14 +5345,26 @@
     "options": [
       [
         "a",
-        "asigna un registro nuevo (alta) en un la posici\u00f3n que quepa de tama\u00f1o menor b. asigna un registro nuevo (alta) en un la posici\u00f3n que quepa de tama\u00f1o mayor c. asigna el registro al final del archivo si no hay lugar en posiciones intermedias d. Todas las anteriores son correctas"
+        "asigna un registro nuevo (alta) en un la posici\u00f3n que quepa de tama\u00f1o menor"
       ],
       [
         "b",
-        "Algunas de las respuestas anteriores son correctas"
+        "asigna un registro nuevo (alta) en un la posici\u00f3n que quepa de tama\u00f1o mayor"
       ],
       [
         "c",
+        "asigna el registro al final del archivo si no hay lugar en posiciones intermedias"
+      ],
+      [
+        "d",
+        "Todas las anteriores son correctas"
+      ],
+      [
+        "e",
+        "Algunas de las respuestas anteriores son correctas"
+      ],
+      [
+        "f",
         "Ninguna de las respuestas anteriores son validas"
       ]
     ],
@@ -4685,18 +5413,22 @@
       ],
       [
         "b",
-        "permite borrar elementos de un archivo que contiene registros de longitud variable c. permite hacer baja logica"
+        "permite borrar elementos de un archivo que contiene registros de longitud variable"
       ],
       [
         "c",
-        "permite hacer baja fisica"
+        "permite hacer baja logica"
       ],
       [
         "d",
-        "Algunas de las respuestas anteriores son correctas"
+        "permite hacer baja fisica"
       ],
       [
         "e",
+        "Algunas de las respuestas anteriores son correctas"
+      ],
+      [
+        "f",
         "Ninguna de las respuestas anteriores son validas"
       ]
     ],
@@ -4749,10 +5481,14 @@
       ],
       [
         "d",
-        "si la clave a buscar no se repitiera puede ser igual de rapida su b\u00fasqueda que en un indice un\u00edvoco e. Algunas de las anteriores son validas"
+        "si la clave a buscar no se repitiera puede ser igual de rapida su b\u00fasqueda que en un indice un\u00edvoco"
       ],
       [
         "e",
+        "Algunas de las anteriores son validas"
+      ],
+      [
+        "f",
         "ninguna de las anteriores son validas"
       ]
     ],
@@ -4797,15 +5533,23 @@
     "options": [
       [
         "a",
-        "Cada nodo del arbol puede contener maximo M descendientes y M-1 elementos b. La raiz no posee descendientes o posee [M/2] descendientes"
+        "Cada nodo del arbol puede contener maximo M descendientes y M-1 elementos"
       ],
       [
         "b",
-        "Todos los nodos terminales se encuentran al mismo nivel"
+        "La raiz no posee descendientes o posee [M/2] descendientes"
       ],
       [
         "c",
-        "Los nodos no terminaels ni raiz tienen mas de [M/2] y a lo sumo M descendientes e. Un nodo con x descendientes contienen x-1 elementos"
+        "Todos los nodos terminales se encuentran al mismo nivel"
+      ],
+      [
+        "d",
+        "Los nodos no terminaels ni raiz tienen mas de [M/2] y a lo sumo M descendientes"
+      ],
+      [
+        "e",
+        "Un nodo con x descendientes contienen x-1 elementos"
       ]
     ],
     "answers": [
@@ -4817,26 +5561,34 @@
     "options": [
       [
         "a",
-        "el nodo ra\u00edz pude tener solamente 3 hijos en algun momento de su construcci\u00f3n b. un nodo terminal puede producir un underflow, si al borrar un elemento quedan 48 en el nodo c. puede ser que un nodo terminal con 50 elementos, tenga 51 hijos"
+        "el nodo ra\u00edz pude tener solamente 3 hijos en algun momento de su construcci\u00f3n"
       ],
       [
         "b",
-        "todas las respuestas anteriores son correctas"
+        "un nodo terminal puede producir un underflow, si al borrar un elemento quedan 48 en el nodo"
       ],
       [
         "c",
-        "las opciones a y b son correctas"
+        "puede ser que un nodo terminal con 50 elementos, tenga 51 hijos"
       ],
       [
         "d",
-        "las opciones b y c son correctas"
+        "todas las respuestas anteriores son correctas"
       ],
       [
         "e",
-        "las opciones a y c son correctas"
+        "las opciones a y b son correctas"
       ],
       [
         "f",
+        "las opciones b y c son correctas"
+      ],
+      [
+        "g",
+        "las opciones a y c son correctas"
+      ],
+      [
+        "h",
         "ninguna opci\u00f3n anteirior es correcta"
       ]
     ],
@@ -4885,18 +5637,26 @@
     "options": [
       [
         "a",
-        "un nodo entra en underflow si se borra un elemento y solo quedan 48 b. un nodo no terminal ni raiz tendr\u00e1 al menos [M/2] hijos"
+        "un nodo entra en underflow si se borra un elemento y solo quedan 48"
       ],
       [
         "b",
-        "puede ser que la raiz tenga solamente dos hijos en algun momento d. todas las anteriores son correctas"
+        "un nodo no terminal ni raiz tendr\u00e1 al menos [M/2] hijos"
       ],
       [
         "c",
-        "algunas de las anteriores son correcta"
+        "puede ser que la raiz tenga solamente dos hijos en algun momento"
       ],
       [
         "d",
+        "todas las anteriores son correctas"
+      ],
+      [
+        "e",
+        "algunas de las anteriores son correcta"
+      ],
+      [
+        "f",
         "ninguna de las anteriores son correctas"
       ]
     ],

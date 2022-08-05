@@ -1,0 +1,1378 @@
+﻿NOTA:  
+· La primera mitad del archivo contiene preguntas recuperadas de distintos PDF y  fotos de exámenes viejos (2011, 2012, 2017, 2019, entre otros) y sus respuestas  PODRÍAN no ser correctas. 
+Una respuesta solo entre paréntesis significa que en la fuente de donde se  obtuvo, esa respuesta ya estaba marcada como correcta. 
+Una respuesta entre paréntesis con un asterisco o signo de pregunta implica  una respuesta dada por quienes armamos este archivo. 
+En cualquier caso, no se asegura 100% que sea correcta. 
+· La segunda mitad (separado por una página en blanco) son exámenes 2021,  cuyas respuestas están determinadas por Moodle, y es 100% confiable estudiarlas.
+Parte I 
+Archivos 
+1) Los archivos con registros de longitud variable: 
+a. Ocupan menos espacio que los registros con long. fija 
+b. Ocupan más espacio que los registros con long. fija 
+c. Ocupan el mismo espacio que los registros con long. Fija 
+d. Ninguna de las anteriores 
+(d) 
+2) Un algoritmo de búsqueda en un archivo: 
+a. Es más eficiente si el archivo está ordenado 
+b. Puede ser más eficiente si se considera como precondición que el archivo está ordenado. c. Es igual de eficiente si el archivo está ordenado o desordenado. 
+d. Ninguna de las anteriores 
+(b)
+3) El proceso de merge de archivos: 
+a. Requiere que todos los archivos estén ordenados 
+b. Requiere que todos los archivos estén ordenados por el mismo criterio c. Puede hacerse sin los archivos ordenados 
+d. No puede realizarse sin los archivos ordenados 
+e. Algunas de las anteriores 
+f. Ninguna de las anteriores 
+(c) 
+4) El proceso de alta de un registro por ajuste óptimo: 
+a. Se puede realizar con registros de long fija 
+b. Se debe realizar con registros de long fija 
+c. Se puede realizar con registros de long variable 
+d. Se debe realizar con registros de long variable (decía “long fija”) e. Ninguna 
+(e) 
+5) La operación assign: 
+a. Se utiliza para abrir un archivo 
+b. Se utiliza para posicionarse en el primer registro del archivo c. Vincula el archivo lógico con el archivo físico 
+d. Se utiliza para saber la longitud del archivo 
+e. Algunas de las anteriores
+(c) 
+6) A partir del NRR: 
+a. Se puede acceder a un registro de un archivo fragmentado en un sólo acceso b. Se puede acceder a un registro de un archivo no fragmentado en un sólo acceso c. Se puede acceder a un registro de un archivo en un sólo acceso d. Se puede lograr acceso directo a un archivo 
+e. Todas las anteriores 
+f. Algunas de las anteriores 
+(e) 
+7) Un archivo fragmentado: 
+a. Debe compactarse para optimizar el espacio utilizado 
+b. No debe compactarse para optimizar el espacio utilizado 
+c. A veces puede compactarse 
+d. Nunca debe compactarse 
+e. Algunas de las anteriores 
+(c) 
+8) Un algoritmo de actualización maestro-detalles
+a. Requiere que todos los archivos tengan la misma estructura 
+b. Puede realizarse entre archivos con diferente estructura 
+c. Requiere que los archivos estén ordenados 
+d. Requiere que los archivos estén desordenados 
+e. Algunas de las anteriores 
+(b) 
+9) Un archivo serie 
+a. Está ordenado 
+b. Puede ordenarse 
+c. Requiere ordenarse 
+d. No requiere ordenarse 
+e. No está ordenado 
+f. Algunas de las anteriores 
+(b) 
+10) Dado un archivo con 1000 registros 
+a. Siempre se puede llevar a memoria RAM para hacer búsquedas más eficientes b. No siempre se puede llevar a memoria RAM para hacer búsquedas más eficientes c. Siempre se puede realizar búsqueda dicotómica 
+d. No puede realizarse búsqueda dicotómica 
+e. Algunas de las anteriores
+(b) 
+11) Un archivo ordenado: 
+a. Puede desordenarse 
+b. Conviene mantenerlo ordenado 
+c. No conviene mantenerlo ordenado 
+d. No puede desordenarse 
+e. Algunas 
+f. Ninguna 
+(a) 
+12) Cuál de las siguientes definiciones corresponde a archivo: 
+a. Colección de registros que abarca un conjunto de entidades con ciertos aspectos en común y organizados  para un propósito particular. 
+b. Colección de registros semejantes almacenados en disco rígido. 
+c. Colección de registros del mismo tipo almacenados en un dispositivo de memoria secundaria. d. Todas las opciones son correctas 
+(d)
+13) Un archivo que maneja registros de longitud fija necesita: 
+a. Delimitadores que indiquen el fin de cada campo 
+b. Delimitadores que indiquen el fin de cada registro 
+c. Indicadores de longitud de registros 
+d. Ninguna de las opciones son aplicables 
+(d) 
+14) El proceso de baja en un archivo con registros de longitud variable: a. Puede recuperar el espacio disponible con nuevas altas 
+b. Puede recuperar el espacio disponible compactando periódicamente el archivo c. Puede recuperar el espacio disponible compactando el archivo ante cada baja d. Todas las anteriores 
+(d) 
+15) El procedimiento de alta de información en un archivo: 
+a. Siempre agrega información al final del archivo 
+b. Puede recuperar espacio dado de baja físicamente 
+c. Siempre recupera espacio dado de baja lógicamente 
+d. Ninguna de las anteriores
+(d) 
+16) El proceso de baja lógica (sin ningún agregado de otras operaciones) de un archivo: a. Nunca recupera espacio en disco 
+b. Siempre recupera espacio en disco 
+c. A veces recupera espacio en disco 
+d. No dispongo de información suficiente para responder la pregunta 
+(a) 
+17) Dado un archivo 
+a. Siempre se necesita tener un índice asociado 
+b. Un índice asociado le permite optimizar las operaciones de alta 
+c. Siempre debe estar ordenado 
+d. Ninguna 
+(d) 
+18) Una clave candidata: 
+a. Admite repeticiones de valores 
+b. Admite repeticiones de campos 
+c. Podría haber sido elegida como clave primaria 
+d. Tiene exactamente las mismas características que la clave primarias
+(c) 
+19) El proceso de compactación de un archivo tiene sentido ser aplicado: a. Luego de realizar una operación de alta 
+b. Luego de realizar una operación de baja lógica 
+c. Luego de realizar una operación de baja físicamente 
+d. Luego de realizar una operación de modificación 
+(b) 
+20) El acceso promedio para recuperar un dato en un archivo desordenado a. Tiene orden lineal 
+b. Tiene orden logarítmico 
+c. Tiene orden constante (1) 
+d. No tengo datos suficientes para responder 
+(a)
+21) La política de primer ajuste, que permite recuperar espacio borrado en un archivo a. Sólo se aplica en registros de long fija 
+b. Sólo se aplica en registros de long variable 
+c. Genera fragmentación interna 
+d. Genera fragmentación externa 
+e. Hay más de una respuesta correcta 
+(e) (*La b y la c? No sería PUEDE generar fragmentación?) 
+22) A partir de un archivo con registros de long fija y luego de algunas operaciones con el mismo: a. Nunca genera fragmentación 
+b. Puede generar fragmentación interna 
+c. Puede generar fragmentación externa 
+d. Las últimas dos son correctas 
+(d) (*cómo puede generar fragmentación externa? Si es fijo) 
+(*b) 
+23) El acceso secuencial a un archivo es: 
+a. Acceso a los registros uno tras otro y en el orden físico en el que están guardados. b. Acceso a los registros de acuerdo al orden establecido por otra estructura. c. Acceso a un registro determinado sin necesidad de haber accedido a los predecesores. d. Ninguna
+(b) (*a) 
+24) Un algoritmo de corte de control: 
+a. Permite actualizar un archivo maestro con un archivo detalle 
+b. permite actualizar un archivo maestro a partir de varios archivos detalle c. permite presentar la información con una estructura especial 
+d. permite actualizar un archivo con varios archivos detalles 
+(c)  
+25) Un archivo de datos 
+a. Necesariamente tiene registros de long fija 
+b. Necesariamente tiene registros de long variable 
+c. Puede tener registros de long fija y variable en el mismo archivo e. Ninguna 
+(e)  
+26) Un borrado lógico en un archivo de datos 
+a. recupera inmediatamente el espacio borrado, dejando el archivo de tamaño menor b. no se puede aplicar con registros de long variable 
+c. sólo se aplica con registros de long fija
+d. Permite recuperar el espacio con nuevas altas 
+(d)  
+29) Un archivo físicamente ordenado  
+a. Es más fácil de recorrer 
+b. Permite búsqueda binaria 
+c. Permite búsqueda binaria sólo si las altas mantienen el archivo ordenado d. No permite búsqueda binaria si hay bajas lógicas 
+e. Algunas de las anteriores 
+f. Ninguna de las anteriores 
+(e) (b, c?)  
+30) En un archivo con registros de longitud variable 
+a. Puede utilizar “$” como delimitador de fin de registro 
+b. Cuando un registro se modifica utiliza el mismo espacio 
+c. Se puede utilizar cualquier lugar libre de un archivo para insertar un registro d. Siempre se utiliza la política de mejor ajuste para recuperar espacio e. Algunas. 
+(a)
+31) Para aplicar un algoritmo de merge  
+a. Es necesario más de un archivo  
+b. Es necesario que el archivo maestro esté ordenado  c. Es necesario que los detalles estén ordenados  d. No es necesario que el archivo maestro esté ordenado  e. No es necesario que los archivos detalles estén ordenados f. Algunas de las anteriores  
+g. Ninguna de las anteriores 
+(*f) (*a y e) 
+32) La función EOF  
+a. Puede devolver verdadero después de un reset b. Puede devolver falso después de una lectura c. Puede devolver verdadero después de una lectura d. Devuelve verdadero si estas al final del archivo e. Devuelve falso si no estas al final del archivo f. Todas las anteriores 
+g. Algunas de las anteriores 
+h. Ninguna de las anteriores 
+(f)  
+33) Es posible aplicar la búsqueda binaria en: 
+a. Archivos desordenados con registros de longitud variable b. Archivos desordenados con registros de longitud fija c. Archivos ordenados con registros de longitud variable d. Archivos ordenados con registros de longitud fija e. Ninguna de las anteriores
+(d)  
+34) Un archivo organizado con registros de longitud variable a. No permite realizar bajas lógicas 
+b. Optimiza la utilización de espacio en disco 
+c. No permite realizar bajas físicas 
+d. Sólo acepta altas al final del archivo 
+(b) 
+35) La eficiencia promedio de búsqueda en un archivo sin orden es: a. Orden lineal 
+b. Orden logarítmico 
+c. 1 
+d. No dispongo datos para contestar la pregunta 
+(a) 
+18) Una colisión: 
+a) siempre genera saturación 
+b) requiere utilizar saturación progresiva
+c) puede producir saturación 
+d) más de una es correcta 
+e) ninguna es correcta 
+(c) 
+19) La siguiente secuencia de instrucciones en un archivo de longitud  fija 
+Assign (archivo, archivo.dat); 
+reset (archivo); 
+read (archivo, dato_reg); 
+dato_reg.precio:=200; 
+seek (archivo, 0); 
+write (archivo, dato_reg); 
+close (archivo): 
+a) modifica el registro de la posición 0 del archivo 
+b) no realiza cambios en el archivo 
+c) más de una es correcta 
+d) ninguna es correcta 
+(a) 
+22) Un índice secundario asociado a un archivo: 
+1. Siempre debe referenciar al índice primario 
+2. Siempre debe permitir acceder a los registros del archivo 
+3. A veces debe permitir acceder a los registros del archivo 
+4. Puede referenciar al índice primario 
+5. Ninguna de las anteriores.
+(1*) 
+24) La búsqueda binaria es aplicable a: 
+1. Archivos con registros de longitud variable. 
+2. Archivos desordenados con registro de longitud fija. 
+3. Archivos ordenados con registros de longitud fija. 
+4. Ninguna de las opciones es correcta. 
+(3) 
+25) Un algoritmo de actualización maestro/detalles: 
+1. Permite actualizar un archivo maestro con un solo archivo detalle 
+2. Permite presentar la información con un formato especial. 
+3. Permite actualizar un archivo maestro a partir de uno o varios archivos detalle. 
+4. Permite Mezclar en un único archivo los registros del archivo maestro y los registros de los archivos de  detalle. 
+5. Ninguna es correcta. 
+(3) 
+26) La política de recuperación de espacio de Mejor Ajuste, en archivos  con registros de longitud fija 
+1. A veces genera fragmentación externa 
+2. Siempre genera fragmentación externa 
+3. A veces genera fragmentación interna 
+4. Siempre genera fragmentación interna 
+5. No corresponde utilizarla con archivos de longitud fija 
+(5)
+27)El proceso de corte de control 
+1. Actualiza el archivo maestro a partir de un archivo detalle 
+2. Actualiza el archivo maestro a partir de varios archivos detalle 
+3. Genera un único archivo, uniendo un archivo maestro con un archivo detalle 
+4. Genera un único archivo, uniendo un archivo maestro con todos los archivos detalle 5. Ninguna de las anteriores 
+(5) 
+28) Un archivo con registros de longitud variable 
+1. Admite una organización mediante hashing 
+2. Admite sólo bajas lógicas 
+3. Admite sólo bajas físicas 
+4. Admite sólo política de mejor ajuste para aprovechamiento de espacio 
+5. Ninguna de las anteriores 
+(5) 
+Pueden tener más de una correcta: 
+29) La política de recuperación de espacio de peor ajuste, en un archivo  con registros de longitud fija: 
+1. Puede generar fragmentación interna 
+2. Genera siempre fragmentación interna 
+3. Puede generar fragmentación externa 
+4. Genera siempre fragmentación externa 
+5. No corresponde
+(5) 
+30) Para actualizar un archivo maestro a partir de N archivos Detalles 
+1. Es necesario que la información que contengan sea compatible 
+2. Es necesario que todos los archivos están ordenados 
+3. Es necesario solo que los archivos de Detalle estén ordenados 
+4. Es Necesario solo que el Maestro esté ordenado 
+5. Es necesario que todos los archivos tengan la misma estructura 
+(1) 
+31) Un archivo con registros de longitud fija 
+1. A veces tiene fragmentación 
+2. Debe tener fragmentación 
+3. No puede tener fragmentación 
+4. Ninguna de las anteriores 
+(1) 
+33) Para poder realizar merge entre dos archivos: 
+1. Los archivos deben estar ordenados con índices implementados con alguna estructura de dato no lineal 2. Los archivos deben estar ordenados con índices implementados con alguna estructura de dato lineal 3. Los archivos deben estar ordenados 
+4. Los archivos no deben estar ordenados 
+5. Ninguna de las anteriores
+(5) 
+Incluyen otros temas: 
+34)(puede tener más de una correcta) El NRR puede utilizarse  
+1. En archivos con registro de longitud fija 
+2. En archivos con registros de longitud variable 3. Para realizar acceso directo a un registro 
+4. Para realizar acceso secuencial en un archivo 
+(1 y 3) 
+35. Un archivo con 20 registros: a. No necesita ordenarse 
+b. Necesita ordenarse 
+c. Si se ordena, debe mantenerse ordenado 
+d. Si se ordena, debe aceptar sólo búsquedas binarias e. Si está desordenado, la búsqueda necesita saber la posición f. Algunas de las anteriores 
+g. Ninguna de las anteriores 
+(a)
+36. Un algoritmo de actualización maestro detalle fs = fun o Funciona solo con? 
+a. FS detalles ordenados 
+b. FS maestro ordenado 
+c. FS detalles y maestro ordenados 
+d. FS detalles desordenados 
+e. FS maestro desordenado 
+f. FS maestro y detalles desordenados 
+g. Algunas de las anteriores 
+h. Ninguna de las anteriores 
+(h) 
+37. Un algoritmo de corte de control:  
+a. Se debe aplicar a un archivo ordenado para obtener un resultado coherente b. Se debe aplicar a un archivo desordenado para obtener un resultado coherente c. Es necesario que el archivo este ordenado 
+d. Es suficiente que el archivo este ordenado por un criterio 
+e. Algunas de las anteriores  
+f. Ninguna de las anteriores 
+(e) (a, c, d?) 
+39. El proceso de baja lógica 
+a. Se puede aplicar a archivos desordenados 
+b. Se puede aplicar a archivos ordenados
+c. Se puede aplicar a archivos de longitud fija 
+d. Se puede aplicar a archivos de longitud variable 
+e. Se puede aplicar a cualquier archivo 
+f. No se puede aplicar si el archivo está vacío 
+g. Todas las anteriores 
+(g) 
+42. Una operación de lectura en un archivo a. Mueve automáticamente al siguiente registro físicamente ordenado b. No mueve el puntero 
+c. Solo mueve si no está en el último registro 
+d. Mueve automáticamente el puntero 
+e. Solo se mueve el puntero después de un reset 
+f. Algunas de las anteriores 
+g. Ninguna de las anteriores 
+(f) (“a, d”) 
+44. La fragmentación en un archivo de longitud fija a. Dificulta la baja física 
+b. Dificulta la baja lógica 
+c. Produce pérdida de espacio 
+d. Es menor utilizando primer ajuste 
+e. Algunas de las anteriores 
+f. Ninguna de las anteriores
+(c) 
+45. Con respecto a un archivo con registros de longitud fija: ¿Cuáles de  estas alternativas son correctas? 
+a. Utilizar NRR para tener acceso directo. 
+b. Utilizar un indicador de longitud al inicio de cada registro. 
+c. Utilizar un segundo archivo con la información de la dirección del byte de inicio de cada registro. d. Ninguna de las anteriores. 
+(a) 
+47. La eficacia de un algoritmo de búsqueda de registros en un archivo  de datos que no está ordenado: 
+1. Orden constante 
+2. Orden Lineal 
+3. Orden logarítmico 
+4. No tengo suficientes datos para responder 
+5. Ninguna de las anteriores. 
+(2) 
+48. La operación seek en un archivo: 
+1. Permite posicionarse directamente al final del archivo 
+2. Permite posicionarse directamente en el primer registro del archivo. 
+3. Permite conocer la posición actual dentro del archivo. 
+4. Ninguna de las anteriores.
+(4) 
+49. Para actualizar un archivo maestro a partir de N archivos detalles: 
+1. Es necesario que los archivos detalles estén ordenados. 
+2. Es necesario que el archivo maestro esté ordenado. 
+3. Es necesario que todos los archivos tengan la misma estructura. 
+4. Ninguna de las anteriores. 
+(4) 
+50. Con respecto a los buffers de E/S: 
+1. Ocupan lugar en memoria RAM 
+2. El SO está encargado de manipularlos. 
+3. Mejoran la performance en lecturas y escrituras. 
+4. Ninguna de las anteriores. 
+(1,2,3)
+Árboles 
+1) Una estructura de tipo árbol: 
+a. Siempre tiene eficiencia de búsqueda logarítmica 
+b. Algunas veces tiene eficiencia de búsqueda constante 
+c. Si es B+ algunas veces tiene eficiencia de búsqueda logarítmica 
+d. Algunas de las anteriores 
+e. Ninguna de las anteriores 
+(e) ¿?????? ‘b.’ si la raíz tiene una sola clave?  
+2) Un B*: 
+a. Se construye de manera similar a un árbol binario, salvo que en los nodos cabe más de un elemento b. Se construye de manera similar a un árbol B 
+c. puede ser la estructura superior (separadores) de un árbol B+ 
+e. algunas 
+f. ninguna 
+(c) 
+3) Un índice implementado con una lista invertida 
+a. Debe proveer acceso rápido (Eficiente) a un registro 
+b puede proveer a acceso rápido (Eficiente) a un registro 
+c Debe proveer acceso secuencial rápido (Eficiente) a todos los registros 
+d. puede proveer acceso secuencial rápido (Eficiente. a todos los registros 
+e. todas 
+f. algunas 
+g. ninguna
+(f) (a y c?) 
+4) Sea un árbol B de orden 100, el nodo X tiene 49 elementos, si se borra un 
+elemento de dicho nodo 
+a. solo se borra el elemento 
+b. se produce underflow y se debe concatenar el nodo x 
+c. se prduce underflow y se debe redistribuir el nodo x 
+d. todas 
+e. algunas 
+f. ninguna 
+(f) 
+5) Se tiene un árbol B+ de orden M. Suponga que se haya utilizado una de las claves como separador. Si la  clave se borra 
+a. se debe borrar el separador 
+b. se puede borrar el separador 
+c. no se toca el separador 
+d. algunas 
+e. ninguna 
+(c)
+6) Se definen 4 índices para un archivo de datos. Dichos índices se implementan con árboles balanceados 
+a. la eficiencia de los 4 árboles es de orden similar, es decir, orden lineal b. los 4 árboles tienen una eficiencia en términos matemáticos igual c. alguno de los árboles puede ser más eficiente que otro en términos matemáticos d. todas 
+e. algunas 
+f. ninguna 
+(c) 
+7) Sea un arbol B+ de orden M 
+a. ante una insercion se puede producir division 
+b. ante una inserción con overflow siempre se produce división c. ante una inserción con onverflow siempre se produce redistribución. d. todas 
+e. algunas 
+f. ninguna 
+(a) (e? a y b) 
+8) Un árbol B+ de orden M 
+a. es un árbol multicamino 
+b. es un árbol balanceado 
+c. Es un árbol que en cada nodo (salvo la raíz) tiende a llenarse en al menos ⅔ d. algunas 
+e. ninguna
+(d) (a, b?) 
+9) Un árbol binario de orden 4 
+a. puede desbalancearse 
+b. puede balancearse 
+c. si se emplean los algoritmos correctos puede quedar balanceado en altura d. si está desbalanceado no puede presentar una eficiencia de búsqueda de orden logarítmica 
+e. todas 
+f. algunas 
+g. no corresponde 
+(g) 
+10) Si se implementa un algoritmo que permita generar un árbol B+, ese algoritmo: a. no necesita manipular el puntero al nodo raíz 
+b. no necesita manipular el puntero al nodo de los elementos de datos menores c. la estructura interna del árbol puede implementarse como B* d. todas 
+e. algunas 
+(c) 
+11) Cuando se realiza un alta en un árbol B 
+a. se puede realizar en un nodo interno 
+b. siempre se produce overflow 
+c. puede llegar a necesitar realizar una fusión de nodos 
+d. siempre se llega hasta el nivel hoja 
+e. ninguna
+(d) 
+12) Cuáles propiedades corresponden a un árbol B+ de prefijos simples a. cada nodo puede tener como máximo M descendientes, siendo M el orden del árbol b. un nodo que tiene x descendientes debe tener x-1 claves 
+c. está siempre balanceado, sin importar los elementos que se inserten d. todas las anteriores 
+(d) 
+13) La eficiencia promedio de búsqueda en un árbol B tiene 
+a. orden lineal 
+b. orden logarítmico 
+c. orden constante 
+d. ninguna 
+(b) 
+14) En un árbol B de orden 50, cuando quedan 25 elementos en un nodo: a. Se produce underflow y necesariamente debe concatenarse con un adyacente hermano b. Se produce underflow y necesariamente debe redistribuirse con un adyacente hermano
+c. Se produce underflow y la operación a realizar depende del estado de los nodos adyacentes hermanos d. no se produce underflow 
+(d) 
+15) un índice primario es: 
+a. una estructura de datos adicional que contiene el mismo volumen de información que el archivo original b. una estructura de datos adicional que permite ordenar físicamente el archivo original c. una estructura de datos adicional que agilizar el acceso a la información del archivo d. una estructura de datos adicional que puede contener mayor volumen de información que el archivo original e. ninguna 
+(c) 
+16) un árbol binario: 
+a. Es una estructura de datos lineal, en la cual cada nodo puede tener a lo sumo dos hijos. b. Es una estructura de datos no lineal, que siempre se encuentra balanceada. 
+c. Es una estructura de datos no lineal, donde cada nodo tiene dos hijos. 
+d. Es una estructura de datos lineal que se puede desbalancear 
+e. Es una estructura de datos no lineal que puede llegar a tener un orden lineal de búsqueda (e)
+17) un índice secundario es: 
+a. una estructura de datos adicional que permite asociar una o varias claves primarias con una clave secundaria b. una estructura de datos adicional que contiene el mismo volumen de información que el archivo original c. una estructura de datos adicional que ordena físicamente (en memoria secundaria) el archivo original d. una estructura de datos adicional que permite relacionar una clave secundaria con una sola clave primaria e. todas 
+(a) 
+18) cuando se realizan bajas en un árbol B 
+a. siempre se aplica redistribución 
+b. siempre se aplica fusión 
+c. siempre se accede a nivel hoja 
+d. la altura del árbol siempre se reduce 
+e. algunas veces puede llegar a reducir la altura del árbol 
+f. hay más de una respuesta correcta 
+(f) (c y e) 
+19) En un árbol B 
+a. cada nodo contiene X elementos y X-1 hijos 
+b. en algún caso la raíz puede tener un solo hijo 
+c. los nodo que contienen x elementos, contienen x+1 hijos 
+d. los nodos hojas pueden no estar al mismo nivel 
+e. ninguna es correcta 
+f. hay más de una correcta
+(e) 
+20) En un árbol B+ 
+a. para buscar un elemento siempre se llega al nivel hoja 
+b. los nodos hojas no deben estar enlazados entre sí 
+c. los nodos internos conforman un índice para llegar a un elemento buscado d. hay más de una correcta 
+e. ninguna 
+(d) (a y c) 
+21) Con respecto a la paginación de un árbol binario: 
+a. Cada página debe contener como mínimo 16 claves. 
+b. Divide el árbol binario en páginas que almacena en memoria principal. c. Para que sea más eficiente, es necesario que las páginas se ubiquen en direcciones cercanas d. Ninguna de las anteriores 
+(c) 
+22) Un árbol que no se encuentra balanceado:
+a. Puede ser un árbol binario. 
+b. Puede ser un árbol multicamino. 
+c. Puede ser un árbol binario paginado. 
+d. No puede ser un árbol B+. 
+e. No puede ser un árbol B*. 
+f. Todas las anteriores. 
+g. Ninguna de las anteriores. 
+(f) 
+23) Un árbol B de orden 200: 
+a. En una hoja, puede tener hasta 99 elementos. b. En una hoja, puede tener más de 99 elementos. c. En una hoja, puede tener menos de 99 elementos. d. La raíz siempre tiene hijos. 
+e. La raíz tiene hijos si el árbol tiene más de 50 elementos. 
+(b) 
+26) Un árbol B+ de prefijos simples 
+a. Se utiliza para representar un índice de un archivo b. Se utiliza para lograr acceso secuencial rápido a un archivo c. Optimiza el espacio requerido para almacenar el árbol. d. Todas las anteriores son correctas
+(d) 
+27) Los árboles B* 
+a. Permiten localizar un registro de manera más eficiente que un árbol B, porque además permiten una  búsqueda secuencial eficiente 
+b. Permiten localizar un registro de manera más eficiente que un árbol B, cuando ambos árboles tienen un solo  nodo respectivamente 
+c. Completan los nodos en al menos 2/3 de su capacidad 
+d. Los nodos terminales no aparecen en igual nivel 
+(c) 
+28) Dado un árbol B+ 
+a. Todos sus nodos siempre tienen claves del archivo 
+b. Se lo puede utilizar sólo para recorrer secuencialmente al archivo 
+c. Es más eficiente que un árbol B en la búsqueda de un elemento 
+d. Ninguna de las opciones anteriores 
+(d) 
+29) Cuáles de las siguientes definiciones pueden atribuirse a un árbol binario 
+a. Es una estructura de datos no lineal, en la cual cada nodo puede tener a lo sumo dos hijos b. Es una estructura de datos no lineal, que siempre se encuentra balanceada 
+c. Es una estructura de datos no lineal, que se encuentra balanceada en altura. 
+d. Es una estructura de datos no lineal, en la cual cada nodo puede tener un número de hijos ilimitado
+(a) 
+30) Un árbol multicamino es: 
+a. Es una estructura de datos no lineal, en la cual cada nodo puede tener un número determinado de hijos b. Es una estructura de datos no lineal, que siempre se encuentra balanceada 
+c. Es una estructura de datos no lineal, que se encuentra balanceada en altura. 
+d. Es una estructura de datos no lineal, en la cual cada nodo puede tener a lo sumo 5 hijos. 
+(a) 
+31) Cuales propiedades corresponden a un árbol B 
+a. Cada nodo puede tener como máximo M descendientes, siendo M el orden del árbol b. Un nodo que tiene x descendientes debe tener x-1 claves 
+c. Está siempre balanceado, sin importar los elementos que se inserten 
+d. Todas las propiedades anteriores corresponden a un árbol B 
+(d) 
+33) Un árbol B*
+a. Es más eficiente en el algoritmo de búsqueda que un árbol b. 
+b. La altura puede ser inferior a la de un árbol B porque los elementos se distribuyen más eficientemente en los  nodos 
+c. La altura puede ser superior a la de un árbol B porque los elementos se distribuyen más eficientemente en los nodos 
+d. Permite acceder secuencialmente a los elementos del árbol. 
+(b) 
+34) Cuando se borra un elemento de un nodo en un árbol b 
+a. El elemento debe estar en un nodo terminal, si no lo está debe ser llevado a un nodo terminal. b. A veces puede producirse underflow en el nodo, y que esto produzca a una redistribución. c. A veces puede producirse underflow en un nodo, y que esto produzca una concatenación. d. Todas las respuestas son correctas 
+(d) 
+35) Si el orden de un árbol B es 100, y al borrar un elemento quedan 48 en ese nodo a. Se produce underflow y necesariamente debe concatenarse con un adyacente hermano b. Se produce underflow y necesariamente debe redistribuirse con un adyacente hermano c. Se produce underflow y la operación a realizar depende del estado de los nodos adyacentes hermanos. d. No se produce underflow
+(c) 
+1. Cuáles de las siguientes definiciones pueden atribuirse a un árbol binario 
+a. Es una estructura de datos lineal, en la cual cada nodo puede tener a lo sumo dos hijos b. Es una estructura de datos no lineal, que siempre se encuentra balanceada 
+c. Es una estructura de datos no lineal, que se encuentra balanceada en altura. 
+d. Es una estructura de datos no lineal, en la cual cada nodo puede tener un número de hijos ilimitado e. Ninguna de las anteriores 
+(e) 
+2. Un árbol multicamino es: 
+a. Es una estructura de datos lineal, en la cual cada nodo puede tener un número indeterminado de hijos b. Es una estructura de datos no lineal, que siempre se encuentra balanceada 
+c. Es una estructura de datos no lineal, que se encuentra balanceada en altura. 
+d. Ninguna de las opciones anteriores. 
+(d) 
+4. La eficiencia promedio de búsqueda en un archivo a partir de disponer de un índice implementado con un  árbol del tipo B (B, B* o B+): 
+a. Orden lineal 
+b. Orden logarítmico 
+c. 1 
+d. No dispongo datos para contestar la pregunta
+(b) 
+7. Si el orden de un árbol B es 100, y al borrar un elemento quedan 49 en ese nodo a. Se produce underflow y necesariamente debe concatenarse con un adyacente hermano b. Se produce underflow y necesariamente debe redistribuirse con un adyacente hermano c. Se produce underflow y la operación a realizar depende del estado de los nodos adyacentes hermanos. d. No se produce underflow 
+(d) 
+10. Dado un árbol B+ 
+a. Todos sus nodos siempre tienen el registro completo del archivo 
+b. Se lo puede utilizar sólo para recorrer secuencialmente al archivo 
+c. Puede ser más ineficiente que un árbol B en la búsqueda de un elemento 
+d. Ninguna de las opciones anteriores 
+(c) 
+1) Un árbol binario: 
+a. Tiene igual eficiencia para la búsqueda de información que un árbol B*.
+b. Tiene igual eficiencia para la búsqueda de información que un árbol B* con prefijos simples. c. Se desbalancean fácilmente. 
+d. Ninguna de las anteriores. 
+(c) 
+2) Dado un archivo de índice secundario implementado con el método de listas invertidas: a. Es posible asociar sólo una cantidad acotada de claves primarias. 
+b. En ocasiones se desperdicia espacio, ya que se debe reservar el mismo. 
+c. El método consiste en usar un archivo adicional de claves primarias que son referenciadas desde el índice  secundario 
+d. Ninguna de las anteriores 
+(c) 
+1) Un árbol B+ de prefijos simples: 
+a. Se utiliza para ordenar físicamente un archivo. 
+b. Se utiliza para lograr acceso rápido a la información de un archivo. 
+c. Se utiliza para lograr acceso secuencial rápido a un archivo. 
+d. Se utiliza para lograr acceso directo a los elementos de un archivo 
+e. Ninguna de las anteriores.
+(c) 
+2) Cuales propiedades corresponden a un árbol B* de orden M?: 
+a. La diferencia máxima de altura entre los dos subárboles cualesquiera que comparten raíz es 1. b. Un nodo terminal tiene como mínimo [M/2]-1 claves. 
+c. Cada nodo puede tener como máximo M hijos. 
+d. Un nodo no terminal que tiene K descendientes debe tener K-1 claves. 
+e. Ninguna de las anteriores. 
+(d) 
+3) Un árbol AVL es: 
+a. Un árbol n-ario (n > 2). 
+b. Un árbol B. 
+c. Un árbol binario paginado. 
+d. Un árbol binario balanceado en altura (BA(1)) 
+e. Ninguna de las anteriores. 
+(d) 
+(PUEDE MÁS DE UNA) 
+Al trabajar con un árbol B: 
+a. Cuando sucede overflow, algunas veces se debe realizar el proceso de división del nodo. b. Cuando sucede underflow, algunas veces se debe realizar el proceso de concatenación del nodo. c. Cuando sucede overflow, algunas veces se debe realizar el proceso de redistribución del nodo. d. Cuando sucede underflow, algunas veces se debe realizar el proceso de redistribución del nodo. e. Ninguna de las anteriores.
+(b y d) 
+  
+(PUEDE MÁS DE UNA) 
+Un índice secundario: 
+a. Relaciona una clave secundaria con una o más claves primarias. 
+b. Puede repetir las claves. 
+c. Puede organizarse con un árbol B*. 
+d. Ninguna de las anteriores. 
+(a y c) 
+  
+Con respecto a un árbol B*: 
+a. Es más eficiente realizar una búsqueda sobre un árbol B que sobre un árbol B*. 
+b. La altura puede ser inferior a la de un árbol B porque los elementos se distribuyen más eficientemente en los  nodos. 
+c. Permite acceder secuencialmente a los elementos. 
+d. Ninguna de las anteriores. 
+(b) 
+Con respecto a los índices: 
+a. Al realizar bajas lógicas sobre un índice primario, es posible recuperar esos espacios con nuevas altas.
+b. Un índice es una estructura de datos (adicional al archivo de datos) que debe utilizar registros de longitud  variable. 
+c. Un índice permite imponer orden en un archivo de datos, sin que éste realmente se reacomode. d. Ninguna de las anteriores. 
+(c) 
+Cuando se inserta un elemento en un árbol binario: 
+a. Siempre se debe generar un nuevo nodo. 
+b. Siempre es necesario acceder al nivel hoja. 
+c. Algunas veces puede llegar a reducir la altura del árbol. 
+d. Siempre aumenta la altura del árbol. 
+e. Nunca aumenta la altura del árbol. 
+f. Hay más de una respuesta correcta. 
+(f) (a y b) 
+Cuando se realiza un alta en un árbol B: 
+a. Se puede realizar en un nodo interno. 
+b. Siempre produce overflow. 
+c. Puede llegar a necesitar de realizar una fusión de nodos. 
+d. Siempre se llega hasta el nivel hoja. 
+e. Ninguna respuesta es la correcta.
+(d) 
+En un árbol B: 
+a. Cada nodo contiene X elementos y X-1 hijos. 
+b. En algunos casos la raíz puede tener un solo hijo. 
+c. Los nodos que contienen X elementos, contienen X+1 hijos. 
+d. Los nodos hojas pueden no estar al mismo nivel. 
+e. Ninguna respuesta es la correcta 
+f. Hay más de una opción correcta. 
+(e?) (decía ‘c’, pero es fruta, las hojas no tienen hijos) 
+41. Un árbol B* 
+a. Distribuye las claves de manera más eficiente que un árbol B. 
+b. La altura puede ser inferior a la de un árbol B+ porque los elementos se distribuyen más eficientemente en  los nodos 
+c. La altura puede ser superior a la de un árbol B porque los elementos se distribuyen más eficientemente en los  nodos 
+d. Permite acceder secuencialmente a los elementos del árbol. 
+e. Hay dos respuestas anteriores correctas. 
+(e) (a y b) 
+42. Cuando se borra un elemento de un nodo en un árbol b: 
+a. El elemento debe estar en un nodo terminal, si no lo está debe ser llevado a un nodo terminal. b. A veces puede producirse underflow en el nodo, y que esto produzca a una redistribución. c. Puede borrarse un elemento que no esté necesariamente ubicado en un nodo terminal. d. Alguna de las anteriores respuestas son correctas
+(d) (a y b)
+Hashing 
+1) La DE: 
+a. es un parámetro de eficiencia en cualquier tipo de hashing 
+b. es un parámetro de eficiencia sólo para un tipo de hashing 
+c. permite detectar si la cantidad de espacio libre en el archivo puede crecer d. permite detectar si la cantidad de elementos del archivo puede crecer e. algunas 
+f. ninguna 
+(b) (e* b y d*) 
+2) Una colisión: 
+a. puede no ocurrir si hay al menos dos claves sinónimos para una función de hashing b. puede ocurrir si hay al menos dos claves sinónimos para una función de hashing c. puede utilizar un algoritmo para tratamiento de registros en saturación d. puede no utilizar un algoritmo para tratamiento de registros en saturación e. todas 
+f. algunas 
+g. ninguna 
+(f*) (*c y d) 
+(g?) 
+3) cuáles de los siguientes parámetros afecta la eficiencia de la dispersión: a. cantidad de elementos del archivo 
+b. cantidad de espacio para almacenar el archivo 
+c. densidad de empaquetamiento 
+d. función de dispersión 
+e. algoritmos para el tratamiento de registros en saturación 
+f. todas 
+g. algunas 
+h. ninguna
+(f) 
+4) Si se quiere dispersar un archivo de 40.000 elementos: 
+a. se requiere un archivo de 40.000 cubetas 
+b. se requiere un archivo de al menos 40.000 cubetas 
+c. se requiere un archivo de menos de 40.000 
+d. todas 
+e. algunas 
+f. ninguna 
+(f) 
+5) Si se dispone la DE de un archivo 
+a. siempre se puede calcular la cantidad probable de registros en saturación b. no se puede calcular la cantidad probable de registros en saturación c. si se calcula la cantidad probable de registros en saturación, la DE fue mayor que 1 d. si se calcula la cantidad probable de registros en saturación, la DE fue menor que 1 e. algunas 
+f. ninguna 
+(f)
+6) a partir de un archivo dispersado con hashing extensible: 
+a. siempre es posible agregar elementos al archivo 
+b. algunas veces es posible agregar elementos al archivo 
+c. se puede utilizar dispersión doble para tratar registros en saturación d. no se puede utilizar saturación progresiva para tratar registros en saturación e. algunas 
+f. ninguna 
+(e) (a y d) 
+7) si se desea ordenar físicamente un archivo: 
+a. se puede usar hashing extensible 
+b. se puede utilizar dispersión doble para tratar registros en saturación c. se puede utilizar saturación progresiva para tratar registros en saturación d. se puede utilizar saturación progresiva encadenada para tratar registros en saturación e. la DE debe ser menor o igual a 1 
+f. todas 
+g. algunas 
+h. ninguna 
+(e)(h*) 
+8) el método de tratamiento de desbordes: 
+a. afecta la DE 
+b. puede afectar la DE 
+c. afecta la DE en casos especiales 
+d. afecta la DE en la mayoría de los casos 
+e. todas 
+f. algunas
+g. ninguna 
+(g) 
+9) una función de hash perfecta 
+a. es difícil de conseguir 
+b. necesita de un algoritmo para tratamiento de registros en saturación c. puede tener menos del 1% de claves sinónimos 
+d. no tiene claves sinónimas 
+e. todas 
+f. algunas  
+(d) 
+10) si ocurrió saturación 
+a. hubo colisión 
+b. no hubo colisión 
+c. pudo haber ocurrido colisión 
+d. hay más de 2 claves sinónimo 
+e. todas 
+f. algunas 
+g. ninguna
+(a) 
+11) Una colisión se produce: 
+a. Cuando dos registros diferentes obtienen de la función de hash la misma dirección de disco. b. Cuando dos registros iguales obtienen de la función de hash direcciones diferentes de disco. c. Cuando un registro no cabe en el lugar donde debe almacenarse de acuerdo al resultado de la función de  hash. 
+d. Cuando dos registros diferentes obtienen de la función de hash direcciones diferentes de disco. 
+(a) 
+12) La eficiencia promedio de búsqueda en un archivo a partir de estar organizado mediante política de  Hashing: 
+a. Orden Lineal 
+b. Orden logarítmico. 
+c. Orden Constante. 
+d. No dispongo de datos para contestar la pregunta. 
+(c) 
+13) La eficiencia de búsqueda de un registro en un archivo organizado mediante hashing estático tiene: a. Orden Lineal 
+b. Algunas veces es uno 
+c. Siempre es uno 
+d. Orden Logarítmico.
+(b) 
+14) La técnica de saturación progresiva encadenada: 
+a. Evita la generación de colisiones. 
+b. Necesita que cada cubeta tenga capacidad para dos o más registros. 
+c. Requiere al menos de dos funciones de hash para el tratamiento de los desbordes. d. Ninguna de las anteriores. 
+(d) 
+15) La densidad de empaquetamiento se puede definir como: 
+a. DE = cantidad de registros / (cantidad de cubetas * capacidad de cubeta) 
+b. La proporción de espacio asignado al archivo que en realidad almacena registros. c. La relación entre la cantidad de registros y la cantidad de cubetas del archivo. 
+d. Ninguna de las anteriores. 
+e. Todas las anteriores 
+(e*) 
+16) La densidad de empaquetamiento en un archivo con registros con longitud variable: a. Se calcula como el cociente entre la cantidad de registros del archivo y la cantidad de espacio disponible.
+b. Es útil para establecer la proporción de espacio del archivo asignado que en realidad almacena registros. c. A medida que disminuye, aumenta la probabilidad de overflow. 
+d. A medida que disminuye, hay más desperdicio de espacio. 
+e. Alguna de las anteriores. 
+f. Ninguna de las anteriores. 
+(f*) (DE no aplica a long variable o que?@) 
+1. Cuál de las siguientes definiciones corresponden al método de hash: 
+a. Técnica para generar una dirección base única para una clave dada. 
+b. Técnica que convierte la clave asociada a un registro de datos en un número aleatorio, que se utiliza para  determinar donde se almacena el registro. 
+c. Técnica de almacenamiento y recuperación que usa una función para mapear registros en direcciones de  almacenamiento en memoria secundaria. 
+d. Todas las anteriores son aplicables. 
+(d) 
+2. La técnica de hash: 
+a. Entorpece la inserción y el borrado de elementos 
+b. La localización de un registro siempre debe utilizar una tabla adicional en memoria c. No es conveniente de aplicar sobre claves secundarias 
+d. Requiere al menos de dos funciones de hash para el tratamiento de los desbordes.
+(c) 
+3. Cuál de los siguientes conceptos corresponden con parámetros de la dispersión 
+a. Capacidad de almacenamiento de cada sector del archivo 
+b. Densidad de empaquetamiento 
+c. Método de tratamiento de desbordes 
+d. Todos los anteriores 
+(d) 
+4. La densidad de empaquetamiento se define como 
+a. El cociente entre cantidad de registros y espacio disponible en el archivo 
+b. El cociente entre la cantidad de registros y la cantidad de nodos del archivo 
+c. El cociente entre la cantidad de registros, y el producto entre la cantidad de nodos y el contenido posible de  registros de cada nodo. 
+d. Hay más de una respuesta correcta 
+(d) (a y c) 
+9. Cuando la Densidad de empaquetamiento de un archivo tiende a uno 
+a. Es necesario redefinir el espacio disponible únicamente. 
+b. El archivo se completa y no es posible incorporar más elementos 
+c. Se debe cambiar la política de hash de estática a dinámica. 
+d. Es necesario redefinir el espacio disponible y rehashear todo el archivo
+(d) 
+10. La técnica de hash extensible: 
+a. Presenta una variante de hash que permite no solo ubicar rápidamente los registros, sino que además  permite el acceso secuencial a los mismos. 
+b. Siempre inserta un registro con un y solo un acceso a disco 
+c. Siempre se recupera un registro con un y solo un acceso a disco. 
+d. En algunos casos recupera un registro con un y solo un acceso a disco. 
+(c) 
+11) ¿Cuáles de estas técnicas se pueden utilizar con un archivo de registros de longitud fija? 
+a. Dispersión doble.  
+b. Hashing asistido por tabla.  
+c. Hashing extensible.  
+d. Ninguna de las anteriores. 
+(a, b, c) 
+12. En un ambiente de dispersión, cuanto más grande es el tamaño de la cubeta:
+1. Hay más fragmentación. 
+2. Hay mayor probabilidad de saturación. 
+3. La búsqueda dentro de la cubeta es más lenta. 
+4. Ninguna de las anteriores 
+(1) 
+13. La densidad de empaquetamiento se puede definir como: 
+1. La relación entre la cantidad de registros y la cantidad de cubetas del archivo. 
+2. La proporción de espacio asignado al archivo que en realidad almacena registros. 3. DE = cantidad de registros / (cantidad de cubetas) 
+4. Ninguna de las anteriores 
+(2) 
+14. Se produce saturación: 
+1. Siempre que dos registros diferentes obtienen de la función de hash la misma dirección de disco. 2. Siempre que dos registros iguales obtienen de la función de hash direcciones diferentes de disco. 3. Cuando un registro no cabe en el lugar donde debe almacenarse según el resultado de la función de hash. 4. Cuando dos registros diferentes obtienen de la función de hash direcciones diferentes de disco. 5. Ninguna de las anteriores.
+(3) 
+15. Al utilizar la técnica de dispersión doble: 
+1. Dada una clave, siempre se debe aplicar dos funciones: inicialmente se aplica la 1ra función,y al resultado  se le aplica la 2da función para obtener finalmente la dirección de almacenamiento. 
+2. Se cuenta con dos funciones, pero sólo se aplica la 2da función si se produjo una saturación al aplicar la  1ra función. 
+3. Cuando se usa la 2da función, el valor obtenido reemplaza al anteriormente obtenido por la 1ra función. 4. Ninguna de las anteriores. 
+(2) 
+17. En un ambiente de dispersión con espacio de direccionamiento estático: 
+1. Siempre se encuentra un registro con un solo acceso a disco. 
+2. No se permiten claves duplicadas. 
+3. Es posible usar archivos con registros de longitud variable. 
+4. Ninguna de las anteriores 
+(2) 
+18. Con respecto a la dispersión extensible: 
+1. El espacio aumenta o disminuye dependiendo de los registros que contiene el archivo. 2. Necesita una tabla auxiliar. 
+3. La densidad de empaquetamiento siempre se mantiene por debajo del 75%.  
+4. Ninguna de las anteriores.
+(2) 
+20. Al usar dispersión con espacio de direccionamiento estático. ¿Cuáles de los siguientes procesos se debe  realizar si se agota el espacio disponible asignado al archivo? 
+1. Iniciar un nuevo archivo y relacionarlo con el archivo que quedó completo.  
+2. Obtener más espacio para el mismo archivo, actualizar la función de hash, y redispersar el archivo completo. 3. Obtener más espacio para el mismo archivo, actualizar la función de hash pero no redispersar (se usa la  nueva función sólo para los nuevos elementos). 
+4. No es posible que se agote el espacio disponible asignado al archivo.  
+5. Ninguna de las anteriores. 
+(2) 
+24. En un ambiente de dispersión con espacio de almacenamiento estático: 
+1. Se debe usar archivos con registro de long fija. 
+2. Siempre se encuentra un registro con un solo acceso a disco. 
+3. No existe orden físico de datos.  
+4. Ninguna de las anteriores. 
+(1)
+32. El método de tratamiento de desborde en área separada 
+1. Utiliza una segunda función de hash para determinar donde va el registro en overflow. 2. Utiliza una segunda función de hash para determinar el nuevo nodo donde se guardará el registro en  overflow. 
+3. Selecciona el primer nodo libre más cercano al nodo saturado 
+4. Selecciona el primer nodo libre más cercano al saturado y los linkea 
+5. Ninguna de las anteriores. 
+(5) 
+33. Indique cuál método de tratamiento de desborde potencialmente podría generar desplazamientos de disco  (y consecuentemente demorar más tiempo) para encontrar un registro en saturación. Para este análisis debe  suponer que el registro en saturación se aloja en la primera dirección disponible de acuerdo a la política de cada  método: 
+1. Saturación progresiva 
+2. Saturación progresiva encadenada. 
+3. Doble dispersión 
+4. Área de desborde separada 
+(4) 
+34. El hash con espacio de direccionamiento dinámico 
+1. Utiliza una función de hash diferente cada vez que el tamaño del archivo crece 
+2. Aumenta la capacidad del nodo cuando se puede producir un overflow 
+3. Aumenta la cantidad de nodos en caso de overflow  
+4. Todas la anteriores 
+5. Ninguna de las anteriores.
+(3) 
+35) Implementar hash para ordenar un archivo: 
+1. Mejora el acceso a un archivo. 
+2. Puede empeorar el acceso a los datos de un archivo. 
+3. Si es hash extensible la mejora es notable. 
+4. El concepto no es aplicable. 
+(4) 
+36) El método de saturación progresiva encadenada: 
+1. Es más eficiente que doble dispersión porque utiliza una sola función de hash 
+2. Se demora siempre menos en la búsqueda que utilizando el método de área separado 3. Es un método más de tratamiento de colisiones 
+4. Siempre es más eficiente que cualquier situación similar resultante con el método de saturación progresiva. 
+(3) (*2) 
+37. Una función de hash 
+1. Siempre devuelve una dirección donde se debería almacenar el registro dispersado 2. Siempre devuelve una secuencia de bits que sirve para determinar dónde se debería almacenar el registro  dispersado. 
+3. Siempre debe ser aleatoria. 
+4. Todas las anteriores. 
+5. Algunas de las anteriores.
+(3) 
+38. Cuáles de los siguientes ítems puede considerarse atributos o propiedades de la técnica de hash 1. No requerir espacio adicional de almacenamiento 
+2. Facilitar inserción y eliminación rápida de elementos en el archivo 
+3. Permitir la búsqueda más eficiente de información en un archivo de datos 
+4. Permitir acceso secuencial a los datos 
+5. Todas las anteriores 
+6. Algunas de las anteriores. 
+(6) (1, 2 y 3) 
+39) Cuál de los siguientes parámetros de la técnica de hash es más importante? 1. Función de hash 
+2. Tamaño de cada nodo de almacenamiento 
+3. Densidad de empaquetamiento 
+4. Método de tratamiento de overflow 
+5. Ninguno es importante 
+6. Ninguno prevalece sobre el otro. 
+(6) 
+40. Se define la densidad de empaquetamiento como 
+a) El cociente entre la cantidad de registros del archivo y el espacio disponible para su almacenamiento
+b) El cociente entre la capacidad del archivo y los registros del archivo 
+c) El cociente entre la cantidad de registros del archivo, y el producto entre la cantidad de nodos disponibles y la  capacidad de estos nodos. 
+d) Las respuestas a,b y c son correctas. 
+e) Las respuestas a y b son correctas. 
+f) Las respuestas a y c son correctas. 
+g) Las respuestas b y c son correctas. 
+(f) 
+21) La técnica de dispersión de archivos se utiliza para:  
+1. Mantener el archivo físicamente ordenado. 
+2. Mejorar la performance de las inserciones 
+3. Mejorar la performance de las bajas 
+4. no realizar grandes desplazamientos en disco. 
+5. Hay más de una respuesta correcta 
+6. Ninguna de las opciones es correcta 
+(*5) (*2 y 3)
+Parte II 
+Área personal / Mis cursos / Fundamentos de Organizacion de Datos (SI209) (2021) / Examen Teórico FOD 2021 / Examen 16/07/2021
+Comenzado elFriday, 16 de July de 2021, 11:00 
+EstadoFinalizado 
+Finalizado enFriday, 16 de July de 2021, 12:01 
+1 hora 
+Tiempo 
+empleado 
+Calificación 6,50 de 30,00 (22%) 
+Un archivo con registro de longitud variable 
+Seleccione una: 
+a. Puede estar ordenado por algun criterio 
+b. Debe estar ordenado por algun criterio 
+c. Nunca puede ordenarse por algun criterio 
+d. Puede tener un carácter delimitador, por ejemplo & 
+e. Algunas de las anteriores   
+f. Ninguna de las anteriores 
+Respuesta correcta 
+La respuesta correcta es: Algunas de las anteriores 
+Una clave permite 
+Seleccione una: 
+a. identificar un elemento particular dentro de un archivo 
+b. reconocer un conjunto de elementos con igual valor 
+c. ordenar logicamente al archivo por los atributos que la componen 
+d. todas las anteriores son validas 
+e. algunas de las anteriores son validas 
+f. ninguna de las anteriores es valida 
+Respuesta incorrecta. 
+La respuesta correcta es: algunas de las anteriores son validas
+Para que tenga sentido un algoritmo de corte de control 
+Seleccione una: 
+a. El archivo no necesita estar ordenado 
+b. El archivo puede estar ordenado 
+c. El archivo puede estar organizado por dispersión 
+d. El archivo debe estar organizado por dispersión 
+e. El archivo necesita al menos un índice asociado 
+f. Algunas de las anteriores 
+g. Ninguna de las anteriores   
+Respuesta correcta 
+La respuesta correcta es: Ninguna de las anteriores 
+Para que tenga sentido un algoritmo de corte de control 
+Seleccione una: 
+a. El archivo debe estar ordenado   
+b. El archivo puede estar ordenado 
+c. El archivo puede estar organizado por dispersión 
+d. El archivo debe estar organizado por dispersión 
+e. El archivo necesita al menos un índice asociado 
+f. Algunas de las anteriores 
+g. Ninguna de las anteriores 
+Respuesta correcta 
+La respuesta correcta es: El archivo debe estar ordenado 
+Un archivo en el cual se accede a un registro luego de acceder a su predecesor en algún orden 
+Seleccione una: 
+a. puede ser un archivo serie 
+b. puede ser un archivo secuencial 
+c. debe ser un archivo serie 
+d. debe ser un archivo secuencial 
+e. algunas de las anteriores son correctas   
+f. ninguna de las anteriores es correcta 
+Respuesta correcta 
+La respuesta correcta es: algunas de las anteriores son correctas
+El concepto de framentación interna en un archivo 
+Seleccione una: 
+a. Se puede dar solo en registros de longitud fija 
+b. Se puede dar solo en registros de longitud variable 
+c. Se puede dar solo en archivos ordenados de longitud variable 
+d. Se puede analizar solamente en archivos ordenados de longitud fija e. Algunas de las anteriores 
+f. Ninguna de las anteriores   
+Respuesta correcta 
+La respuesta correcta es: Ninguna de las anteriores 
+La tecnica de primer ajuste 
+Seleccione una: 
+a. permite borrar elementos de un archivo que contiene registros de longitud fija b. permite borrar elementos de un archivo que contiene registros de longitud variable c. permite hacer baja logica 
+d. permite hacer baja fisica 
+e. Algunas de las respuestas anteriores son correctas 
+f. Ninguna de las respuestas anteriores son validas   
+Respuesta correcta 
+La respuesta correcta es: Ninguna de las respuestas anteriores son validas 
+El proceso de baja lógica 
+Seleccione una: 
+a. Esta diseñado para borrar un registro de un archivo 
+b. Necesita que el archivo este ordenado 
+c. Necesita que el archivo este desordenado 
+d. Se aplica solamente a archivos con registros con longitud fija 
+e. Se aplica solamente a archivos con registros con longitud variable f. Todas las anteriores 
+g. Alguna de las anteriores   
+Respuesta incorrecta. 
+La respuesta correcta es: Esta diseñado para borrar un registro de un archivo
+El proceso de alta de registro con recuperación de espacio 
+Seleccione una: 
+a. Se debe realizar con registros de longitud variable 
+b. Se debe realizar con registros de longitud fija 
+c. Se realiza sólo con registros de longitud fija 
+d. Se realiza solo con registros de longitud variable 
+e. Ninguna de las anteriores 
+Respuesta incorrecta. 
+La respuesta correcta es: Ninguna de las anteriores 
+El proceso de baja lógica 
+Seleccione una: 
+a. Esta diseñado para borrar un registro de un archivo 
+b. No Necesita que el archivo este ordenado 
+c. Necesita que el archivo este desordenado 
+d. Se aplica solamente a archivos con registros con longitud fija e. Se aplica solamente a archivos con registros con longitud variable f. Todas las anteriores 
+g. Alguna de las anteriores   
+Respuesta correcta 
+La respuesta correcta es: Alguna de las anteriores 
+Un indice primario 
+Seleccione una: 
+a. Se puede generar a partir de una clave unívoca de un registro   b. Se puede generar a partir de una clave no unívoca de un registro c. Puede implementarse con una estructura de datos lineal 
+d. Debe implementarse con una estructura eficiente no lineal e. Algunas de las anteriores 
+f. Ninguna de las anteriores 
+Respuesta incorrecta. 
+La respuesta correcta es: Puede implementarse con una estructura de datos lineal
+Suponga que se genera un árbol binario para implantar un indice de un archivo. El indice es por la clave unívoca legajo que ocupa 10 bytes. Entonces, cada nodo del árbol ocupara: 
+Seleccione una: 
+a. 18 bytes 
+b. a lo sumo 18 bytes 
+c. mas de 21 bytes 
+d. 10 bytes 
+e. ninguna de las anteriores 
+Respuesta incorrecta. 
+La respuesta correcta es: mas de 21 bytes 
+Cuando un arbol B tiende a llenarse 
+Seleccione una: 
+a. se debe procurar mas espacio para el archivo que lo contiene, reacomodando todos los nodos b. se debe procurar mas espacio para el archivo que lo contiene, reacomodando el nodo padre y sus hermanos c. se debe procurar mas espacio para el archivo 
+d. todas las anteriores 
+e. algunas de las anteriores 
+f. ninguna de las anteriores 
+Respuesta incorrecta. 
+La respuesta correcta es: ninguna de las anteriores 
+Cuales de las siguientes propiedades no corresponde a un arbol b* de orden M 
+Seleccione una: 
+a. Cada nodo del arbol puede contener maximo M descendientes y M-1 elementos 
+b. La raiz no posee descendientes o posee [M/2] descendientes 
+c. Todos los nodos terminales se encuentran al mismo nivel 
+d. Los nodos no terminaels ni raiz tienen mas de [M/2] y a lo sumo M descendientes 
+e. Un nodo con x descendientes contienen x-1 elementos 
+Respuesta incorrecta. 
+La respuesta correcta es: La raiz no posee descendientes o posee [M/2] descendientes
+Un árbol que se encuentra balanceado 
+Seleccione una: 
+a. Puede ser un arbol binario 
+b. Puede ser un árbol multicamino 
+c. Puede ser un árbol B+ 
+d. Puede ser un árbol B* 
+e. Todas las anteriores son correctas 
+f. c y de son correctas 
+g. b, c y d son correctas 
+h. b y d son correctas 
+i. Ninguna de las anteriores es correcta   
+Respuesta incorrecta. 
+La respuesta correcta es: Todas las anteriores son correctas 
+La eficiencia de busqueda de un arbol b 
+Seleccione una: 
+a. es de orden lineal 
+b. puede ser de orden lineal, bajo alguna circunstancia del arbol generado 
+c. es de orden logaritmico   
+d. es de orden constante (orden del arbol) 
+e. b y c son correctas 
+f. b, c y d son correctas 
+g. ninguna opción es correcta 
+Respuesta correcta 
+La respuesta correcta es: es de orden logaritmico 
+Dado un archivo con registros de longitud fija. Suponga que tiene un indice correspondiente a una clave univoca. Suponga que se crea un arbol de orden 200 para almacenar ese indice univoca. Si archivo y el arbol generado tuvieran 300 elementos insertados entonces: 
+Seleccione una: 
+a. si se creara un arbol b tendria la misma altura que crear un arbol b* 
+b. si se creara un arbol b tendria mayor altura que un arbol b* 
+c. si se creara un arbol b tendria menor altura que un arbol b* 
+d. no tengo datos suficientes para contestar la pregunta 
+Respuesta incorrecta. 
+La respuesta correcta es: si se creara un arbol b tendria la misma altura que crear un arbol b*
+Un árbol B+ de prefijos simples 
+Seleccione una: 
+a. A veces no tiene prefijos 
+b. Puede no tener prefijos simples 
+c. Si tiene prefijos simples, las hojas están enlazadas 
+d. Sino tiene prefijos simples, las hojas están enlazadas 
+e. Todas las anteriores 
+f. Algunas de las anteriores 
+g. Ninguna de las anteriores 
+Respuesta incorrecta. 
+La respuesta correcta es: Todas las anteriores 
+Un Arbol B+ 
+Seleccione una: 
+a. Al realizar un inserción, puede tener nodos hojas con underflow b. Al realizar una baja, puede tener nodos hojas con overflow c. Al realizar un inserción, puede requerirse concatenación 
+d. Al realizarse una baja, puede requerirse división 
+e. Al realizarse un alta puede requerirse redistribución 
+f. Todas las anteriores 
+g. Algunas de las anteriores   
+h. Ninguna de las anteriores 
+Respuesta incorrecta. 
+La respuesta correcta es: Ninguna de las anteriores 
+Un arbol b+ de prefijos simples de orden M 
+Seleccione una: 
+a. se puede aplicar a una clave unica, cuyo atributo es un string b. se puede aplicar a una clave secundaria, cuyo atributo es un storing c. se puede aplicar a una clave primaria, cuyo atributo es un entero d. se puede aplicar solamente a una clave unívoca, cuyo atributo es string e. todas las anteriores son correctas 
+f. a y b son las opciones correctas 
+g. a, c y d son las opciones correctas 
+h. a, b y d son las opciones correctas 
+i. ninguna de las opciones que tengo es correcta 
+Respuesta incorrecta. 
+La respuesta correcta es: a y b son las opciones correctas
+Cuales de los siguientes parámetros no corresponde a hashing 
+Seleccione una: 
+a. Función de hash 
+b. Tamaño del nodo (capacidad para almacenar registros) 
+c. Densidad de busqueda   
+d. Forma de tratar los desbordes 
+e. Todas las anteriores corresponden 
+Respuesta correcta 
+La respuesta correcta es: Densidad de busqueda 
+Cual de los siguientes parámetros afecta la eficiencia de la dispersión 
+Seleccione una: 
+a. Cantidad de elementos del archivo 
+b. Cantidad de espacio para almacenar el archivo 
+c. Densidad de Empaquetamiento 
+d. Función de Dispersión 
+e. Algoritmos para el tratamiento de registros sinónimos 
+f. Todas las anteriores   
+g. Algunas de las anteriores 
+h. Ninguna de las anteriores 
+Respuesta incorrecta. 
+La respuesta correcta es: Algunas de las anteriores 
+Un archivo tratado con hash estatico, que tiene una densidad de empaquetamiento del 10% 
+Seleccione una: 
+a. tiene mucha fragmentación interna 
+b. tiene mucha fragmentación externa 
+c. presenta un nivel de colisiones bajo 
+d. presenta un nivel de overflow bajo 
+e. Todas las anteriores son correctas 
+f. las opciones b y c son correctas 
+g. las opciones a y c son correctas 
+h. las opciones a, c y d son correctas 
+i. las opciones b,c y d son correctas 
+j. ninguna opción es correcta 
+Respuesta incorrecta. 
+La respuesta correcta es: las opciones a, c y d son correctas
+La función de hashing 
+Seleccione una: 
+a. Afecta a la densidad de empaquetamiento   
+b. Puede afectar a la densidad de empaquetamiento 
+c. Afecta la densidad de empaquetamiento sólo en casos especiales 
+d. Afecta la densidad de empaquetamiento en la mayoría de los casos 
+e. Todas las anteriores 
+f. Algunas de las anteriores 
+g. Ninguna de las anteriores 
+Respuesta incorrecta. 
+La respuesta correcta es: Ninguna de las anteriores 
+La técnica de Area de desoborde por separado: 
+Seleccione una: 
+a. Utiliza un área de memoria separada para las claves en overflow. 
+b. Reduce la densidad de empaquetamiento. 
+c. Utiliza una segunda función de dispersión siempre que se desee almacenar un registro en un archivo . d. Solo se aplica a la dispersión extensible. 
+e. Ayuda a predecir la cantidad de claves en overflow. 
+f. Hay más de una opción correcta. 
+g. Ninguna de las opciones anteriores es correcta 
+Respuesta incorrecta. 
+La respuesta correcta es: Utiliza un área de memoria separada para las claves en overflow. 
+El metodo de area de desborde separada 
+Seleccione una: 
+a. Reubica los registros en overflow 
+b. Utiliza una segunda funcion de hash en caso de ser necesaria 
+c. Puede generar areas de overflow dentro del archivo 
+d. Todas las anteriores son validas 
+e. Algunas de las anteriores 
+f. Ninguna de las anteriores. 
+Respuesta incorrecta. 
+La respuesta correcta es: Reubica los registros en overflow
+Si se tiene una política de hash con espacio de direccionamiento dinámico 
+Seleccione una: 
+a. la densidad de empaquetamiento puede ser mayor que 1 
+b. cuando la densidad de empaquetemiento supera el 75% se debe reacomodar al archivo 
+c. cuando la densidad de empaquetamiento supera el 75% se debe utilizar mas espacio para nodos 
+d. cuando la densidad de empaquetamiento supera el 75% debe activarse una política de tratamiento de overflow, como por ejemplo area de desborde separado 
+e. Algunas de las anteriores son validas 
+f. ninguna de las anteriores son validas 
+Respuesta correcta 
+La respuesta correcta es: ninguna de las anteriores son validas 
+A partir de un archivo dispersado con hashing extensible 
+Seleccione una: 
+a. Siempre es posible agregar elementos al archivo 
+b. Algunas veces no es posible agregar elementos al archivo 
+c. Se puede utilizar Saturación Progresiva Encadenada para tratar registros en saturación 
+d. No se puede utilizar Dispersión Doble para tratar registros en saturación 
+e. Algunas de las anteriores 
+f. Ninguna de las anteriores 
+Respuesta correcta 
+La respuesta correcta es: Algunas de las anteriores 
+La tecnica de hashing extensible 
+Seleccione una: 
+a. No utiliza una función de hash porque debe cambiar dinámicamente 
+b. No utiliza una función de hash porque encuentra los registros siempre en un acceso 
+c. Utiliza una función de hash pero esta función no devuelve la dirección donde guardar el registro d. Utiliza area de desborde por separado para los registros en overflow 
+e. Todas las anteriores son validas 
+f. Las respuestas a y c son correctas 
+g. Las respuestas b y c son correctas 
+h. Las respuestas a, c y d son correctas 
+i. Ninguna es correcta 
+Respuesta incorrecta. 
+La respuesta correcta es: Utiliza una función de hash pero esta función no devuelve la dirección donde guardar el registro
+Cual de las siguiente consignas no define hash dinámico 
+Seleccione 
+una:a. 
+recupera los registros en un acceso a disco 
+b. 
+
+Se organiza todo el archivo de datos 
+
+Solo puede organizarse por un UNICO criterio, la clave primaria 
+Todas las anteriores pertenecen a hash dinámico 
+
+Respuesta incorrecta. 
+La respuesta correcta es: 
+— ¿Vas a rendir el segundo recuperatorio 
+de práctica el día 3/8 a las 16 hs.? Ir a...
+Área personal / Mis cursos / Fundamentos de Organizacion de Datos (SI209) (2021) / Examen Teórico FOD 2021 / Examen 16/07/2021
+Comenzado elFriday, 16 de July de 2021, 11:00 
+EstadoFinalizado 
+Finalizado enFriday, 16 de July de 2021, 11:40 
+40 minutos 19 segundos 
+Tiempo 
+empleado 
+Calificación 15,00 de 30,00 (50%) 
+Un archivo con registro de longitud fija 
+Seleccione una: 
+a. Puede tener un delimitador de fin de registro 
+b. Debe tener un delimitador de fin de registro 
+c. Puede tener registros del mismo tamaño 
+d. Puede tener registros con distinto tamaño 
+e. Algunas de las anteriores 
+f. Ninguna de las anteriores 
+Respuesta incorrecta. 
+La respuesta correcta es: Ninguna de las anteriores 
+Para realizar un algoritmo de actualización maestro-detalle 
+Seleccione una: 
+a. Se requiere al menos 2 archivos. 
+b. Se requiere que los archivos estén ordenados 
+c. Se requiere que los archivos estén desordenados 
+d. Se requiere que al menos uno de los archivos esté ordenado 
+e. Se requiere que los archivos tengan la misma estructura 
+f. Algunas de las anteriores 
+g. Ninguna de las anteriores 
+Respuesta correcta 
+La respuesta correcta es: Se requiere al menos 2 archivos. 
+El acceso promedio para recuperar un dato en un archivo desordenado: 
+Seleccione una: 
+a. Tiene orden lineal. 
+b. Tiene orden logarítmico. 
+c. Tiene orden constante (uno). 
+d. Las opciones a y b son correctas. 
+e. Ninguna opción es correcta. 
+Respuesta correcta 
+La respuesta correcta es: Tiene orden lineal. 
+Un algoritmo de corte de control 
+Seleccione una: 
+a. Se puede aplicar sobre un archivo con registros de longitud fija b. Se puede aplicar sobre un archivo con registros de longitud variable c. Se aplica sobre un archivo con registros de longitud fija d. Se aplica sobre un archivo con registros de longitud variable e. Todas las anteriores son correctas 
+f. Algunas de las anteriores son correctas 
+g. Ninguna de las anteriores son correctas 
+Respuesta correcta 
+La respuesta correcta es: Algunas de las anteriores son correctas 
+El acceso promedio para recuperar un dato en un archivo desordenado: 
+Seleccione una: 
+a. Puede tener orden lineal. 
+b. Puede tener orden logarítmico. 
+c. Tiene orden constante (uno). 
+d. Las opciones a y b son correctas. 
+e. Ninguna opción es correcta. 
+Respuesta correcta 
+La respuesta correcta es: Ninguna opción es correcta.
+El proceso de merge de archivos 
+Seleccione una: 
+a. Requiere que todos los archivos estén ordenados 
+b. Requiere que todos los archivos estén ordenados por el mismo criterio c. Puede realizarse con los archivos ordenados 
+d. No puede realizarse sin los archivos ordenados 
+e. Algunas de las anteriores 
+f. Ninguna de las anteriores 
+Respuesta correcta 
+La respuesta correcta es: Puede realizarse con los archivos ordenados 
+La tecnica de mejor ajuste 
+Seleccione una: 
+a. asigna un registro nuevo (alta) en un la posición que quepa de tamaño menor b. asigna un registro nuevo (alta) en un la posición que quepa de tamaño mayor c. asigna el registro al final del archivo si no hay lugar en posiciones intermedias d. Todas las anteriores son correctas 
+e. Algunas de las respuestas anteriores son correctas 
+f. Ninguna de las respuestas anteriores son validas 
+Respuesta correcta 
+La respuesta correcta es: Algunas de las respuestas anteriores son correctas 
+La tecnica de primer ajuste 
+Seleccione una: 
+a. se aplica a archivos con registro de longitud fija 
+b. se aplica a archivos con registro de longitud variable 
+c. se combina con la tecnica de baja fisica de datos 
+d. Todas las anteriores son correctas 
+e. Algunas de las respuestas anteriores son correctas 
+f. Ninguna de las respuestas anteriores son validas 
+Respuesta incorrecta. 
+La respuesta correcta es: se aplica a archivos con registro de longitud variable
+La tecnica de mejor ajuste 
+Seleccione una: 
+a. permite borrar elementos de un archivo que contiene registros de longitud fija 
+b. permite borrar elementos de un archivo que contiene registros de longitud variable c. permite hacer baja logica 
+d. permite hacer baja fisica 
+e. Algunas de las respuestas anteriores son correctas 
+f. Ninguna de las respuestas anteriores son validas 
+Respuesta correcta 
+La respuesta correcta es: Ninguna de las respuestas anteriores son validas 
+El proceso de alta de registro por Peor Ajuste 
+Seleccione una: 
+a. Se puede realizar con registros de longitud fija 
+b. Se debe realizar con registros de longitud fija 
+c. Se puede realizar con registros de longitud variable 
+d. Se debe realizar con registros de longitud variable 
+e. Ninguna de las anteriores 
+Respuesta incorrecta. 
+La respuesta correcta es: Se debe realizar con registros de longitud variable 
+En un índice secundario 
+Seleccione una: 
+a. Encontrar un registro es a veces mas lento que sobre un indice primario 
+b. Encontrar un registro es igual de rápido que sobre un indice primario 
+c. Encontrar un registro puede ser mas rápido que sobre un indice primario 
+d. si la clave a buscar no se repitiera puede ser igual de rapida su búsqueda que en un indice unívoco e. Algunas de las anteriores son validas 
+f. ninguna de las anteriores son validas 
+Respuesta incorrecta. 
+La respuesta correcta es: ninguna de las anteriores son validas
+Un árbol binario 
+Seleccione una: 
+a. puede tener eficiencia de búsqueda logaritmica 
+b. puede estar balanceado si tiene 127 elementos 
+c. puede tener eficiencia de búsqueda lineal 
+d. todas las anteriores son correctas 
+e. algunas de las anteriores son validas 
+f. ninguna de las anteriores son validas 
+Respuesta incorrecta. 
+La respuesta correcta es: todas las anteriores son correctas 
+Cuales de las siguientes propiedades no corresponde a un arbol b* de orden M 
+Seleccione una: 
+a. Cada nodo del arbol puede contener maximo M descendientes y M-1 elementos b. La raiz no posee descendientes o posee [M/2] descendientes 
+c. Todos los nodos terminales se encuentran al mismo nivel 
+d. Los nodos no terminaels ni raiz tienen mas de [M/2] y a lo sumo M descendientes e. Un nodo con x descendientes contienen x-1 elementos 
+Respuesta correcta 
+La respuesta correcta es: La raiz no posee descendientes o posee [M/2] descendientes 
+Dado un arbol b* de orden 100 
+Seleccione una: 
+a. el nodo raíz pude tener solamente 3 hijos en algun momento de su construcción b. un nodo terminal puede producir un underflow, si al borrar un elemento quedan 48 en el nodo c. puede ser que un nodo terminal con 50 elementos, tenga 51 hijos 
+d. todas las respuestas anteriores son correctas 
+e. las opciones a y b son correctas 
+f. las opciones b y c son correctas 
+g. las opciones a y c son correctas 
+h. ninguna opción anteirior es correcta 
+Respuesta incorrecta. 
+La respuesta correcta es: el nodo raíz pude tener solamente 3 hijos en algun momento de su construcción
+Una inserción en un nodo cualquiera (terminal) de arbol b 
+Seleccione una: 
+a. puede generar overflow 
+b. puede generar división de un solo nodo 
+c. pueden dividirse tres nodos 
+d. todas las anteriores son correctas 
+e. las dos primeras son correctas 
+f. la segunda y tercera son correctas 
+g. la primera y la tercera son correctas 
+Respuesta correcta 
+La respuesta correcta es: todas las anteriores son correctas 
+dado un arbol b de prefijos simples de orden 100 
+Seleccione una: 
+a. un nodo entra en underflow si se borra un elemento y solo quedan 48 b. un nodo no terminal ni raiz tendrá al menos [M/2] hijos 
+c. puede ser que la raiz tenga solamente dos hijos en algun momento d. todas las anteriores son correctas 
+e. algunas de las anteriores son correcta 
+f. ninguna de las anteriores son correctas 
+Respuesta incorrecta. 
+La respuesta correcta es: todas las anteriores son correctas 
+Un arbol b 
+Seleccione una: 
+a. puede ser un arbol AVL 
+b. puede guardarse en memoria RAM 
+c. puede implementar una clave no univoca 
+d. puede tener acceso secuencial eficiente y rápido 
+e. Todas las anteriores son correctas 
+f. Algunas de las anteriores son correctas 
+g. ninguna de las anteriores son correctas 
+Respuesta incorrecta. 
+La respuesta correcta es: Algunas de las anteriores son correctas

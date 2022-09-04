@@ -12,7 +12,7 @@
     </p>
     <footer style:color="#000">Y obviamente dono mi ALMA</footer>
     <button on:click={() => ($welcomePopUpOpen = false)}
-      >Acepto los Terminos<br />y<br />Condiciones</button
+      >Acepto los<br />Terminos y Condiciones</button
     >
   </div>
 </div>

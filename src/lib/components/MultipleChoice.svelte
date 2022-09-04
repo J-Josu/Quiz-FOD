@@ -7,12 +7,19 @@
   let selected = "";
   let showAnswers = false;
   let answered = false;
-  
+
   const newChoice = () => {
     selected = "";
     showAnswers = false;
     answered = false;
     choiceSample.nextChoice();
+  };
+
+  const lastChoice = () => {
+    selected = "";
+    showAnswers = false;
+    answered = false;
+    choiceSample.previousChoice();
   };
 
   const validateAnswer = () => {
@@ -54,6 +61,7 @@
 
 <ChoiceContent {...choice} bind:selected {showAnswers} />
 <div style="display:flex">
+  <button on:click={lastChoice}>Anterior</button>
   <button on:click={validateAnswer}>Ver respuesta</button>
   <button on:click={newChoice}>Nueva</button>
 </div>

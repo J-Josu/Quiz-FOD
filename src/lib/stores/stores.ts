@@ -29,9 +29,16 @@ const createChoiceStore = () => {
     set(shuffledChoicesData[choiceIndex]);
   }
 
+  const previousChoice = () => {
+    choiceIndex -= 1;
+    if (choiceIndex === -1) choiceIndex = shuffledChoicesData.length - 1;
+    set(shuffledChoicesData[choiceIndex]);
+  }
+
   return {
     subscribe,
-    nextChoice
+    nextChoice,
+    previousChoice
   }
 }
 

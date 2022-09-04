@@ -2,7 +2,7 @@
   import { onMount } from "svelte";
   import { emojiCount } from "$stores/stores";
 
-  const EMOJI_DUPLICATION_STEP = 4;
+  const EMOJI_DUPLICATION_STEP = 3;
 
   type Emoji = {
     character: string;

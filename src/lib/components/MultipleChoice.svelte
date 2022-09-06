@@ -4,6 +4,7 @@
   import ChoiceContent from "./ChoiceContent.svelte";
 
   $: choice = $choiceSample;
+  let choiceCount = 0;
   let selected = "";
   let showAnswers = false;
   let answered = false;
@@ -13,6 +14,7 @@
     showAnswers = false;
     answered = false;
     choiceSample.nextChoice();
+    choiceCount++;
   };
 
   const lastChoice = () => {
@@ -20,6 +22,7 @@
     showAnswers = false;
     answered = false;
     choiceSample.previousChoice();
+    choiceCount--;
   };
 
   const validateAnswer = () => {
@@ -61,7 +64,7 @@
 
 <ChoiceContent {...choice} bind:selected {showAnswers} />
 <div style="display:flex">
-  <button on:click={lastChoice}>Anterior</button>
+  <button on:click={lastChoice} disabled={choiceCount === 0}>Anterior</button>
   <button on:click={validateAnswer}>Ver respuesta</button>
   <button on:click={newChoice}>Nueva</button>
 </div>
@@ -138,5 +141,13 @@
     button {
       margin: 0.5rem 0.25rem;
     }
+  }
+  button:disabled:hover {
+    box-shadow: none;
+    cursor: not-allowed;
+  }
+  button:disabled::after,
+  button:disabled::before {
+    content: none;
   }
 </style>

@@ -2,7 +2,7 @@
   import { onMount } from "svelte";
   import { emojiCount } from "$stores/stores";
 
-  const EMOJI_DUPLICATION_STEP = 3;
+  const EMOJI_DUPLICATION_STEP = 2;
 
   type Emoji = {
     character: string;
@@ -86,10 +86,7 @@
 <style>
   div {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+    inset: 0;
     overflow: hidden;
     margin: 0;
     z-index: -1;

@@ -1,19 +1,11 @@
-# Dev Notes
+# Quiz FOD
 
-Site available at [j-josu.github.io/Quiz-FOD](https://j-josu.github.io/Quiz-FOD/)
+A simple quiz game to test your knowledge about "Fundamentos de Organización de Datos" subject.
 
-
-## TODO
-
-- [X] Implement 'emojis rain'
-- [X] Implement global styling
-- [X] Detect possible correct user answer
-- [X] Responsive?
-- [ ] Create NavBar
-- [ ] Learn MDsveX
+Site available at [josu-dev.github.io/Quiz-FOD](https://josu-dev.github.io/Quiz-FOD/).
 
 
-## How to build page
+## How to build as a static page
 
 In order to build as a static page you have to toggle the commented section in svelte.config.js
 
